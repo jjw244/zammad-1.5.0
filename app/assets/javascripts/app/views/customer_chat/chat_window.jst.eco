@@ -1,0 +1,31 @@
+<div class="chat-header">
+  <div class="chat-status js-status" data-status="online">
+    <div class="chat-status-holder">
+      <%- @Icon('status') %>
+      <%- @Icon('status-modified-outer-circle') %>
+      <%- @Icon('small-dot', 'icon-status-modified-inner-circle') %>
+    </div>
+  </div>
+  <div class="chat-name">
+    <%= @name %> <div class="status-badge js-info">
+      <div class="info-badge"><%- @Icon('info') %></div>
+    </div>
+  </div>
+  <div class="chat-disconnect js-disconnect">
+    <div class="btn btn--action btn--small"><%- @T('disconnect') %></div>
+  </div>
+  <div class="chat-close js-close is-hidden">
+    <div class="btn btn--action btn--small"><%- @T('close') %></div>
+  </div>
+</div>
+<div class="chat-scroll-hint js-scrollHint is-hidden">
+  <%- @Icon('chat') %>
+  <%- @T('Scroll down to see new messages') %>
+</div>
+<div class="chat-body-holder js-scrollHolder">
+  <div class="chat-body js-body"></div>
+</div>
+<div class="chat-controls">
+  <div class="chat-input form-control form-control--small form-control--multiline js-customerChatInput" contenteditable="true"></div>
+  <div class="btn btn--primary btn--slim btn--small js-send"><%- @T('Send') %></div>
+</div>

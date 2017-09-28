@@ -1,0 +1,51 @@
+I"ðfunction(__obj) {
+  if (!__obj) __obj = {};
+  var __out = [], __capture = function(callback) {
+    var out = __out, result;
+    __out = [];
+    callback.call(this);
+    result = __out.join('');
+    __out = out;
+    return __safe(result);
+  }, __sanitize = function(value) {
+    if (value && value.ecoSafe) {
+      return value;
+    } else if (typeof value !== 'undefined' && value != null) {
+      return __escape(value);
+    } else {
+      return '';
+    }
+  }, __safe, __objSafe = __obj.safe, __escape = __obj.escape;
+  __safe = __obj.safe = function(value) {
+    if (value && value.ecoSafe) {
+      return value;
+    } else {
+      if (!(typeof value !== 'undefined' && value != null)) value = '';
+      var result = new String(value);
+      result.ecoSafe = true;
+      return result;
+    }
+  };
+  if (!__escape) {
+    __escape = __obj.escape = function(value) {
+      return ('' + value)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    };
+  }
+  (function() {
+    (function() {
+      __out.push('<div>\n  <div class="js-top"></div>\n  <div class="js-middle" style="padding-left: 70px;">\n    <div class="js-input">input settings</div>\n    <div class="js-textarea">textarea settings</div>\n    <div class="js-datetime">date time settings</div>\n    <div class="js-date">date settings</div>\n    <div class="js-select">select settings</div>\n    <div class="js-checkbox">checkbox settings</div>\n    <div class="js-boolean">boolean settings</div>\n    <div class="js-richtext">richtext settings</div>\n  </div>\n\n  <div class="boolean form-group">\n    <div class="horizontal">\n      <label for="">');
+    
+      __out.push(this.T('Screens'));
+    
+      __out.push(' <span>*</span></label>\n    </div>\n    <div class="controls">\n\n1\n\n2\n\n3\n\n    </diV\n  </div>\n\n\n  <div class="js-bottom"></div>\n</div>\n');
+    
+    }).call(this);
+    
+  }).call(__obj);
+  __obj.safe = __objSafe, __obj.escape = __escape;
+  return __out.join('');
+}:ET

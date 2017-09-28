@@ -1,0 +1,8 @@
+production:
+  adapter: mysql2
+  database: zammad_production
+  pool: 50
+  timeout: 5000
+  encoding: utf8
+  username: root
+  password: something1about2nothing3

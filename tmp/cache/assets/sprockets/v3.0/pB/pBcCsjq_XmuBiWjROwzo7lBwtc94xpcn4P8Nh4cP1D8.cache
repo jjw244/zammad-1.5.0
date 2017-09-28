@@ -1,0 +1,138 @@
+I"¶(function() {
+  var bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };
+
+  App._CollectionSingletonBase = (function() {
+    _CollectionSingletonBase.prototype.event = 'to_be_defined';
+
+    _CollectionSingletonBase.prototype.restEndpoint = '/to_be_defined';
+
+    function _CollectionSingletonBase() {
+      this.callback = bind(this.callback, this);
+      this.trigger = bind(this.trigger, this);
+      this.fetch = bind(this.fetch, this);
+      this.unbindById = bind(this.unbindById, this);
+      this.unbind = bind(this.unbind, this);
+      this.bind = bind(this.bind, this);
+      this.set = bind(this.set, this);
+      this.get = bind(this.get, this);
+      var cache;
+      this.callbacks = {};
+      this.counter = 0;
+      cache = App.SessionStorage.get("collection-" + this.event);
+      if (cache) {
+        this.set(cache);
+      }
+      App.Event.bind(this.event, (function(_this) {
+        return function(data) {
+          _this.set(data);
+          return _this.callback(data);
+        };
+      })(this));
+    }
+
+    _CollectionSingletonBase.prototype.get = function() {
+      return this.collectionData;
+    };
+
+    _CollectionSingletonBase.prototype.set = function(data) {
+      App.SessionStorage.set("collection-" + this.event, data);
+      return this.collectionData = data;
+    };
+
+    _CollectionSingletonBase.prototype.bind = function(callback, init, one) {
+      var localCounter;
+      if (init == null) {
+        init = true;
+      }
+      if (one == null) {
+        one = false;
+      }
+      this.counter += 1;
+      localCounter = this.counter;
+      if (init) {
+        if (this.collectionData === void 0) {
+          this.fetch();
+        } else {
+          callback(this.collectionData);
+          if (one) {
+            return;
+          }
+        }
+      }
+      this.callbacks[localCounter] = {
+        callback: callback,
+        one: one
+      };
+      return localCounter;
+    };
+
+    _CollectionSingletonBase.prototype.unbind = function(callback) {
+      var attr, counter, ref, results;
+      ref = this.callbacks;
+      results = [];
+      for (counter in ref) {
+        attr = ref[counter];
+        if (callback === attr.callback) {
+          results.push(delete this.callbacks[counter]);
+        } else {
+          results.push(void 0);
+        }
+      }
+      return results;
+    };
+
+    _CollectionSingletonBase.prototype.unbindById = function(counter) {
+      return delete this.callbacks[counter];
+    };
+
+    _CollectionSingletonBase.prototype.fetch = function() {
+      if (this.fetchActive) {
+        return;
+      }
+      this.fetchActive = true;
+      return App.Ajax.request({
+        id: "collection-" + this.event,
+        type: 'GET',
+        url: App.Config.get('api_path') + this.restEndpoint,
+        processData: true,
+        success: (function(_this) {
+          return function(data) {
+            _this.fetchActive = false;
+            _this.set(data);
+            return _this.callback(data);
+          };
+        })(this),
+        error: (function(_this) {
+          return function() {
+            return _this.fetchActive = false;
+          };
+        })(this)
+      });
+    };
+
+    _CollectionSingletonBase.prototype.trigger = function() {
+      return this.callback(this.get());
+    };
+
+    _CollectionSingletonBase.prototype.callback = function(data) {
+      var attr, counter, ref, results;
+      ref = this.callbacks;
+      results = [];
+      for (counter in ref) {
+        attr = ref[counter];
+        attr.callback(data);
+        if (attr.one) {
+          results.push(delete this.callbacks[counter]);
+        } else {
+          results.push(void 0);
+        }
+      }
+      return results;
+    };
+
+    return _CollectionSingletonBase;
+
+  })();
+
+}).call(this);
+:ET

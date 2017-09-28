@@ -1,0 +1,34 @@
+I"	(function() {
+  App.UiElement.time_range = (function() {
+    function time_range() {}
+
+    time_range.render = function(attribute) {
+      var count, i, key, ranges, value, values;
+      ranges = {
+        minute: 'Minute(s)',
+        hour: 'Hour(s)',
+        day: 'Day(s)',
+        month: 'Month(s)',
+        year: 'Year(s)'
+      };
+      for (key in ranges) {
+        value = ranges[key];
+        ranges[key] = App.i18n.translateInline(value);
+      }
+      values = {};
+      for (count = i = 0; i <= 31; count = ++i) {
+        values[count.toString()] = count.toString();
+      }
+      return $(App.view('generic/time_range')({
+        attribute: attribute,
+        ranges: ranges,
+        values: values
+      }));
+    };
+
+    return time_range;
+
+  })();
+
+}).call(this);
+:ET

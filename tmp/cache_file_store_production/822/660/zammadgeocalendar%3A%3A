@@ -1,0 +1,16 @@
+o: ActiveSupport::Cache::Entry:@value{	I"	name:ETI"United States;TI"timezone;TI"America/New_York;TI"business_hours;T{I"mon;T{I"active;TTI"timeframes;T[[I"
+09:00;TI"
+17:00;TI"tue;T{I"active;TTI"timeframes;T[[I"
+09:00;TI"
+17:00;TI"wed;T{I"active;TTI"timeframes;T[[I"
+09:00;TI"
+17:00;TI"thu;T{I"active;TTI"timeframes;T[[I"
+09:00;TI"
+17:00;TI"fri;T{I"active;TTI"timeframes;T[[I"
+09:00;TI"
+17:00;TI"sat;T{I"active;TFI"timeframes;T[[I"
+09:00;TI"
+17:00;TI"sun;T{I"active;TFI"timeframes;T[[I"
+09:00;TI"
+17:00;TI"ical_url;TI"hhttp://www.google.com/calendar/ical/en.usa%23holiday%40group.v.calendar.google.com/public/basic.ics;T:@created_atf1506629326.118783:@expires_inf
+1.8e3

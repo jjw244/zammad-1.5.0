@@ -1,0 +1,6730 @@
+---
+- locale: nl-nl
+  format: time
+  source: date
+  target: dd-mm-yyyy
+  target_initial: dd-mm-yyyy
+- locale: nl-nl
+  format: time
+  source: timestamp
+  target: dd-mm-yyyy HH:MM
+  target_initial: dd-mm-yyyy HH:MM
+- locale: nl-nl
+  format: string
+  source: Action
+  target: Actie
+  target_initial: Actie
+- locale: nl-nl
+  format: string
+  source: Actions
+  target: Acties
+  target_initial: Acties
+- locale: nl-nl
+  format: string
+  source: Active
+  target: Actief
+  target_initial: Actief
+- locale: nl-nl
+  format: string
+  source: Add
+  target: Toevoegen
+  target_initial: Toevoegen
+- locale: nl-nl
+  format: string
+  source: Age
+  target: Leeftijd
+  target_initial: Leeftijd
+- locale: nl-nl
+  format: string
+  source: Apply
+  target: Toepassen
+  target_initial: Toepassen
+- locale: nl-nl
+  format: string
+  source: Apr
+  target: apr
+  target_initial: apr
+- locale: nl-nl
+  format: string
+  source: Attachment
+  target: Bijlage
+  target_initial: Bijlage
+- locale: nl-nl
+  format: string
+  source: Aug
+  target: aug
+  target_initial: aug
+- locale: nl-nl
+  format: string
+  source: Authentication
+  target: Authenticatie
+  target_initial: Authenticatie
+- locale: nl-nl
+  format: string
+  source: Cancel
+  target: Annuleren
+  target_initial: Annuleren
+- locale: nl-nl
+  format: string
+  source: City
+  target: Plaats
+  target_initial: Plaats
+- locale: nl-nl
+  format: string
+  source: Closed
+  target: Gesloten
+  target_initial: Gesloten
+- locale: nl-nl
+  format: string
+  source: Country
+  target: Land
+  target_initial: Land
+- locale: nl-nl
+  format: string
+  source: Create
+  target: Aanmaken
+  target_initial: Aanmaken
+- locale: nl-nl
+  format: string
+  source: Created
+  target: Aangemaakt
+  target_initial: Aangemaakt
+- locale: nl-nl
+  format: string
+  source: Dec
+  target: dec
+  target_initial: dec
+- locale: nl-nl
+  format: string
+  source: Delete
+  target: Verwijderen
+  target_initial: Verwijderen
+- locale: nl-nl
+  format: string
+  source: Direction
+  target: Richting
+  target_initial: Richting
+- locale: nl-nl
+  format: string
+  source: Edit
+  target: Wijzig
+  target_initial: Wijzig
+- locale: nl-nl
+  format: string
+  source: Email
+  target: E-mail
+  target_initial: E-mail
+- locale: nl-nl
+  format: string
+  source: Feb
+  target: feb
+  target_initial: feb
+- locale: nl-nl
+  format: string
+  source: Filter
+  target: Filter
+  target_initial: Filter
+- locale: nl-nl
+  format: string
+  source: First Response Time
+  target: Eerste reactie
+  target_initial: Eerste reactie
+- locale: nl-nl
+  format: string
+  source: Firstname
+  target: Voornaam
+  target_initial: Voornaam
+- locale: nl-nl
+  format: string
+  source: From
+  target: Van
+  target_initial: Van
+- locale: nl-nl
+  format: string
+  source: Group
+  target: Groep
+  target_initial: Groep
+- locale: nl-nl
+  format: string
+  source: Groups
+  target: Groepen
+  target_initial: Groepen
+- locale: nl-nl
+  format: string
+  source: History
+  target: Geschiedenis
+  target_initial: Geschiedenis
+- locale: nl-nl
+  format: string
+  source: Hours
+  target: Uren
+  target_initial: Uren
+- locale: nl-nl
+  format: string
+  source: Jan
+  target: jan
+  target_initial: jan
+- locale: nl-nl
+  format: string
+  source: Jul
+  target: jul
+  target_initial: jul
+- locale: nl-nl
+  format: string
+  source: Jun
+  target: jun
+  target_initial: jun
+- locale: nl-nl
+  format: string
+  source: Language
+  target: Taal
+  target_initial: Taal
+- locale: nl-nl
+  format: string
+  source: Lastname
+  target: Achternaam
+  target_initial: Achternaam
+- locale: nl-nl
+  format: string
+  source: Mar
+  target: mrt
+  target_initial: mrt
+- locale: nl-nl
+  format: string
+  source: May
+  target: mei
+  target_initial: mei
+- locale: nl-nl
+  format: string
+  source: Merge
+  target: Samenvoegen
+  target_initial: Samenvoegen
+- locale: nl-nl
+  format: string
+  source: Month
+  target: Maand
+  target_initial: Maand
+- locale: nl-nl
+  format: string
+  source: My Tickets
+  target: Mijn tickets
+  target_initial: Mijn tickets
+- locale: nl-nl
+  format: string
+  source: New
+  target: Nieuw
+  target_initial: Nieuw
+- locale: nl-nl
+  format: string
+  source: New Ticket
+  target: Nieuw ticket
+  target_initial: Nieuw ticket
+- locale: nl-nl
+  format: string
+  source: Next...
+  target: Volgende >
+  target_initial: Volgende >
+- locale: nl-nl
+  format: string
+  source: Note
+  target: Notitie
+  target_initial: Notitie
+- locale: nl-nl
+  format: string
+  source: Nov
+  target: nov
+  target_initial: nov
+- locale: nl-nl
+  format: string
+  source: Number
+  target: Nummer
+  target_initial: Nummer
+- locale: nl-nl
+  format: string
+  source: Oct
+  target: okt
+  target_initial: okt
+- locale: nl-nl
+  format: string
+  source: Organization
+  target: Organisatie
+  target_initial: Organisatie
+- locale: nl-nl
+  format: string
+  source: Owner
+  target: Eigenaar
+  target_initial: Eigenaar
+- locale: nl-nl
+  format: string
+  source: Password
+  target: Wachtwoord
+  target_initial: Wachtwoord
+- locale: nl-nl
+  format: string
+  source: Phone
+  target: Telefoon
+  target_initial: Telefoon
+- locale: nl-nl
+  format: string
+  source: Priority
+  target: Prioriteit
+  target_initial: Prioriteit
+- locale: nl-nl
+  format: string
+  source: Profile
+  target: Sjabloon
+  target_initial: Sjabloon
+- locale: nl-nl
+  format: string
+  source: Reinstall
+  target: Herinstalleer
+  target_initial: Herinstalleer
+- locale: nl-nl
+  format: string
+  source: Remove
+  target: Verwijderen
+  target_initial: Verwijderen
+- locale: nl-nl
+  format: string
+  source: Reset
+  target: Opnieuw
+  target_initial: Opnieuw
+- locale: nl-nl
+  format: string
+  source: Roles
+  target: Rollen
+  target_initial: Rollen
+- locale: nl-nl
+  format: string
+  source: Save
+  target: Opslaan
+  target_initial: Opslaan
+- locale: nl-nl
+  format: string
+  source: Search
+  target: Zoeken
+  target_initial: Zoeken
+- locale: nl-nl
+  format: string
+  source: Sep
+  target: sep
+  target_initial: sep
+- locale: nl-nl
+  format: string
+  source: Settings
+  target: Instellingen
+  target_initial: Instellingen
+- locale: nl-nl
+  format: string
+  source: Signature
+  target: Handtekening
+  target_initial: Handtekening
+- locale: nl-nl
+  format: string
+  source: Signatures
+  target: Handtekeningen
+  target_initial: Handtekeningen
+- locale: nl-nl
+  format: string
+  source: Solution Time
+  target: Oplossingstijd
+  target_initial: Oplossingstijd
+- locale: nl-nl
+  format: string
+  source: State
+  target: Status
+  target_initial: Status
+- locale: nl-nl
+  format: string
+  source: Street
+  target: Straat
+  target_initial: Straat
+- locale: nl-nl
+  format: string
+  source: Subject
+  target: Onderwerp
+  target_initial: Onderwerp
+- locale: nl-nl
+  format: string
+  source: Submit
+  target: Versturen
+  target_initial: Versturen
+- locale: nl-nl
+  format: string
+  source: Templates
+  target: Sjablonen
+  target_initial: Sjablonen
+- locale: nl-nl
+  format: string
+  source: Title
+  target: Titel
+  target_initial: Titel
+- locale: nl-nl
+  format: string
+  source: To
+  target: Aan
+  target_initial: Aan
+- locale: nl-nl
+  format: string
+  source: Type
+  target: Type
+  target_initial: Type
+- locale: nl-nl
+  format: string
+  source: Update
+  target: Opslaan
+  target_initial: Opslaan
+- locale: nl-nl
+  format: string
+  source: Update Time
+  target: Vervolg tijd
+  target_initial: Vervolg tijd
+- locale: nl-nl
+  format: string
+  source: User
+  target: Gebruiker
+  target_initial: Gebruiker
+- locale: nl-nl
+  format: string
+  source: Vendor
+  target: Leverancier
+  target_initial: Leverancier
+- locale: nl-nl
+  format: string
+  source: Welcome!
+  target: Welkom!
+  target_initial: Welkom!
+- locale: nl-nl
+  format: string
+  source: Year
+  target: Jaar
+  target_initial: Jaar
+- locale: nl-nl
+  format: string
+  source: Zip
+  target: Postcode
+  target_initial: Postcode
+- locale: nl-nl
+  format: string
+  source: days
+  target: dagen
+  target_initial: dagen
+- locale: nl-nl
+  format: string
+  source: hour
+  target: uur
+  target_initial: uur
+- locale: nl-nl
+  format: string
+  source: installed
+  target: geïnstalleerd
+  target_initial: geïnstalleerd
+- locale: nl-nl
+  format: string
+  source: merged
+  target: samengevoegd
+  target_initial: samengevoegd
+- locale: nl-nl
+  format: string
+  source: minute
+  target: minuut
+  target_initial: minuut
+- locale: nl-nl
+  format: string
+  source: none
+  target: geen
+  target_initial: geen
+- locale: nl-nl
+  format: string
+  source: of
+  target: van
+  target_initial: van
+- locale: nl-nl
+  format: string
+  source: or
+  target: of
+  target_initial: of
+- locale: nl-nl
+  format: string
+  source: removed
+  target: verwijderd
+  target_initial: verwijderd
+- locale: nl-nl
+  format: string
+  source: sms
+  target: sms
+  target_initial: sms
+- locale: nl-nl
+  format: string
+  source: uninstalled
+  target: verwijderd
+  target_initial: verwijderd
+- locale: nl-nl
+  format: string
+  source: Admin
+  target: Beheer
+  target_initial: Beheer
+- locale: nl-nl
+  format: string
+  source: Agent
+  target: Behandelaar
+  target_initial: Behandelaar
+- locale: nl-nl
+  format: string
+  source: All
+  target: Alle
+  target_initial: Alle
+- locale: nl-nl
+  format: string
+  source: Cc
+  target: Cc
+  target_initial: Cc
+- locale: nl-nl
+  format: string
+  source: Comment
+  target: Opmerking
+  target_initial: Opmerking
+- locale: nl-nl
+  format: string
+  source: Display
+  target: Weergave
+  target_initial: Weergave
+- locale: nl-nl
+  format: string
+  source: Edit Customer
+  target: Klant bewerken
+  target_initial: Klant bewerken
+- locale: nl-nl
+  format: string
+  source: Go Back
+  target: Terug
+  target_initial: Terug
+- locale: nl-nl
+  format: string
+  source: Import
+  target: Importeer
+  target_initial: Importeer
+- locale: nl-nl
+  format: string
+  source: Message
+  target: Bericht
+  target_initial: Bericht
+- locale: nl-nl
+  format: string
+  source: Name
+  target: Naam
+  target_initial: Naam
+- locale: nl-nl
+  format: string
+  source: Options
+  target: Opties
+  target_initial: Opties
+- locale: nl-nl
+  format: string
+  source: System
+  target: Systeem
+  target_initial: Systeem
+- locale: nl-nl
+  format: string
+  source: Ticket
+  target: Ticket
+  target_initial: Ticket
+- locale: nl-nl
+  format: string
+  source: Tickets
+  target: Tickets
+  target_initial: Tickets
+- locale: nl-nl
+  format: string
+  source: Version
+  target: Versie
+  target_initial: Versie
+- locale: nl-nl
+  format: string
+  source: Host
+  target: Server
+  target_initial: Server
+- locale: nl-nl
+  format: string
+  source: Port
+  target: Poort
+  target_initial: Poort
+- locale: nl-nl
+  format: string
+  source: SLA
+  target: SLA
+  target_initial: SLA
+- locale: nl-nl
+  format: string
+  source: Upload
+  target: Upload
+  target_initial: Upload
+- locale: nl-nl
+  format: string
+  source: Create Template
+  target: Maak sjabloon
+  target_initial: Maak sjabloon
+- locale: nl-nl
+  format: string
+  source: Send Email
+  target: Stuur e-mail
+  target_initial: Stuur e-mail
+- locale: nl-nl
+  format: string
+  source: Text
+  target: Tekst
+  target_initial: Tekst
+- locale: nl-nl
+  format: string
+  source: Location
+  target: Locatie
+  target_initial: Locatie
+- locale: nl-nl
+  format: string
+  source: Login
+  target: Inloggen
+  target_initial: Inloggen
+- locale: nl-nl
+  format: string
+  source: Mobile
+  target: Mobiel
+  target_initial: Mobiel
+- locale: nl-nl
+  format: string
+  source: Next
+  target: Volgende
+  target_initial: Volgende
+- locale: nl-nl
+  format: string
+  source: Status
+  target: Status
+  target_initial: Status
+- locale: nl-nl
+  format: string
+  source: Calendar
+  target: Kalender
+  target_initial: Kalender
+- locale: nl-nl
+  format: string
+  source: Configuration
+  target: Configuratie
+  target_initial: Configuratie
+- locale: nl-nl
+  format: string
+  source: Intro
+  target: Introductie
+  target_initial: Introductie
+- locale: nl-nl
+  format: string
+  source: Session
+  target: Sessie
+  target_initial: Sessie
+- locale: nl-nl
+  format: string
+  source: Description
+  target: Omschrijving
+  target_initial: Omschrijving
+- locale: nl-nl
+  format: string
+  source: Friday
+  target: vrijdag
+  target_initial: vrijdag
+- locale: nl-nl
+  format: string
+  source: Monday
+  target: maandag
+  target_initial: maandag
+- locale: nl-nl
+  format: string
+  source: Preview
+  target: Voorbeeld
+  target_initial: Voorbeeld
+- locale: nl-nl
+  format: string
+  source: Saturday
+  target: zaterdag
+  target_initial: zaterdag
+- locale: nl-nl
+  format: string
+  source: Sunday
+  target: zondag
+  target_initial: zondag
+- locale: nl-nl
+  format: string
+  source: Thursday
+  target: donderdag
+  target_initial: donderdag
+- locale: nl-nl
+  format: string
+  source: Time
+  target: Tijd
+  target_initial: Tijd
+- locale: nl-nl
+  format: string
+  source: Tuesday
+  target: dinsdag
+  target_initial: dinsdag
+- locale: nl-nl
+  format: string
+  source: Wednesday
+  target: woensdag
+  target_initial: woensdag
+- locale: nl-nl
+  format: string
+  source: April
+  target: april
+  target_initial: april
+- locale: nl-nl
+  format: string
+  source: August
+  target: augustus
+  target_initial: augustus
+- locale: nl-nl
+  format: string
+  source: Close
+  target: Sluiten
+  target_initial: Sluiten
+- locale: nl-nl
+  format: string
+  source: Continue
+  target: Doorgaan
+  target_initial: Doorgaan
+- locale: nl-nl
+  format: string
+  source: December
+  target: december
+  target_initial: december
+- locale: nl-nl
+  format: string
+  source: February
+  target: februari
+  target_initial: februari
+- locale: nl-nl
+  format: string
+  source: Fri
+  target: vr
+  target_initial: vr
+- locale: nl-nl
+  format: string
+  source: January
+  target: januari
+  target_initial: januari
+- locale: nl-nl
+  format: string
+  source: July
+  target: juli
+  target_initial: juli
+- locale: nl-nl
+  format: string
+  source: June
+  target: juni
+  target_initial: juni
+- locale: nl-nl
+  format: string
+  source: March
+  target: maart
+  target_initial: maart
+- locale: nl-nl
+  format: string
+  source: Mon
+  target: ma
+  target_initial: ma
+- locale: nl-nl
+  format: string
+  source: November
+  target: november
+  target_initial: november
+- locale: nl-nl
+  format: string
+  source: October
+  target: oktober
+  target_initial: oktober
+- locale: nl-nl
+  format: string
+  source: Open
+  target: Open
+  target_initial: Open
+- locale: nl-nl
+  format: string
+  source: Sat
+  target: za
+  target_initial: za
+- locale: nl-nl
+  format: string
+  source: Send
+  target: Verstuur
+  target_initial: Verstuur
+- locale: nl-nl
+  format: string
+  source: September
+  target: september
+  target_initial: september
+- locale: nl-nl
+  format: string
+  source: Sun
+  target: zo
+  target_initial: zo
+- locale: nl-nl
+  format: string
+  source: Thu
+  target: do
+  target_initial: do
+- locale: nl-nl
+  format: string
+  source: Tue
+  target: di
+  target_initial: di
+- locale: nl-nl
+  format: string
+  source: Wed
+  target: wo
+  target_initial: wo
+- locale: nl-nl
+  format: string
+  source: closed
+  target: gesloten
+  target_initial: gesloten
+- locale: nl-nl
+  format: string
+  source: day
+  target: dag
+  target_initial: dag
+- locale: nl-nl
+  format: string
+  source: email
+  target: e-mail
+  target_initial: e-mail
+- locale: nl-nl
+  format: string
+  source: hours
+  target: uur
+  target_initial: uur
+- locale: nl-nl
+  format: string
+  source: minutes
+  target: minuten
+  target_initial: minuten
+- locale: nl-nl
+  format: string
+  source: 'no'
+  target: nee
+  target_initial: nee
+- locale: nl-nl
+  format: string
+  source: note
+  target: notitie
+  target_initial: notitie
+- locale: nl-nl
+  format: string
+  source: open
+  target: open
+  target_initial: open
+- locale: nl-nl
+  format: string
+  source: phone
+  target: telefoon
+  target_initial: telefoon
+- locale: nl-nl
+  format: string
+  source: to
+  target: tot
+  target_initial: tot
+- locale: nl-nl
+  format: string
+  source: 'yes'
+  target: ja
+  target_initial: ja
+- locale: nl-nl
+  format: string
+  source: All tickets
+  target: Alle tickets
+  target_initial: Alle tickets
+- locale: nl-nl
+  format: string
+  source: Child
+  target: zoon
+  target_initial: zoon
+- locale: nl-nl
+  format: string
+  source: Content
+  target: Inhoud
+  target_initial: Inhoud
+- locale: nl-nl
+  format: string
+  source: Customer
+  target: Klant
+  target_initial: Klant
+- locale: nl-nl
+  format: string
+  source: Day
+  target: Dag
+  target_initial: Dag
+- locale: nl-nl
+  format: string
+  source: Down
+  target: Beneden
+  target_initial: Beneden
+- locale: nl-nl
+  format: string
+  source: Email address
+  target: E-mailadres
+  target_initial: E-mailadres
+- locale: nl-nl
+  format: string
+  source: Escalation
+  target: Escalatie
+  target_initial: Escalatie
+- locale: nl-nl
+  format: string
+  source: Fax
+  target: Fax
+  target_initial: Fax
+- locale: nl-nl
+  format: string
+  source: Finish
+  target: Voltooien
+  target_initial: Voltooien
+- locale: nl-nl
+  format: string
+  source: Logout
+  target: Uitloggen
+  target_initial: Uitloggen
+- locale: nl-nl
+  format: string
+  source: New group
+  target: Nieuwe groep
+  target_initial: Nieuwe groep
+- locale: nl-nl
+  format: string
+  source: 'No'
+  target: Nee
+  target_initial: Nee
+- locale: nl-nl
+  format: string
+  source: Normal
+  target: Normaal
+  target_initial: Normaal
+- locale: nl-nl
+  format: string
+  source: Notice
+  target: Notitie
+  target_initial: Notitie
+- locale: nl-nl
+  format: string
+  source: Open tickets
+  target: Open tickets
+  target_initial: Open tickets
+- locale: nl-nl
+  format: string
+  source: Parent
+  target: vader
+  target_initial: vader
+- locale: nl-nl
+  format: string
+  source: Pending
+  target: Wachten
+  target_initial: Wachten
+- locale: nl-nl
+  format: string
+  source: Previous
+  target: Vorige
+  target_initial: Vorige
+- locale: nl-nl
+  format: string
+  source: Reply
+  target: Beantwoord
+  target_initial: Beantwoord
+- locale: nl-nl
+  format: string
+  source: Split
+  target: Splits
+  target_initial: Splits
+- locale: nl-nl
+  format: string
+  source: and
+  target: en
+  target_initial: en
+- locale: nl-nl
+  format: string
+  source: new
+  target: nieuw
+  target_initial: nieuw
+- locale: nl-nl
+  format: string
+  source: week
+  target: week
+  target_initial: week
+- locale: nl-nl
+  format: string
+  source: as
+  target: als
+  target_initial: als
+- locale: nl-nl
+  format: string
+  source: Agents
+  target: Behandelaars
+  target_initial: Behandelaars
+- locale: nl-nl
+  format: string
+  source: Example
+  target: Voorbeeld
+  target_initial: Voorbeeld
+- locale: nl-nl
+  format: string
+  source: Expires
+  target: Verloopt
+  target_initial: Verloopt
+- locale: nl-nl
+  format: string
+  source: Select
+  target: Selecteer
+  target_initial: Selecteer
+- locale: nl-nl
+  format: string
+  source: Chat
+  target: Chat
+  target_initial: Chat
+- locale: nl-nl
+  format: string
+  source: Dashboard
+  target: Dashboard
+  target_initial: Dashboard
+- locale: nl-nl
+  format: string
+  source: Date
+  target: Datum
+  target_initial: Datum
+- locale: nl-nl
+  format: string
+  source: New Tags
+  target: Nieuwe labels
+  target_initial: Nieuwe labels
+- locale: nl-nl
+  format: string
+  source: Manage
+  target: Beheer
+  target_initial: Beheer
+- locale: nl-nl
+  format: string
+  source: Users
+  target: Gebruikers
+  target_initial: Gebruikers
+- locale: nl-nl
+  format: string
+  source: Organizations
+  target: Organisaties
+  target_initial: Organisaties
+- locale: nl-nl
+  format: string
+  source: Overviews
+  target: Overzichten
+  target_initial: Overzichten
+- locale: nl-nl
+  format: string
+  source: Calendars
+  target: Kalenders
+  target_initial: Kalenders
+- locale: nl-nl
+  format: string
+  source: Channels
+  target: Kanalen
+  target_initial: Kanalen
+- locale: nl-nl
+  format: string
+  source: Security
+  target: Beveiliging
+  target_initial: Beveiliging
+- locale: nl-nl
+  format: string
+  source: Integrations
+  target: Integraties
+  target_initial: Integraties
+- locale: nl-nl
+  format: string
+  source: Translations
+  target: Vertalingen
+  target_initial: Vertalingen
+- locale: nl-nl
+  format: string
+  source: Maintenance
+  target: Onderhoud
+  target_initial: Onderhoud
+- locale: nl-nl
+  format: string
+  source: Sessions
+  target: Sessies
+  target_initial: Sessies
+- locale: nl-nl
+  format: string
+  source: Sign out
+  target: Uitloggen
+  target_initial: Uitloggen
+- locale: nl-nl
+  format: string
+  source: created
+  target: aangemaakt
+  target_initial: aangemaakt
+- locale: nl-nl
+  format: string
+  source: set to internal
+  target: maak intern
+  target_initial: maak intern
+- locale: nl-nl
+  format: string
+  source: reply
+  target: beantwoorden
+  target_initial: beantwoorden
+- locale: nl-nl
+  format: string
+  source: split
+  target: splitsen
+  target_initial: splitsen
+- locale: nl-nl
+  format: string
+  source: See more
+  target: Meer
+  target_initial: Meer
+- locale: nl-nl
+  format: string
+  source: Add Tag
+  target: Label toevoegen
+  target_initial: Label toevoegen
+- locale: nl-nl
+  format: string
+  source: Tags
+  target: Labels
+  target_initial: Labels
+- locale: nl-nl
+  format: string
+  source: Add Link
+  target: Link toevoegen
+  target_initial: Link toevoegen
+- locale: nl-nl
+  format: string
+  source: Edit Organization
+  target: Organisatie bewerken
+  target_initial: Organisatie bewerken
+- locale: nl-nl
+  format: string
+  source: Shared organization
+  target: Gedeelde organisatie
+  target_initial: Gedeelde organisatie
+- locale: nl-nl
+  format: string
+  source: Domain
+  target: Domein
+  target_initial: Domein
+- locale: nl-nl
+  format: string
+  source: Members
+  target: Leden
+  target_initial: Leden
+- locale: nl-nl
+  format: string
+  source: Closed Tickets
+  target: Gesloten tickets
+  target_initial: Gesloten tickets
+- locale: nl-nl
+  format: string
+  source: Frequency
+  target: Frequentie
+  target_initial: Frequentie
+- locale: nl-nl
+  format: string
+  source: Base
+  target: Basis
+  target_initial: Basis
+- locale: nl-nl
+  format: string
+  source: Allow users to add new tags.
+  target: Sta gebruikers toe nieuwe labels toe te voegen.
+  target_initial: Sta gebruikers toe nieuwe labels toe te voegen.
+- locale: nl-nl
+  format: string
+  source: Manage Tags
+  target: Labels beheren
+  target_initial: Labels beheren
+- locale: nl-nl
+  format: string
+  source: Count
+  target: Aantal
+  target_initial: Aantal
+- locale: nl-nl
+  format: string
+  source: Business Hours
+  target: Openingstijden
+  target_initial: Openingstijden
+- locale: nl-nl
+  format: string
+  source: New Calendar
+  target: Nieuwe kalendar
+  target_initial: Nieuwe kalendar
+- locale: nl-nl
+  format: string
+  source: Default
+  target: Standaard
+  target_initial: Standaard
+- locale: nl-nl
+  format: string
+  source: Management
+  target: Beheer
+  target_initial: Beheer
+- locale: nl-nl
+  format: string
+  source: New Group
+  target: Nieuwe Groep
+  target_initial: Nieuwe Groep
+- locale: nl-nl
+  format: string
+  source: My Stats
+  target: MIjn statistieken
+  target_initial: MIjn statistieken
+- locale: nl-nl
+  format: string
+  source: First Steps
+  target: Eerste stappen
+  target_initial: Eerste stappen
+- locale: nl-nl
+  format: string
+  source: Assigned
+  target: Toegewezen
+  target_initial: Toegewezen
+- locale: nl-nl
+  format: string
+  source: "∅ Waiting time today"
+  target: "∅ Wachttijd vandaag"
+  target_initial: "∅ Wachttijd vandaag"
+- locale: nl-nl
+  format: string
+  source: Mood
+  target: Stemming
+  target_initial: Stemming
+- locale: nl-nl
+  format: string
+  source: Channel Distribution
+  target: Kanaalspreiding
+  target_initial: Kanaalspreiding
+- locale: nl-nl
+  format: string
+  source: Reopening rate
+  target: Heropeningsfactor
+  target_initial: Heropeningsfactor
+- locale: nl-nl
+  format: string
+  source: Remember me
+  target: Onthoud mij
+  target_initial: Onthoud mij
+- locale: nl-nl
+  format: string
+  source: Accounts
+  target: accounts
+  target_initial: accounts
+- locale: nl-nl
+  format: string
+  source: Notifications
+  target: Notificaties
+  target_initial: Notificaties
+- locale: nl-nl
+  format: string
+  source: Mark all as read
+  target: Markeer alles als gelezen
+  target_initial: Markeer alles als gelezen
+- locale: nl-nl
+  format: string
+  source: "%s created Ticket |%s|"
+  target: "%s maakte ticket '|%s|' aan"
+  target_initial: "%s maakte ticket '|%s|' aan"
+- locale: nl-nl
+  format: string
+  source: 'My handling time: %s minutes'
+  target: 'Mijn behandeltijd: %s minuten'
+  target_initial: 'Mijn behandeltijd: %s minuten'
+- locale: nl-nl
+  format: string
+  source: 'Average: %s minutes'
+  target: 'Gemiddeld: %s minuten'
+  target_initial: 'Gemiddeld: %s minuten'
+- locale: nl-nl
+  format: string
+  source: "%s of my tickets escalated."
+  target: "%s van mijn tickets escaleerden"
+  target_initial: "%s van mijn tickets escaleerden"
+- locale: nl-nl
+  format: string
+  source: 'Total: %s'
+  target: 'Totaal: %s'
+  target_initial: 'Totaal: %s'
+- locale: nl-nl
+  format: string
+  source: 'Tickets assigned to me: %s of %s'
+  target: 'Tickets aan mijn toegewezen: %s van de %s'
+  target_initial: 'Tickets aan mijn toegewezen: %s van de %s'
+- locale: nl-nl
+  format: string
+  source: 'Average: %s'
+  target: 'Gemiddeld: %s'
+  target_initial: 'Gemiddeld: %s'
+- locale: nl-nl
+  format: string
+  source: 'Average: %s%'
+  target: 'Gemiddeld: %s%'
+  target_initial: 'Gemiddeld: %s%'
+- locale: nl-nl
+  format: string
+  source: Keyboard Shortcuts
+  target: Sneltoetsen
+  target_initial: Sneltoetsen
+- locale: nl-nl
+  format: string
+  source: Escalated
+  target: Geescaleerd
+  target_initial: Geescaleerd
+- locale: nl-nl
+  format: string
+  source: set to public
+  target: maak openbaar
+  target_initial: maak openbaar
+- locale: nl-nl
+  format: string
+  source: Close tab
+  target: Tab sluiten
+  target_initial: Tab sluiten
+- locale: nl-nl
+  format: string
+  source: "%s updated Ticket |%s|"
+  target: "%s werkte ticket |%s| bij"
+  target_initial: "%s werkte ticket |%s| bij"
+- locale: nl-nl
+  format: string
+  source: "%s created User |%s|"
+  target: "%s maakte gebruiker |%s| aan"
+  target_initial: "%s maakte gebruiker |%s| aan"
+- locale: nl-nl
+  format: string
+  source: "%s created Article for |%s|"
+  target: "%s maakte artikel voor |%s|"
+  target_initial: "%s maakte artikel voor |%s|"
+- locale: nl-nl
+  format: string
+  source: "%s started a new session"
+  target: "%s begon een nieuwe sessie"
+  target_initial: "%s begon een nieuwe sessie"
+- locale: nl-nl
+  format: string
+  source: "%s created Organization |%s|"
+  target: "%s maakte organisatie |%s| aan"
+  target_initial: "%s maakte organisatie |%s| aan"
+- locale: nl-nl
+  format: string
+  source: New User
+  target: Nieuwe gebruiker
+  target_initial: Nieuwe gebruiker
+- locale: nl-nl
+  format: string
+  source: Available for Role
+  target: Beschikbaar voor de rol
+  target_initial: Beschikbaar voor de rol
+- locale: nl-nl
+  format: string
+  source: New Overview
+  target: Nieuw overzicht
+  target_initial: Nieuw overzicht
+- locale: nl-nl
+  format: string
+  source: Tickets of User
+  target: Tickets van gebruiker
+  target_initial: Tickets van gebruiker
+- locale: nl-nl
+  format: string
+  source: Tickets of Organization
+  target: Tickets van organisatie
+  target_initial: Tickets van organisatie
+- locale: nl-nl
+  format: string
+  source: Activity Stream
+  target: Activiteitenlog
+  target_initial: Activiteitenlog
+- locale: nl-nl
+  format: string
+  source: Confirm
+  target: Bevestiging
+  target_initial: Bevestiging
+- locale: nl-nl
+  format: string
+  source: Cancel & Go Back
+  target: Negeer & ga terug
+  target_initial: Negeer & ga terug
+- locale: nl-nl
+  format: string
+  source: New Organization
+  target: Nieuwe organisatie
+  target_initial: Nieuwe organisatie
+- locale: nl-nl
+  format: string
+  source: Domain based assignment
+  target: Toewijzing op basis van domein
+  target_initial: Toewijzing op basis van domein
+- locale: nl-nl
+  format: string
+  source: Assignment Timeout
+  target: Timeout toewijzing
+  target_initial: Timeout toewijzing
+- locale: nl-nl
+  format: string
+  source: Follow up possible
+  target: Opvolgen mogelijk
+  target_initial: Opvolgen mogelijk
+- locale: nl-nl
+  format: string
+  source: Assign Follow Ups
+  target: Opvolgingen toekennen
+  target_initial: Opvolgingen toekennen
+- locale: nl-nl
+  format: string
+  source: Available for User
+  target: Beschikbaar voor gebruiker
+  target_initial: Beschikbaar voor gebruiker
+- locale: nl-nl
+  format: string
+  source: Only available for Users with shared Organization
+  target: Alleen beschikbaar voor gebruikers met een gedeelde organisatie
+  target_initial: Alleen beschikbaar voor gebruikers met een gedeelde organisatie
+- locale: nl-nl
+  format: string
+  source: Conditions for shown Tickets
+  target: Voorwaarden voor getoonde Tickets
+  target_initial: Voorwaarden voor getoonde Tickets
+- locale: nl-nl
+  format: string
+  source: matches
+  target: overeenkomsten
+  target_initial: overeenkomsten
+- locale: nl-nl
+  format: string
+  source: Created at
+  target: Gemaakt
+  target_initial: Gemaakt
+- locale: nl-nl
+  format: string
+  source: Attributes
+  target: Attributen
+  target_initial: Attributen
+- locale: nl-nl
+  format: string
+  source: Order
+  target: Volgorde
+  target_initial: Volgorde
+- locale: nl-nl
+  format: string
+  source: Group by
+  target: Groeperen op
+  target_initial: Groeperen op
+- locale: nl-nl
+  format: string
+  source: Keywords
+  target: Steekwoorden
+  target_initial: Steekwoorden
+- locale: nl-nl
+  format: string
+  source: TextModule
+  target: tekstmodule
+  target_initial: tekstmodule
+- locale: nl-nl
+  format: string
+  source: Links
+  target: Gekoppeld aan
+  target_initial: Gekoppeld aan
+- locale: nl-nl
+  format: string
+  source: Link
+  target: Koppel
+  target_initial: Koppel
+- locale: nl-nl
+  format: string
+  source: Recent Customer Tickets
+  target: Recente klantTickets
+  target_initial: Recente klantTickets
+- locale: nl-nl
+  format: string
+  source: Recent viewed Tickets
+  target: Recent bekeken Tickets
+  target_initial: Recent bekeken Tickets
+- locale: nl-nl
+  format: string
+  source: Change Customer
+  target: Wijzigklant
+  target_initial: Wijzigklant
+- locale: nl-nl
+  format: string
+  source: Unassigned & Open
+  target: Niet toegewezen & Open
+  target_initial: Niet toegewezen & Open
+- locale: nl-nl
+  format: string
+  source: Pending till
+  target: In wachtrij tot
+  target_initial: In wachtrij tot
+- locale: nl-nl
+  format: string
+  source: at
+  target: om
+  target_initial: om
+- locale: nl-nl
+  format: string
+  source: Pending reached
+  target: Wachtrijtijd overschreden
+  target_initial: Wachtrijtijd overschreden
+- locale: nl-nl
+  format: string
+  source: My pending reached Tickets
+  target: Wachtrijtijd bijna overschreden
+  target_initial: Wachtrijtijd bijna overschreden
+- locale: nl-nl
+  format: string
+  source: "%s switched to |%s|!"
+  target: "%s schakelde over naar |%s|!"
+  target_initial: "%s schakelde over naar |%s|!"
+- locale: nl-nl
+  format: string
+  source: "%s updated User |%s|"
+  target: "%s werkte |%s| bij"
+  target_initial: "%s werkte |%s| bij"
+- locale: nl-nl
+  format: string
+  source: Days
+  target: Dagen
+  target_initial: Dagen
+- locale: nl-nl
+  format: string
+  source: Hour
+  target: Uur
+  target_initial: Uur
+- locale: nl-nl
+  format: string
+  source: All Tickets
+  target: Alle Tickets
+  target_initial: Alle Tickets
+- locale: nl-nl
+  format: string
+  source: again
+  target: nogmaals
+  target_initial: nogmaals
+- locale: nl-nl
+  format: string
+  source: Adresses
+  target: Adressen
+  target_initial: Adressen
+- locale: nl-nl
+  format: string
+  source: Add a Note
+  target: Voeg een notitie toe
+  target_initial: Voeg een notitie toe
+- locale: nl-nl
+  format: string
+  source: App ID
+  target: App ID
+  target_initial: App ID
+- locale: nl-nl
+  format: string
+  source: Address
+  target: Adres
+  target_initial: Adres
+- locale: nl-nl
+  format: string
+  source: after (relative)
+  target: na (relatief)
+  target_initial: na (relatief)
+- locale: nl-nl
+  format: string
+  source: after (absolute)
+  target: na (absoluut)
+  target_initial: na (absoluut)
+- locale: nl-nl
+  format: string
+  source: Active Agents
+  target: Actieve Agenten
+  target_initial: Actieve Agenten
+- locale: nl-nl
+  format: string
+  source: active
+  target: actief
+  target_initial: actief
+- locale: nl-nl
+  format: string
+  source: API
+  target: API
+  target_initial: API
+- locale: nl-nl
+  format: string
+  source: annually
+  target: jaarlijks
+  target_initial: jaarlijks
+- locale: nl-nl
+  format: string
+  source: Amount
+  target: Bedrag
+  target_initial: Bedrag
+- locale: nl-nl
+  format: string
+  source: API token
+  target: API token
+  target_initial: API token
+- locale: nl-nl
+  format: string
+  source: All Open Tickets
+  target: Alle open tickets
+  target_initial: Alle open tickets
+- locale: nl-nl
+  format: string
+  source: activate
+  target: activeer
+  target_initial: activeer
+- locale: nl-nl
+  format: string
+  source: activated
+  target: geactiveerd
+  target_initial: geactiveerd
+- locale: nl-nl
+  format: string
+  source: "%s ago"
+  target: "%s geleden"
+  target_initial: "%s geleden"
+- locale: nl-nl
+  format: string
+  source: Administrator Account
+  target: Administrator Account
+  target_initial: Administrator Account
+- locale: nl-nl
+  format: string
+  source: Forgot password?
+  target: Wachtwoord vergeten?
+  target_initial: Wachtwoord vergeten?
+- locale: nl-nl
+  format: string
+  source: Forgot your password?
+  target: Uw wachtwoord vergeten?
+  target_initial: Uw wachtwoord vergeten?
+- locale: nl-nl
+  format: string
+  source: from
+  target: van
+  target_initial: van
+- locale: nl-nl
+  format: string
+  source: Facebook
+  target: Facebook
+  target_initial: Facebook
+- locale: nl-nl
+  format: string
+  source: Form
+  target: Formulier
+  target_initial: Formulier
+- locale: nl-nl
+  format: string
+  source: Flat design.
+  target: Flat design.
+  target_initial: Flat design.
+- locale: nl-nl
+  format: string
+  source: Full Name
+  target: Volledige naam
+  target_initial: Volledige naam
+- locale: nl-nl
+  format: string
+  source: Flat Design
+  target: Flat Design
+  target_initial: Flat Design
+- locale: nl-nl
+  format: string
+  source: Experts
+  target: Experts
+  target_initial: Experts
+- locale: nl-nl
+  format: string
+  source: Expert
+  target: Expert
+  target_initial: Expert
+- locale: nl-nl
+  format: string
+  source: You can connect %s with Zammad. You need to connect your Zammad with %s
+    first.
+  target: Je kunt nu %s koppelen met Zammad. Je moet echter eerst je Zammad met %s
+    verbinden.
+  target_initial: Je kunt nu %s koppelen met Zammad. Je moet echter eerst je Zammad
+    met %s verbinden.
+- locale: nl-nl
+  format: string
+  source: Connect Twitter App
+  target: Verbind Twitter app
+  target_initial: Verbind Twitter app
+- locale: nl-nl
+  format: string
+  source: "%s updated Article for |%s|"
+  target: "%s werkte artikel voor |%s| bij"
+  target_initial: "%s werkte artikel voor |%s| bij"
+- locale: nl-nl
+  format: string
+  source: 2 normal
+  target: 2 normaal
+  target_initial: 2 normaal
+- locale: nl-nl
+  format: string
+  source: 3 high
+  target: 3 hoog
+  target_initial: 3 hoog
+- locale: nl-nl
+  format: string
+  source: Article
+  target: Artikel
+  target_initial: Artikel
+- locale: nl-nl
+  format: string
+  source: Addons
+  target: Addons
+  target_initial: Addons
+- locale: nl-nl
+  format: string
+  source: Activates lost password feature for users.
+  target: Activeert verloren wachtwoord functie voor gebruikers.
+  target_initial: Activeert verloren wachtwoord functie voor gebruikers.
+- locale: nl-nl
+  format: string
+  source: VIP
+  target: VIP
+  target_initial: VIP
+- locale: nl-nl
+  format: string
+  source: Account not verified
+  target: Account niet geverifieerd
+  target_initial: Account niet geverifieerd
+- locale: nl-nl
+  format: string
+  source: Applications
+  target: Applicaties
+  target_initial: Applicaties
+- locale: nl-nl
+  format: string
+  source: Access to %s
+  target: Toegang tot %s
+  target_initial: Toegang tot %s
+- locale: nl-nl
+  format: string
+  source: close
+  target: sluiten
+  target_initial: sluiten
+- locale: nl-nl
+  format: string
+  source: 1 low
+  target: 1 laag
+  target_initial: 1 laag
+- locale: nl-nl
+  format: string
+  source: Change order
+  target: Wijzig order
+  target_initial: Wijzig order
+- locale: nl-nl
+  format: string
+  source: Create Admin
+  target: Creëer Admin
+  target_initial: Creëer Admin
+- locale: nl-nl
+  format: string
+  source: Configure Channels
+  target: Configureer kanalen
+  target_initial: Configureer kanalen
+- locale: nl-nl
+  format: string
+  source: Change your password
+  target: Wijzig uw wachtwoord
+  target_initial: Wijzig uw wachtwoord
+- locale: nl-nl
+  format: string
+  source: Change your language.
+  target: Wijzig uw taal.
+  target_initial: Wijzig uw taal.
+- locale: nl-nl
+  format: string
+  source: Back to top
+  target: Terug naar boven
+  target_initial: Terug naar boven
+- locale: nl-nl
+  format: string
+  source: Copy to clipboard
+  target: Kopieer naar clipboard
+  target_initial: Kopieer naar clipboard
+- locale: nl-nl
+  format: string
+  source: Channel
+  target: Kanaal
+  target_initial: Kanaal
+- locale: nl-nl
+  format: string
+  source: Changes
+  target: Wijzigingen
+  target_initial: Wijzigingen
+- locale: nl-nl
+  format: string
+  source: Add-ons
+  target: Add-ons
+  target_initial: Add-ons
+- locale: nl-nl
+  format: string
+  source: Branches
+  target: Branches
+  target_initial: Branches
+- locale: nl-nl
+  format: string
+  source: Checksum
+  target: Checksum
+  target_initial: Checksum
+- locale: nl-nl
+  format: string
+  source: Camera
+  target: Camera
+  target_initial: Camera
+- locale: nl-nl
+  format: string
+  source: Choose Template
+  target: Kies template
+  target_initial: Kies template
+- locale: nl-nl
+  format: string
+  source: Blue
+  target: Blauw
+  target_initial: Blauw
+- locale: nl-nl
+  format: string
+  source: Browser
+  target: Browser
+  target_initial: Browser
+- locale: nl-nl
+  format: string
+  source: Connect Channels
+  target: Verbind kanalen
+  target_initial: Verbind kanalen
+- locale: nl-nl
+  format: string
+  source: before (absolute)
+  target: voor (absoluut)
+  target_initial: voor (absoluut)
+- locale: nl-nl
+  format: string
+  source: before (relative)
+  target: voor (relatief)
+  target_initial: voor (relatief)
+- locale: nl-nl
+  format: string
+  source: contains not
+  target: bevat niet
+  target_initial: bevat niet
+- locale: nl-nl
+  format: string
+  source: contains
+  target: bevat
+  target_initial: bevat
+- locale: nl-nl
+  format: string
+  source: Close & Tag as Spam
+  target: Sluit & Tag als Spam
+  target_initial: Sluit & Tag als Spam
+- locale: nl-nl
+  format: string
+  source: Connect
+  target: Verbind
+  target_initial: Verbind
+- locale: nl-nl
+  format: string
+  source: Background color
+  target: Achtergrondkleur
+  target_initial: Achtergrondkleur
+- locale: nl-nl
+  format: string
+  source: Create a Test Ticket
+  target: Creëer een Test ticket
+  target_initial: Creëer een Test ticket
+- locale: nl-nl
+  format: string
+  source: busy
+  target: bezig
+  target_initial: bezig
+- locale: nl-nl
+  format: string
+  source: connected
+  target: verbonden
+  target_initial: verbonden
+- locale: nl-nl
+  format: string
+  source: "...add object title"
+  target: "...object link titel toevoegen"
+  target_initial: "...object link titel toevoegen"
+- locale: nl-nl
+  format: string
+  source: "...of whole textarea"
+  target: "...van heel tekstgebied"
+  target_initial: "...van heel tekstgebied"
+- locale: nl-nl
+  format: string
+  source: Beginner
+  target: Beginner
+  target_initial: Beginner
+- locale: nl-nl
+  format: string
+  source: Clients
+  target: Klanten
+  target_initial: Klanten
+- locale: nl-nl
+  format: string
+  source: Confirmation required
+  target: Bevestiging vereist
+  target_initial: Bevestiging vereist
+- locale: nl-nl
+  format: string
+  source: Cardholder
+  target: Kaarthouder
+  target_initial: Kaarthouder
+- locale: nl-nl
+  format: string
+  source: Billing
+  target: Facturering
+  target_initial: Facturering
+- locale: nl-nl
+  format: string
+  source: Billed annually
+  target: Jaarlijks gefactureerd
+  target_initial: Jaarlijks gefactureerd
+- locale: nl-nl
+  format: string
+  source: Billing information
+  target: Facturerings informatie
+  target_initial: Facturerings informatie
+- locale: nl-nl
+  format: string
+  source: Changed
+  target: Gewijzigd
+  target_initial: Gewijzigd
+- locale: nl-nl
+  format: string
+  source: Change %s
+  target: Wijzig %s
+  target_initial: Wijzig %s
+- locale: nl-nl
+  format: string
+  source: Back
+  target: Terug
+  target_initial: Terug
+- locale: nl-nl
+  format: string
+  source: "%s Migration"
+  target: "%s Migratie"
+  target_initial: "%s Migratie"
+- locale: nl-nl
+  format: string
+  source: "%s URL"
+  target: "%s URL"
+  target_initial: "%s URL"
+- locale: nl-nl
+  format: string
+  source: internal
+  target: intern
+  target_initial: intern
+- locale: nl-nl
+  format: string
+  source: install
+  target: Installeer
+  target_initial: Installeer
+- locale: nl-nl
+  format: string
+  source: Link Accounts
+  target: Link Accounts
+  target_initial: Link Accounts
+- locale: nl-nl
+  format: string
+  source: is the same
+  target: is hetzelfde
+  target_initial: is hetzelfde
+- locale: nl-nl
+  format: string
+  source: now
+  target: nu
+  target_initial: nu
+- locale: nl-nl
+  format: string
+  source: Online
+  target: Online
+  target_initial: Online
+- locale: nl-nl
+  format: string
+  source: Install Package
+  target: Installeer package
+  target_initial: Installeer package
+- locale: nl-nl
+  format: string
+  source: is
+  target: is
+  target_initial: is
+- locale: nl-nl
+  format: string
+  source: is not
+  target: is niet
+  target_initial: is niet
+- locale: nl-nl
+  format: string
+  source: Option
+  target: optie
+  target_initial: optie
+- locale: nl-nl
+  format: string
+  source: Email Notification
+  target: Email notificatie
+  target_initial: Email notificatie
+- locale: nl-nl
+  format: string
+  source: Email Address
+  target: Email adres
+  target_initial: Email adres
+- locale: nl-nl
+  format: string
+  source: Email Accounts
+  target: Email Accounts
+  target_initial: Email Accounts
+- locale: nl-nl
+  format: string
+  source: Email Account
+  target: Email Account
+  target_initial: Email Account
+- locale: nl-nl
+  format: string
+  source: Email Inbound
+  target: Inkomende email
+  target_initial: Inkomende email
+- locale: nl-nl
+  format: string
+  source: Invite
+  target: uitnodigen
+  target_initial: uitnodigen
+- locale: nl-nl
+  format: string
+  source: Or
+  target: of
+  target_initial: of
+- locale: nl-nl
+  format: string
+  source: John Smith
+  target: John Smith
+  target_initial: John Smith
+- locale: nl-nl
+  format: string
+  source: Duration
+  target: Duur
+  target_initial: Duur
+- locale: nl-nl
+  format: string
+  source: left
+  target: links
+  target_initial: links
+- locale: nl-nl
+  format: string
+  source: Link %s
+  target: Link %s
+  target_initial: Link %s
+- locale: nl-nl
+  format: string
+  source: current user
+  target: Huidige gebruiker
+  target_initial: Huidige gebruiker
+- locale: nl-nl
+  format: string
+  source: "...add object link URL"
+  target: "...object link url toevoegen"
+  target_initial: "...object link url toevoegen"
+- locale: nl-nl
+  format: string
+  source: Save as template
+  target: Bewaar
+  target_initial: Bewaar
+- locale: nl-nl
+  format: string
+  source: New text module
+  target: Nieuwe tekstmodule
+  target_initial: Nieuwe tekstmodule
+- locale: nl-nl
+  format: string
+  source: Closing time
+  target: Sluit tijd
+  target_initial: Sluit tijd
+- locale: nl-nl
+  format: string
+  source: Create new Customer
+  target: Aanmaken nieuwe klant
+  target_initial: Aanmaken nieuwe klant
+- locale: nl-nl
+  format: string
+  source: URL
+  target: URL
+  target_initial: URL
+- locale: nl-nl
+  format: string
+  source: Twitter
+  target: Twitter
+  target_initial: Twitter
+- locale: nl-nl
+  format: string
+  source: Criteria
+  target: Criteria
+  target_initial: Criteria
+- locale: nl-nl
+  format: string
+  source: Delete File
+  target: Verwijder bestand
+  target_initial: Verwijder bestand
+- locale: nl-nl
+  format: string
+  source: Yellow
+  target: Geel
+  target_initial: Geel
+- locale: nl-nl
+  format: string
+  source: Purple
+  target: Paars
+  target_initial: Paars
+- locale: nl-nl
+  format: string
+  source: today
+  target: Vandaag
+  target_initial: Vandaag
+- locale: nl-nl
+  format: string
+  source: Create Macros
+  target: Maak macro
+  target_initial: Maak macro
+- locale: nl-nl
+  format: string
+  source: Current password
+  target: Huidig wachtwoord
+  target_initial: Huidig wachtwoord
+- locale: nl-nl
+  format: string
+  source: Department
+  target: Afdeling
+  target_initial: Afdeling
+- locale: nl-nl
+  format: string
+  source: Credit card number
+  target: Credit card nummer
+  target_initial: Credit card nummer
+- locale: nl-nl
+  format: string
+  source: Username
+  target: Gebruikersnaam
+  target_initial: Gebruikersnaam
+- locale: nl-nl
+  format: string
+  source: Total
+  target: Totaal
+  target_initial: Totaal
+- locale: nl-nl
+  format: string
+  source: tax
+  target: belasting
+  target_initial: belasting
+- locale: nl-nl
+  format: string
+  source: Current User
+  target: Huidige Gebruiker
+  target_initial: Huidige Gebruiker
+- locale: nl-nl
+  format: string
+  source: Create your first ticket
+  target: Maak uw eerste ticket
+  target_initial: Maak uw eerste ticket
+- locale: nl-nl
+  format: string
+  source: Current Status
+  target: Huidige status
+  target_initial: Huidige status
+- locale: nl-nl
+  format: string
+  source: Additional Channels
+  target: extra kanalen
+  target_initial: extra kanalen
+- locale: nl-nl
+  format: string
+  source: Back to my view
+  target: Terug naar mijn overzicht
+  target_initial: Terug naar mijn overzicht
+- locale: nl-nl
+  format: string
+  source: Bank Name
+  target: Bank naam
+  target_initial: Bank naam
+- locale: nl-nl
+  format: string
+  source: Call Inbound
+  target: Inkomend telefoongesprek
+  target_initial: Inkomend telefoongesprek
+- locale: nl-nl
+  format: string
+  source: Call Outbound
+  target: Uitgaand telefoongesprek
+  target_initial: Uitgaand telefoongesprek
+- locale: nl-nl
+  format: string
+  source: Config
+  target: Cofiguratie
+  target_initial: Cofiguratie
+- locale: nl-nl
+  format: string
+  source: Created by
+  target: Aangemaakt door
+  target_initial: Aangemaakt door
+- locale: nl-nl
+  format: string
+  source: Credit card
+  target: Credit card
+  target_initial: Credit card
+- locale: nl-nl
+  format: string
+  source: Time zone
+  target: Tijdzone
+  target_initial: Tijdzone
+- locale: nl-nl
+  format: string
+  source: Recently viewed
+  target: Onlangs bekeken
+  target_initial: Onlangs bekeken
+- locale: nl-nl
+  format: string
+  source: Your tickets in process
+  target: Jouw tickets in behandeling
+  target_initial: Jouw tickets in behandeling
+- locale: nl-nl
+  format: string
+  source: Green
+  target: Groen
+  target_initial: Groen
+- locale: nl-nl
+  format: string
+  source: here
+  target: hier
+  target_initial: hier
+- locale: nl-nl
+  format: string
+  source: Germany
+  target: Duitsland
+  target_initial: Duitsland
+- locale: nl-nl
+  format: string
+  source: Tab has changed, do you really want to close it?
+  target: Tab is gewijzigd, weet je zeker dat je het wilt sluiten?
+  target_initial: Tab is gewijzigd, weet je zeker dat je het wilt sluiten?
+- locale: nl-nl
+  format: string
+  source: Date & Time
+  target: Datum en Tijd
+  target_initial: Datum en Tijd
+- locale: nl-nl
+  format: string
+  source: You have created a ticket
+  target: U heeft een nieuw ticket aangemaakt
+  target_initial: U heeft een nieuw ticket aangemaakt
+- locale: nl-nl
+  format: string
+  source: Reset Password
+  target: Reset wachtwoord
+  target_initial: Reset wachtwoord
+- locale: nl-nl
+  format: string
+  source: No unread notifications for you. :)
+  target: 'Je hebt geen ongelezen notificaties. :) '
+  target_initial: 'Je hebt geen ongelezen notificaties. :) '
+- locale: nl-nl
+  format: string
+  source: "%s% have been reopened"
+  target: "%s% zijn opnieuw geopend"
+  target_initial: "%s% zijn opnieuw geopend"
+- locale: nl-nl
+  format: string
+  source: 2 lower and 2 upper characters
+  target: 2 kleine en 2 grote letters
+  target_initial: 2 kleine en 2 grote letters
+- locale: nl-nl
+  format: string
+  source: Avatar
+  target: Avatar
+  target_initial: Avatar
+- locale: nl-nl
+  format: string
+  source: Billed monthly
+  target: Maandelijks gefactureerd
+  target_initial: Maandelijks gefactureerd
+- locale: nl-nl
+  format: string
+  source: Billing Cycle
+  target: Facturatie cyclus
+  target_initial: Facturatie cyclus
+- locale: nl-nl
+  format: string
+  source: Authentication via %s
+  target: Authenticatie via %s
+  target_initial: Authenticatie via %s
+- locale: nl-nl
+  format: string
+  source: Billing E-Mail Address
+  target: Facturatie e-mail adres
+  target_initial: Facturatie e-mail adres
+- locale: nl-nl
+  format: string
+  source: 'Attention: These will be your login password after the import is completed.'
+  target: Belangrijk! Dit is je login wachtwoord nadat de import compleet is.
+  target_initial: Belangrijk! Dit is je login wachtwoord nadat de import compleet
+    is.
+- locale: nl-nl
+  format: string
+  source: Block Notifications
+  target: Blokkeer meldingen
+  target_initial: Blokkeer meldingen
+- locale: nl-nl
+  format: string
+  source: Attached Files
+  target: Aangehechte bestanden
+  target_initial: Aangehechte bestanden
+- locale: nl-nl
+  format: string
+  source: Build Test Release
+  target: Bouw test versie
+  target_initial: Bouw test versie
+- locale: nl-nl
+  format: string
+  source: Automatically show chat
+  target: Laat chat automatisch zien
+  target_initial: Laat chat automatisch zien
+- locale: nl-nl
+  format: string
+  source: Authentication via Twitter
+  target: 'Authenticatie via Twitter '
+  target_initial: 'Authenticatie via Twitter '
+- locale: nl-nl
+  format: string
+  source: attached
+  target: Aangehecht
+  target_initial: Aangehecht
+- locale: nl-nl
+  format: string
+  source: Business Times
+  target: Openingstijden
+  target_initial: Openingstijden
+- locale: nl-nl
+  format: string
+  source: Attach Screenshot of page
+  target: Aangehecht screenshot van de pagina
+  target_initial: Aangehecht screenshot van de pagina
+- locale: nl-nl
+  format: string
+  source: Attach files
+  target: Aangehechte bestanden
+  target_initial: Aangehechte bestanden
+- locale: nl-nl
+  format: string
+  source: Authentication via LinkedIn
+  target: Authenticatie via LinkedIn
+  target_initial: Authenticatie via LinkedIn
+- locale: nl-nl
+  format: string
+  source: Authentication via Google
+  target: Authenticatie via Google
+  target_initial: Authenticatie via Google
+- locale: nl-nl
+  format: string
+  source: Authentication via Facebook
+  target: Authenticatie via Facebook
+  target_initial: Authenticatie via Facebook
+- locale: nl-nl
+  format: string
+  source: At a glance
+  target: Overzicht
+  target_initial: Overzicht
+- locale: nl-nl
+  format: string
+  source: Bots
+  target: Bots
+  target_initial: Bots
+- locale: nl-nl
+  format: string
+  source: "%s ended switch to |%s|!"
+  target: "%s beëindigde de wisseling naar |%s|!"
+  target_initial: "%s beëindigde de wisseling naar |%s|!"
+- locale: nl-nl
+  format: string
+  source: "%s created Group |%s|"
+  target: "%s maakte de groep met de naam: |%s|"
+  target_initial: "%s maakte de groep met de naam: |%s|"
+- locale: nl-nl
+  format: string
+  source: "%s credentials"
+  target: "%s contactgegevens"
+  target_initial: "%s contactgegevens"
+- locale: nl-nl
+  format: string
+  source: All pending reached Tickets
+  target: Alle 'onzeker bereik' tickets
+  target_initial: Alle 'onzeker bereik' tickets
+- locale: nl-nl
+  format: string
+  source: App Secret
+  target: Applicatie Geheim
+  target_initial: Applicatie Geheim
+- locale: nl-nl
+  format: string
+  source: Also notify via email
+  target: Houd mij op de hoogte via e-mails
+  target_initial: Houd mij op de hoogte via e-mails
+- locale: nl-nl
+  format: string
+  source: "%s updated Group |%s|"
+  target: "%s heeft de groep |%s| geupdate"
+  target_initial: "%s heeft de groep |%s| geupdate"
+- locale: nl-nl
+  format: string
+  source: Add a Personal Access Token
+  target: Voeg een persoonlijke toegang token toe
+  target_initial: Voeg een persoonlijke toegang token toe
+- locale: nl-nl
+  format: string
+  source: "%s required!"
+  target: "%s vereist!"
+  target_initial: "%s vereist!"
+- locale: nl-nl
+  format: string
+  source: Bulk action executed!
+  target: Bulk actie uitgevoerd!
+  target_initial: Bulk actie uitgevoerd!
+- locale: nl-nl
+  format: string
+  source: Account Time
+  target: Tijd van gebruiker
+  target_initial: Tijd van gebruiker
+- locale: nl-nl
+  format: string
+  source: assign tickets
+  target: wijs tickets toe
+  target_initial: wijs tickets toe
+- locale: nl-nl
+  format: string
+  source: "%s people"
+  target: "%s mensen"
+  target_initial: "%s mensen"
+- locale: nl-nl
+  format: string
+  source: Add Bot
+  target: Bot Toevoegen
+  target_initial: Bot Toevoegen
+- locale: nl-nl
+  format: string
+  source: Analyzing structure...
+  target: Analyseren van de structuur
+  target_initial: Analyseren van de structuur
+- locale: nl-nl
+  format: string
+  source: "%s user to %s user"
+  target: "%s gebruiker aan %s gebruiker"
+  target_initial: "%s gebruiker aan %s gebruiker"
+- locale: nl-nl
+  format: string
+  source: All Agents
+  target: Alle Agenten
+  target_initial: Alle Agenten
+- locale: nl-nl
+  format: string
+  source: Account Holder
+  target: Accounthouder
+  target_initial: Accounthouder
+- locale: nl-nl
+  format: string
+  source: Annual
+  target: Jaarlijks
+  target_initial: Jaarlijks
+- locale: nl-nl
+  format: string
+  source: Article#
+  target: Artikel#
+  target_initial: Artikel#
+- locale: nl-nl
+  format: string
+  source: Article Count
+  target: Aantal artikelen
+  target_initial: Aantal artikelen
+- locale: nl-nl
+  format: string
+  source: Change
+  target: Veranderen
+  target_initial: Veranderen
+- locale: nl-nl
+  format: string
+  source: Chat Title
+  target: Chat titel
+  target_initial: Chat titel
+- locale: nl-nl
+  format: string
+  source: Connecting ...
+  target: Verbinden ...
+  target_initial: Verbinden ...
+- locale: nl-nl
+  format: string
+  source: Day(s)
+  target: Dag(en)
+  target_initial: Dag(en)
+- locale: nl-nl
+  format: string
+  source: Designer
+  target: Ontwerper
+  target_initial: Ontwerper
+- locale: nl-nl
+  format: string
+  source: Discard
+  target: Annuleren
+  target_initial: Annuleren
+- locale: nl-nl
+  format: string
+  source: Discard Changes
+  target: Wijzigingen annuleren
+  target_initial: Wijzigingen annuleren
+- locale: nl-nl
+  format: string
+  source: Discard your unsaved changes.
+  target: Annuleer de niet opgeslagen wijzigingen
+  target_initial: Annuleer de niet opgeslagen wijzigingen
+- locale: nl-nl
+  format: string
+  source: Feature disabled!
+  target: Functionaliteit uitgeschakeld!
+  target_initial: Functionaliteit uitgeschakeld!
+- locale: nl-nl
+  format: string
+  source: Format as |bold|
+  target: Opmaken als |vetgedrukt|
+  target_initial: Opmaken als |vetgedrukt|
+- locale: nl-nl
+  format: string
+  source: http type
+  target: http type
+  target_initial: http type
+- locale: nl-nl
+  format: string
+  source: Last sync at
+  target: Laatst gesynchroniseerd op
+  target_initial: Laatst gesynchroniseerd op
+- locale: nl-nl
+  format: string
+  source: Login with %s
+  target: Inloggen met %s
+  target_initial: Inloggen met %s
+- locale: nl-nl
+  format: string
+  source: My Organization
+  target: Mijn organisatie
+  target_initial: Mijn organisatie
+- locale: nl-nl
+  format: string
+  source: My closed Tickets
+  target: Mijn gesloten tickets
+  target_initial: Mijn gesloten tickets
+- locale: nl-nl
+  format: string
+  source: Pay with
+  target: Betalen met
+  target_initial: Betalen met
+- locale: nl-nl
+  format: string
+  source: pending close
+  target: wacht op sluiten
+  target_initial: wacht op sluiten
+- locale: nl-nl
+  format: string
+  source: Permissions
+  target: Permissies
+  target_initial: Permissies
+- locale: nl-nl
+  format: string
+  source: pending
+  target: in behandeling
+  target_initial: in behandeling
+- locale: nl-nl
+  format: string
+  source: deactivate
+  target: uitschakelen
+  target_initial: uitschakelen
+- locale: nl-nl
+  format: string
+  source: deactivated
+  target: uitgeschakeld
+  target_initial: uitgeschakeld
+- locale: nl-nl
+  format: string
+  source: Inbound
+  target: Inkomend
+  target_initial: Inkomend
+- locale: nl-nl
+  format: string
+  source: Loading...
+  target: Laden...
+  target_initial: Laden...
+- locale: nl-nl
+  format: string
+  source: My Group
+  target: Mijn groep
+  target_initial: Mijn groep
+- locale: nl-nl
+  format: string
+  source: Original
+  target: Origineel
+  target_initial: Origineel
+- locale: nl-nl
+  format: string
+  source: Outbound
+  target: Uitgaand
+  target_initial: Uitgaand
+- locale: nl-nl
+  format: string
+  source: Packages
+  target: Pakketten
+  target_initial: Pakketten
+- locale: nl-nl
+  format: string
+  source: pending reminder
+  target: verstuur herinnering
+  target_initial: verstuur herinnering
+- locale: nl-nl
+  format: string
+  source: Enable Chat
+  target: Chat inschakelen
+  target_initial: Chat inschakelen
+- locale: nl-nl
+  format: string
+  source: Logo
+  target: Logo
+  target_initial: Logo
+- locale: nl-nl
+  format: string
+  source: Outbound Call
+  target: Uitgaand gesprek
+  target_initial: Uitgaand gesprek
+- locale: nl-nl
+  format: string
+  source: Package
+  target: Pakket
+  target_initial: Pakket
+- locale: nl-nl
+  format: string
+  source: Pink
+  target: Roze
+  target_initial: Roze
+- locale: nl-nl
+  format: string
+  source: Devices
+  target: Apparaten
+  target_initial: Apparaten
+- locale: nl-nl
+  format: string
+  source: Font size
+  target: Tekstgrootte
+  target_initial: Tekstgrootte
+- locale: nl-nl
+  format: string
+  source: just now
+  target: zojuist
+  target_initial: zojuist
+- locale: nl-nl
+  format: string
+  source: clear
+  target: Wissen
+  target_initial: Wissen
+- locale: nl-nl
+  format: string
+  source: Load
+  target: Laad
+  target_initial: Laad
+- locale: nl-nl
+  format: string
+  source: disconnect
+  target: verbreken
+  target_initial: verbreken
+- locale: nl-nl
+  format: string
+  source: done
+  target: klaar
+  target_initial: klaar
+- locale: nl-nl
+  format: string
+  source: Enter Title...
+  target: Voer de titel in...
+  target_initial: Voer de titel in...
+- locale: nl-nl
+  format: string
+  source: Folder
+  target: Map
+  target_initial: Map
+- locale: nl-nl
+  format: string
+  source: Hour(s)
+  target: Uren
+  target_initial: Uren
+- locale: nl-nl
+  format: string
+  source: Last run
+  target: Laatst gedraaid
+  target_initial: Laatst gedraaid
+- locale: nl-nl
+  format: string
+  source: maybe
+  target: misschien
+  target_initial: misschien
+- locale: nl-nl
+  format: string
+  source: Mode
+  target: Modus
+  target_initial: Modus
+- locale: nl-nl
+  format: string
+  source: Overview
+  target: Overzicht
+  target_initial: Overzicht
+- locale: nl-nl
+  format: string
+  source: Import from
+  target: Importeren van
+  target_initial: Importeren van
+- locale: nl-nl
+  format: string
+  source: Enable
+  target: Inschakelen
+  target_initial: Inschakelen
+- locale: nl-nl
+  format: string
+  source: HTTP type
+  target: HTTP type
+  target_initial: HTTP type
+- locale: nl-nl
+  format: string
+  source: Configure
+  target: Instellen
+  target_initial: Instellen
+- locale: nl-nl
+  format: string
+  source: failed
+  target: mislukt
+  target_initial: mislukt
+- locale: nl-nl
+  format: string
+  source: Installed
+  target: Geinstalleerd
+  target_initial: Geinstalleerd
+- locale: nl-nl
+  format: string
+  source: Last sync
+  target: Laatst gesynchroniseerd
+  target_initial: Laatst gesynchroniseerd
+- locale: nl-nl
+  format: string
+  source: Messages
+  target: Berichten
+  target_initial: Berichten
+- locale: nl-nl
+  format: string
+  source: Sender based on Reply-To header
+  target: Afzender gebaseerd op Reply-To header
+  target_initial: Afzender gebaseerd op Reply-To header
+- locale: nl-nl
+  format: string
+  source: Save Template
+  target: Template opslaan
+  target_initial: Template opslaan
+- locale: nl-nl
+  format: string
+  source: reply all
+  target: iedereen beantwoorden
+  target_initial: iedereen beantwoorden
+- locale: nl-nl
+  format: string
+  source: Profiles
+  target: Profielen
+  target_initial: Profielen
+- locale: nl-nl
+  format: string
+  source: Pushing translations to i18n.zammad.com
+  target: Vertalen aan het versturen naar i18n.zammad.com
+  target_initial: Vertalen aan het versturen naar i18n.zammad.com
+- locale: nl-nl
+  format: string
+  source: Powered by
+  target: Aangedreven door
+  target_initial: Aangedreven door
+- locale: nl-nl
+  format: string
+  source: Organization & Department Name
+  target: Naam van bedrijf en afdeling
+  target_initial: Naam van bedrijf en afdeling
+- locale: nl-nl
+  format: string
+  source: Organization Name
+  target: Bedrijfsnaam
+  target_initial: Bedrijfsnaam
+- locale: nl-nl
+  format: string
+  source: Visibility
+  target: Zichtbaarheid
+  target_initial: Zichtbaarheid
+- locale: nl-nl
+  format: string
+  source: Visible
+  target: Zichtbaar
+  target_initial: Zichtbaar
+- locale: nl-nl
+  format: string
+  source: Will also be included in emails as an X-Header.
+  target: Wordt meegestuurd in e-mails als een X-Header
+  target_initial: Wordt meegestuurd in e-mails als een X-Header
+- locale: nl-nl
+  format: string
+  source: Username or email address invalid, please try again.
+  target: Gebruikersnaam of e-mailadres is niet correct, probeer het nogmaals
+  target_initial: Gebruikersnaam of e-mailadres is niet correct, probeer het nogmaals
+- locale: nl-nl
+  format: string
+  source: Title of the form
+  target: Titel van het formulier
+  target_initial: Titel van het formulier
+- locale: nl-nl
+  format: string
+  source: Setup new System
+  target: Nieuw systeem installeren
+  target_initial: Nieuw systeem installeren
+- locale: nl-nl
+  format: string
+  source: Show all...
+  target: Toon alles
+  target_initial: Toon alles
+- locale: nl-nl
+  format: string
+  source: skip
+  target: overslaan
+  target_initial: overslaan
+- locale: nl-nl
+  format: string
+  source: Week
+  target: Week
+  target_initial: Week
+- locale: nl-nl
+  format: string
+  source: Username or email
+  target: Gebruikersnaam of e-mailadres
+  target_initial: Gebruikersnaam of e-mailadres
+- locale: nl-nl
+  format: string
+  source: Sign in
+  target: Inloggen
+  target_initial: Inloggen
+- locale: nl-nl
+  format: string
+  source: Sign in using
+  target: Inloggen met
+  target_initial: Inloggen met
+- locale: nl-nl
+  format: string
+  source: Sign in with
+  target: Inloggen met
+  target_initial: Inloggen met
+- locale: nl-nl
+  format: string
+  source: Role
+  target: Rol
+  target_initial: Rol
+- locale: nl-nl
+  format: string
+  source: raw
+  target: rauw
+  target_initial: rauw
+- locale: nl-nl
+  format: string
+  source: public
+  target: publiek
+  target_initial: publiek
+- locale: nl-nl
+  format: string
+  source: Product Name
+  target: Product naam
+  target_initial: Product naam
+- locale: nl-nl
+  format: string
+  source: Push Changes
+  target: Verstuur wijzigingen
+  target_initial: Verstuur wijzigingen
+- locale: nl-nl
+  format: string
+  source: What can you do here?
+  target: Wat kun je hier doen?
+  target_initial: Wat kun je hier doen?
+- locale: nl-nl
+  format: string
+  source: Tools
+  target: Hulpmiddelen
+  target_initial: Hulpmiddelen
+- locale: nl-nl
+  format: string
+  source: session started
+  target: sessie begonnen
+  target_initial: sessie begonnen
+- locale: nl-nl
+  format: string
+  source: Search for users
+  target: Zoek gebruikers
+  target_initial: Zoek gebruikers
+- locale: nl-nl
+  format: string
+  source: reinstall
+  target: herinstalleren
+  target_initial: herinstalleren
+- locale: nl-nl
+  format: string
+  source: Recipients
+  target: Ontvangers
+  target_initial: Ontvangers
+- locale: nl-nl
+  format: string
+  source: Prio
+  target: Prio
+  target_initial: Prio
+- locale: nl-nl
+  format: string
+  source: View from user's perspective
+  target: Bekijk als de gebruiker
+  target_initial: Bekijk als de gebruiker
+- locale: nl-nl
+  format: string
+  source: Username / email
+  target: Gebruikersnaam / e-mailadres
+  target_initial: Gebruikersnaam / e-mailadres
+- locale: nl-nl
+  format: string
+  source: Time Tracking
+  target: Tijdbeheer
+  target_initial: Tijdbeheer
+- locale: nl-nl
+  format: string
+  source: Setup Finished
+  target: Installatie geslaagd
+  target_initial: Installatie geslaagd
+- locale: nl-nl
+  format: string
+  source: Show
+  target: Toon
+  target_initial: Toon
+- locale: nl-nl
+  format: string
+  source: Skip
+  target: Overslaan
+  target_initial: Overslaan
+- locale: nl-nl
+  format: string
+  source: Select Template
+  target: Kies template
+  target_initial: Kies template
+- locale: nl-nl
+  format: string
+  source: Save new template
+  target: Nieuwe template opslaan
+  target_initial: Nieuwe template opslaan
+- locale: nl-nl
+  format: string
+  source: Register as a new customer
+  target: Registreren als nieuwe klant
+  target_initial: Registreren als nieuwe klant
+- locale: nl-nl
+  format: string
+  source: Received Call
+  target: Ontvangen gesprek
+  target_initial: Ontvangen gesprek
+- locale: nl-nl
+  format: string
+  source: Recent Addons
+  target: Recente toevoegingen
+  target_initial: Recente toevoegingen
+- locale: nl-nl
+  format: string
+  source: Projects
+  target: Projecten
+  target_initial: Projecten
+- locale: nl-nl
+  format: string
+  source: Project
+  target: Project
+  target_initial: Project
+- locale: nl-nl
+  format: string
+  source: Web
+  target: Web
+  target_initial: Web
+- locale: nl-nl
+  format: string
+  source: Where
+  target: Waar
+  target_initial: Waar
+- locale: nl-nl
+  format: string
+  source: Widget
+  target: Widget
+  target_initial: Widget
+- locale: nl-nl
+  format: string
+  source: Widget Designer
+  target: Widget ontwerper
+  target_initial: Widget ontwerper
+- locale: nl-nl
+  format: string
+  source: Waiting Customers
+  target: Wachtende klanten
+  target_initial: Wachtende klanten
+- locale: nl-nl
+  format: string
+  source: Topics
+  target: Onderwerpen
+  target_initial: Onderwerpen
+- locale: nl-nl
+  format: string
+  source: reached
+  target: bereikt
+  target_initial: bereikt
+- locale: nl-nl
+  format: string
+  source: Push my changes
+  target: Verstuur mijn wijzigingen
+  target_initial: Verstuur mijn wijzigingen
+- locale: nl-nl
+  format: string
+  source: Protocol
+  target: Protocol
+  target_initial: Protocol
+- locale: nl-nl
+  format: string
+  source: Organization Support
+  target: Bedrijfsondersteuning
+  target_initial: Bedrijfsondersteuning
+- locale: nl-nl
+  format: string
+  source: View this in Zammad
+  target: Bekijk dit in Zammad
+  target_initial: Bekijk dit in Zammad
+- locale: nl-nl
+  format: string
+  source: Usage
+  target: Gebruik
+  target_initial: Gebruik
+- locale: nl-nl
+  format: string
+  source: Ticket update
+  target: Ticket bijwerken
+  target_initial: Ticket bijwerken
+- locale: nl-nl
+  format: string
+  source: Shown when the chat is closed.
+  target: Getoond als de chat gesloten is
+  target_initial: Getoond als de chat gesloten is
+- locale: nl-nl
+  format: string
+  source: Select item
+  target: Selecteer item
+  target_initial: Selecteer item
+- locale: nl-nl
+  format: string
+  source: Requirements
+  target: Verplichtingen
+  target_initial: Verplichtingen
+- locale: nl-nl
+  format: string
+  source: Previous tab
+  target: Vorige tab
+  target_initial: Vorige tab
+- locale: nl-nl
+  format: string
+  source: What is it?
+  target: Wat is het?
+  target_initial: Wat is het?
+- locale: nl-nl
+  format: string
+  source: shown
+  target: getoond
+  target_initial: getoond
+- locale: nl-nl
+  format: string
+  source: Search...
+  target: Zoeken...
+  target_initial: Zoeken...
+- locale: nl-nl
+  format: string
+  source: required
+  target: verplicht
+  target_initial: verplicht
+- locale: nl-nl
+  format: string
+  source: Professional
+  target: Professioneel
+  target_initial: Professioneel
+- locale: nl-nl
+  format: string
+  source: VAT
+  target: BTW
+  target_initial: BTW
+- locale: nl-nl
+  format: string
+  source: VAT ID
+  target: BTW nummer
+  target_initial: BTW nummer
+- locale: nl-nl
+  format: string
+  source: Value
+  target: Valuta
+  target_initial: Valuta
+- locale: nl-nl
+  format: string
+  source: Token Access
+  target: Toegangstoken
+  target_initial: Toegangstoken
+- locale: nl-nl
+  format: string
+  source: Selected
+  target: Geselecteerd
+  target_initial: Geselecteerd
+- locale: nl-nl
+  format: string
+  source: Recent logs
+  target: Recente logs
+  target_initial: Recente logs
+- locale: nl-nl
+  format: string
+  source: Postal Code
+  target: Postcode
+  target_initial: Postcode
+- locale: nl-nl
+  format: string
+  source: Payment history
+  target: Betaalgeschiedenis
+  target_initial: Betaalgeschiedenis
+- locale: nl-nl
+  format: string
+  source: Payment method
+  target: Betalingsmethode
+  target_initial: Betalingsmethode
+- locale: nl-nl
+  format: string
+  source: Payment Method
+  target: Betalingsmethode
+  target_initial: Betalingsmethode
+- locale: nl-nl
+  format: string
+  source: User Preferences
+  target: Gebruikersvoorkeuren
+  target_initial: Gebruikersvoorkeuren
+- locale: nl-nl
+  format: string
+  source: select attachment...
+  target: selecteer bijlage...
+  target_initial: selecteer bijlage...
+- locale: nl-nl
+  format: string
+  source: Proxy Settings
+  target: Proxy instellingen
+  target_initial: Proxy instellingen
+- locale: nl-nl
+  format: string
+  source: Proxy address.
+  target: Proxy adres
+  target_initial: Proxy adres
+- locale: nl-nl
+  format: string
+  source: Service
+  target: Dienst
+  target_initial: Dienst
+- locale: nl-nl
+  format: string
+  source: See less
+  target: Bekijk minder
+  target_initial: Bekijk minder
+- locale: nl-nl
+  format: string
+  source: Sender
+  target: Afzender
+  target_initial: Afzender
+- locale: nl-nl
+  format: string
+  source: Real name
+  target: Echte naam
+  target_initial: Echte naam
+- locale: nl-nl
+  format: string
+  source: or sign in using
+  target: of login met
+  target_initial: of login met
+- locale: nl-nl
+  format: string
+  source: Services
+  target: Diensten
+  target_initial: Diensten
+- locale: nl-nl
+  format: string
+  source: skipped
+  target: overgeslagen
+  target_initial: overgeslagen
+- locale: nl-nl
+  format: string
+  source: Save configuration
+  target: Configuratie opslaan
+  target_initial: Configuratie opslaan
+- locale: nl-nl
+  format: string
+  source: Payment by invoice
+  target: Betaling met factuur
+  target_initial: Betaling met factuur
+- locale: nl-nl
+  format: string
+  source: Thanks for contributing!
+  target: Bedankt voor de bijdrage!
+  target_initial: Bedankt voor de bijdrage!
+- locale: nl-nl
+  format: string
+  source: Get latest Translation
+  target: Haal nieuwe vertalingen op
+  target_initial: Haal nieuwe vertalingen op
+- locale: nl-nl
+  format: string
+  source: Reset changes
+  target: Annuleren
+  target_initial: Annuleren
+- locale: nl-nl
+  format: string
+  source: Get latest translations
+  target: Haal nieuwe vertalingen op
+  target_initial: Haal nieuwe vertalingen op
+- locale: nl-nl
+  format: string
+  source: Create Overviews
+  target: Maak overzichten
+  target_initial: Maak overzichten
+- locale: nl-nl
+  format: string
+  source: Can't create user
+  target: Kan gebruiker niet aanmaken
+  target_initial: Kan gebruiker niet aanmaken
+- locale: nl-nl
+  format: string
+  source: Create my account
+  target: Maak mijn account aan
+  target_initial: Maak mijn account aan
+- locale: nl-nl
+  format: string
+  source: Escalated Tickets
+  target: Geëscaleerde tickets
+  target_initial: Geëscaleerde tickets
+- locale: nl-nl
+  format: string
+  source: Create an inbound Ticket
+  target: Maak een inkomend ticket aan
+  target_initial: Maak een inkomend ticket aan
+- locale: nl-nl
+  format: string
+  source: Cancel Upload
+  target: Upload annuleren
+  target_initial: Upload annuleren
+- locale: nl-nl
+  format: string
+  source: Direct URL
+  target: Direct adres
+  target_initial: Direct adres
+- locale: nl-nl
+  format: string
+  source: Digit required
+  target: Getal verplicht
+  target_initial: Getal verplicht
+- locale: nl-nl
+  format: string
+  source: Continue session
+  target: Sessie hervatten
+  target_initial: Sessie hervatten
+- locale: nl-nl
+  format: string
+  source: Company Inc.
+  target: Bedrijfsnaam BV
+  target_initial: Bedrijfsnaam BV
+- locale: nl-nl
+  format: string
+  source: Enable/Disable online chat.
+  target: Online chat in- of uitschakelen
+  target_initial: Online chat in- of uitschakelen
+- locale: nl-nl
+  format: string
+  source: Enter timzone...
+  target: Voer tijdzone in...
+  target_initial: Voer tijdzone in...
+- locale: nl-nl
+  format: string
+  source: escalated
+  target: geëscaleerd
+  target_initial: geëscaleerd
+- locale: nl-nl
+  format: string
+  source: Destination Group
+  target: Bestemmingsgroep
+  target_initial: Bestemmingsgroep
+- locale: nl-nl
+  format: string
+  source: Chatting Customers
+  target: Chattende klanten
+  target_initial: Chattende klanten
+- locale: nl-nl
+  format: string
+  source: Close current tab
+  target: Huidige tab sluiten
+  target_initial: Huidige tab sluiten
+- locale: nl-nl
+  format: string
+  source: Evangelist
+  target: Evangelist
+  target_initial: Evangelist
+- locale: nl-nl
+  format: string
+  source: CVV
+  target: CVV
+  target_initial: CVV
+- locale: nl-nl
+  format: string
+  source: Current Token
+  target: Huidig token
+  target_initial: Huidig token
+- locale: nl-nl
+  format: string
+  source: Continue anyway
+  target: Toch hervatten
+  target_initial: Toch hervatten
+- locale: nl-nl
+  format: string
+  source: Disable
+  target: Uitschakelen
+  target_initial: Uitschakelen
+- locale: nl-nl
+  format: string
+  source: contains all not
+  target: bevat geen
+  target_initial: bevat geen
+- locale: nl-nl
+  format: string
+  source: Default caller id
+  target: Standaard weergegeven nummer
+  target_initial: Standaard weergegeven nummer
+- locale: nl-nl
+  format: string
+  source: Connect Facebook App
+  target: Koppelen met Facebook app
+  target_initial: Koppelen met Facebook app
+- locale: nl-nl
+  format: string
+  source: Default caller id for outbound calls.
+  target: Standaard weergegeven nummer voor uitgaande gesprekken
+  target_initial: Standaard weergegeven nummer voor uitgaande gesprekken
+- locale: nl-nl
+  format: string
+  source: Email Outbound
+  target: E-mail uitgaand
+  target_initial: E-mail uitgaand
+- locale: nl-nl
+  format: string
+  source: 'Copy to clipboard: Ctrl+C, Enter'
+  target: 'Kopieren naar klembord: Ctrl+C, enter'
+  target_initial: 'Kopieren naar klembord: Ctrl+C, enter'
+- locale: nl-nl
+  format: string
+  source: Edit Addon
+  target: Toevoeging bewerken
+  target_initial: Toevoeging bewerken
+- locale: nl-nl
+  format: string
+  source: Branding
+  target: Brandmerken
+  target_initial: Brandmerken
+- locale: nl-nl
+  format: string
+  source: Callback URL
+  target: Terugroepadres
+  target_initial: Terugroepadres
+- locale: nl-nl
+  format: string
+  source: Default caller id.
+  target: Standaard weergegeven nummer.
+  target_initial: Standaard weergegeven nummer.
+- locale: nl-nl
+  format: string
+  source: Create Text Modules
+  target: Maak textmodule aan
+  target_initial: Maak textmodule aan
+- locale: nl-nl
+  format: string
+  source: contains all
+  target: bevat alle
+  target_initial: bevat alle
+- locale: nl-nl
+  format: string
+  source: contains one
+  target: bevat een
+  target_initial: bevat een
+- locale: nl-nl
+  format: string
+  source: contains one not
+  target: bevat niet een
+  target_initial: bevat niet een
+- locale: nl-nl
+  format: string
+  source: Email - subject field
+  target: E-mail - onderwerp veld
+  target_initial: E-mail - onderwerp veld
+- locale: nl-nl
+  format: string
+  source: Last contact
+  target: Laatste contact
+  target_initial: Laatste contact
+- locale: nl-nl
+  format: string
+  source: SSL
+  target: SSL
+  target_initial: SSL
+- locale: nl-nl
+  format: string
+  source: Network
+  target: Netwerk
+  target_initial: Netwerk
+- locale: nl-nl
+  format: string
+  source: New Version
+  target: Nieuwe Versie
+  target_initial: Nieuwe Versie
+- locale: nl-nl
+  format: string
+  source: Only for these groups.
+  target: Alleen voor deze groepen
+  target_initial: Alleen voor deze groepen
+- locale: nl-nl
+  format: string
+  source: Telegram
+  target: Telegram
+  target_initial: Telegram
+- locale: nl-nl
+  format: string
+  source: My assigned Tickets
+  target: Mijn Tickets
+  target_initial: Mijn Tickets
+- locale: nl-nl
+  format: string
+  source: New Trigger
+  target: Nieuwe Trigger
+  target_initial: Nieuwe Trigger
+- locale: nl-nl
+  format: string
+  source: SLAs
+  target: SLAs
+  target_initial: SLAs
+- locale: nl-nl
+  format: string
+  source: There is no agent online.
+  target: Er is geen agent online.
+  target_initial: Er is geen agent online.
+- locale: nl-nl
+  format: string
+  source: New SLA
+  target: Nieuwe SLA
+  target_initial: Nieuwe SLA
+- locale: nl-nl
+  format: string
+  source: Open Tickets
+  target: Open Tickets
+  target_initial: Open Tickets
+- locale: nl-nl
+  format: string
+  source: First Response
+  target: Eerste Reactie
+  target_initial: Eerste Reactie
+- locale: nl-nl
+  format: string
+  source: Verifying...
+  target: Controleren...
+  target_initial: Controleren...
+- locale: nl-nl
+  format: string
+  source: Your Logo
+  target: Uw Logo
+  target_initial: Uw Logo
+- locale: nl-nl
+  format: string
+  source: Email & Online
+  target: Email & Online
+  target_initial: Email & Online
+- locale: nl-nl
+  format: string
+  source: Department Name
+  target: Afdeling Naam
+  target_initial: Afdeling Naam
+- locale: nl-nl
+  format: string
+  source: Customer Chat
+  target: Klant Chat
+  target_initial: Klant Chat
+- locale: nl-nl
+  format: string
+  source: Not Assigned
+  target: Niet Toegewezen
+  target_initial: Niet Toegewezen
+- locale: nl-nl
+  format: string
+  source: Zammad Karma
+  target: Zammad Karma
+  target_initial: Zammad Karma
+- locale: nl-nl
+  format: string
+  source: Merge to Ticket#
+  target: Samenvoegen met Ticket#
+  target_initial: Samenvoegen met Ticket#
+- locale: nl-nl
+  format: string
+  source: Last contact (agent)
+  target: Laatste contact (agent)
+  target_initial: Laatste contact (agent)
+- locale: nl-nl
+  format: string
+  source: Last contact (customer)
+  target: Laatste contact (klant)
+  target_initial: Laatste contact (klant)
+- locale: nl-nl
+  format: string
+  source: Delivery failed
+  target: Aflevering mislukt
+  target_initial: Aflevering mislukt
+- locale: nl-nl
+  format: string
+  source: Password (confirm)
+  target: Wachtwoord (bevestigen)
+  target_initial: Wachtwoord (bevestigen)
+- locale: nl-nl
+  format: string
+  source: Open Ticket# %s
+  target: Open Ticket# %s
+  target_initial: Open Ticket# %s
+- locale: nl-nl
+  format: string
+  source: First response
+  target: Eerste reactie
+  target_initial: Eerste reactie
+- locale: nl-nl
+  format: string
+  source: Latest updates
+  target: Laatste aanpassing
+  target_initial: Laatste aanpassing
+- locale: nl-nl
+  format: string
+  source: New Project
+  target: Nieuw Project
+  target_initial: Nieuw Project
+- locale: nl-nl
+  format: string
+  source: CTI
+  target: CTI
+  target_initial: CTI
+- source: Select the customer of the ticket or create one.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: updated
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Unassigned Tickets
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Unassigned & Open Tickets
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Sender Format
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Linked Accounts
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: New to
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: join today!
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Sign up
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Login successfully! Have a nice day!
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Ticket %s created!
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: twitter status
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: twitter direct-message
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Linked Objects
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: My Organization Tickets
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: We've sent password reset instructions to your email address.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Enter your username or email address
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Choose your new password.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Woo hoo! Your password has been changed!
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Please try to login!
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: If you don't receive instructions within a minute or two, check your email's
+    spam and junk filters, or try resending your request.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Please click the button below to create your first one.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: First Solution
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: uninstall
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Items per page
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Create an outbound Ticket (will send this as email to customer)
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: up
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: down
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Moved in
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Moved out
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Invitation sent!
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Update successful!
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Invite Agents
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Getting started!
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Send invitation
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Work Disposition
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Conditions where SLA is used
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Add Attribute
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Send to clients
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Feedback about our new Interface
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: What ideas do you have?
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Thanks for your Feedback!
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Here you can create one.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Fold in
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: in %s
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Mark all as seen.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Enter Answer or
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Target
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Words
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Reload application
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: set internal
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Uploading
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: New Add-On
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: New Branch
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Edit Branch
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: New Release
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Objects
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: not translated
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Source
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Object Manager
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Sync Changes
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: New Attribute
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Ticket Hook
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Ticket Hook Position
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Client Secret
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Twitter Secret
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Twitter Key
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Needed
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Minimal size
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Lost Password
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Enable Ticket creation
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Max. Email Size
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Maximal size in MB of emails.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Notification Sender
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Import Mode
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Import Endpoint
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Import Key
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Storage
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Geo Services
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Frontend
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: SystemID
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Storage Mechanism
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Geo IP Backend
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Geo Location Backend
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Releases
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Recent Releases
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Maximal failed logins
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Maximal failed logins after account is inactive.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Enables users to create their own account via web interface.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: New User Accounts
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Defines OTRS endpoint auth key.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Defines OTRS endpoint to import users, ticket, states and articles.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Defines the backend for geo location lookups.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Defines the backend for geo ip lookups.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: New Profile
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: You're already registered with your email adress if you've been in touch
+    with our support team.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: You can request your password
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Password needs to contain 2 lower and 2 upper characters.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Password needs to have at least one digit.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Shoot
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: no criteria
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Owned by nobody
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Owned by me
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Matrix
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: No template created yet.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Choose attributes and then save them as a new template.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Triggers
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Schedulers
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Send client stats to central server.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Restore Defaults
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Ticket Number Format
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Ticket Subject Size
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Send client stats
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Client storage
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Fully Qualified Domain Name
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Status Code
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Tag
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Template Title
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Layout Reference
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Switch to
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Zammad looks like this for "%s"
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Store
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Ticket Number Increment
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Configure Base
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: System URL
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Enter Template Name
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Send Mails via
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Maintenance Message
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Status Type
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: escalation
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Twitter App Credentials
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: new & open
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Notes
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: "%s% are currently in process"
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Updated at
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Updated by
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: No filter.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Timeframe for solving the problem.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Timeframe for every following response.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Timeframe for the first response.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: in hours
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Ticket Selector
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Escalation Times
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Ticket Subscriptions
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Trigger
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Macros
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Report Profiles
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Stay on tab
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Report
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Your Email Configuration
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: ended switch to
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Invite Agents/Colleges
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Enable debugging for implementation.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: E. g. recent changed tickets, users or organizations.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: switch to
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Sender Format Seperator
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Additional follow up detection
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Defines the sender of email notifications.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Testing
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: We have already found %s email(s) in your mailbox. Zammad will move it all
+    from your mailbox into Zammad.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Verify sending and receiving
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: support@example.com
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Feedback Form
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: LinkedIn App Credentials
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Name of form submit button
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Message after sending form
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Start modal dialog for form.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Show title in form.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Thank you for your inquiry! We'll contact you soon as possible.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: You have no configured account right now.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Fixed Email Accounts
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Holidays
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Some Text
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Inline translation
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Just click into the marker and update the words just in place. Enjoy!
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Text with enabled inline translations looks like
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: If you want to translate it via the translation table, just go ahead below.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Text with disabled inline translations looks like
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: New password
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: All computers and browsers that have access to your Zammad appear here.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Next in overview
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Previous in overview
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: The default font size is 12px.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: There are too many people in queue for the chat.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: The chat is turned off.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: The browser is outdated. It does not support WebSocket - the technology
+    we use for the chat.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Here you can sign out, change the frontend language or see your latest views
+    items.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Here you can create new tickets. Also if you have the permissions you can
+    create new customers and organizations.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Personal Settings
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Ticket reminder reached
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Limit Groups
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Ticket escalation
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: A new version of Zammad is available, please reload your browser.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Pending reminder reached for Ticket |%s|
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: "%s updated Organization |%s|"
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Ticket |%s| is escalated!
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Subscription Settings
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Most recent activity
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Manage your notifications settings
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Sending...
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Reply to last article
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Open note box
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Enable/disable inline translations
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Used when composing a text
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Text editing
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Used when viewing a Ticket
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Update as closed
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Open reply box
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Removes any hyperlink
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Format as h3 heading
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Format as h2 heading
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Format as h1 heading
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Format as ordered list
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Format as unordered list
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Inserts a horizontal rule
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Removes the formatting
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Format as //strikethrough//
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Format as ||italic||
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Format as _underlined_
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Move left and right
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Move up and down
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Used in lists (views and results)
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Confirm/submit dialog
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Next in tab
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: List of shortcuts
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Used anywhere (admin only)
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Used anywhere
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Set article to internal/public
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: To open and work on it, click on the Ticket |#%s| directly %l or in the
+    overview |"%s"| %l and click on the Ticket.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Add alarm to pending reminder and escalated tickets.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Here you can sign out, change the frontend language and see your last viewed
+    items.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: This template saves the following attributes
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: With templates you can pre-fill ticket attributes.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Online Forms
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: How to use it
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Starting Zammad
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Invite Colleagues
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: migrate from another system
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: When you turn on debugging by setting the option §debug§ to §true§ the reason
+    gets printed to the javascript console.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: 'Zammad Chat requires jQuery. If you don''t already use it on your website
+    include it like this:'
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: 'There can be several reasons for the chat to not show up:'
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: If you want to open the chat by the press of a button set the option §show§
+    to §false§ and add the class §open-zammad-chat§ to the button.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Manually open chat
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: The chat will show up once the connection to the server got established
+    and if there is someone online to chat with.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Can be in any CSS color format.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: You can create multiple chat topics.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Preview Width
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Max. clients in waitlist
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: New Macro
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Invite Customer
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: New password (confirm)
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: The URL to this installation of Zammad.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Year(s)
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Month(s)
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Minute(s)
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: within last (relative)
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: within next (relative)
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Sure to delete this object?
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: specific user
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Run every %s at %s
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Disable Notifications
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Execute changes on objects
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Conditions for effected objects
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: When should the job run?
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: New Scheduler
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Will process
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Scheduled for
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Has processed
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: ringing
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: not reached
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: not exist
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: enclosed
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Enclosure
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Changes were made that require a database update.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Database Update required
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Update Database
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: inactive
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Used in object views
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Enable or disable the maintenance mode of Zammad. If enabled, _all non-administrators
+    get logged out_ and _only administrators can start a new session_.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Send a message to all logged in users.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Zammad is currently in maintenance mode. Only administrators can login.
+    Please wait until the maintenance window is over.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Resend verification email
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Unable to verify email. Please contact your administrator.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Navigate through article
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: If you don\'t see the email, check other places it might be, like your junk,
+    spam, social, or other folders.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: We\'ve sent an email to _%s_. Click the link in the email to verify your
+    account.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Scroll down to see new messages
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: You have closed a ticket
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Karma Trends
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: What affects your Zammad Karma?
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: You have answered a ticket within 1h
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Usage of advanced features
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Hero
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Intermediate
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Newbie
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Your current level
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Your karma is |%s|.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: You are an |%s|.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Karma Level
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Zammad Karma is a powerful tool that tracks and visualizes your productivity.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Find what you search. E. g. "search phrase"
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Extended Search
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Show Search Details
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Master
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: OK, I've copied my token
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Last used
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Manage applications that can use Zammad as an OAuth provider and applications
+    that you've authorized to use your account.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Pick a name for the application, and we'll give you a unique token.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: New App
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Enable REST API access using the username/email address and password for
+    the authentication user.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: OK, I\'ve copied my token
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Your New Personal Access Token
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Personal Access Tokens
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: You can generate a personal access token for each application you use that
+    needs access to the Zammad API.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: has changed
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: For security reasons, the API token is shown only once. You'll need to copy
+    it somewhere safe before continuing.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: You have tickets that are over 2 days overdue
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: You have escalated tickets
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Please type §%s§ to proceed or close this modal to cancel.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: monthly
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: This action will lead to data loss. To prevent accidental actions we ask
+    you to confirm your intention.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: You are going to cancel your Zammad account. Are you ABSOLUTELY sure?
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Enables user authentication via %s. Register your app first at [%s](%s).
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Please enter a valid "%s"!
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Expiration (MM/YYYY)
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Subscription
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Summary
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Your trial is running till %s
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Do you want to cancel your subscription?
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Yes, please cancel my subscription
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Update payment method
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: per agent / month
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: or %s %s monthly
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Next payment due
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: When your subscription is canceled, you will no longer be able to use your
+    Zammad.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Update subscription
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Your account got canceled at %s! Your system will be removed at %s
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Yes, undo my subscription cancel
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: You |accumulate positive Karma| when you regularly answer and close tickets
+    on time and when you use advanced features such as text modules, ticket reminders
+    or tagging tickets. Zammad |Karma will decrease| when you have re-opend tickets,
+    escalated tickets or tickets that are two or more days overdue.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: You use %s in text but no attachment is attached. Do you want to continue?
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Not configured
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Sure?
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Sounds
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: SLA Times
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Execute changes on objects.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Subscribe to iCalendar feed
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Why doesn't the chat show up?
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Holidays iCalendar Feed
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Macro
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Scheduler
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Realtime
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Reporting
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: No Entries
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Default at Signup
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: This service sends notifications to your %s channel.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Set outbound caller id
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Destination caller id
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Set caller id of outbound calls based on destination caller id.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Caller id to block
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Blocked caller ids based on sender caller id.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Also caller id of outbound calls can be changed.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: This service shows you contacts of incoming calls and a caller list in realtime.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: VoIP service provider with realtime push.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: A team communication tool for the 21st century.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Ticket |%s| will escalate soon!
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: The identifier for a ticket, e.g. Ticket#, Call#, MyTicket#. The default
+    is Ticket#.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: The format of the subject.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: "|Left| means |[Ticket#12345] Some Subject|"
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: "|Right| means |Some Subject [Ticket#12345]|"
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: '|None| means |Some Subject| (without ticket number). In the last case you
+    should enable "postmaster___follow___up___search___in" to recognize followups
+    based on email headers and/or body.'
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: right
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Min. size of number
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: With |Date| the ticket numbers will be generated by the current date, the
+    SystemID and the counter. The format looks like "Year.Month.Day.SystemID.Counter"
+    (e.g. 201206231010138, 201206231010139).
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: '|Increment| increments the ticket number, the SystemID and the counter
+    are used with "SystemID.Counter" format (e.g. 1010138, 1010139).'
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Selects the ticket number generator module.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Defines how the From field from the emails (sent from answers and email
+    tickets) should look like.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Defines the separator between the agents real name and the given group email
+    address.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: The text at the beginning of the subject in an email reply, e.g. RE, AW,
+    or AS.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Ticket Subject Reply
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Geo Calendar Service
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: If this regex matches, no notification will be send by the sender.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Defines if a customer can create tickets via the web interface.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Defines groups where customer can create tickets via web interface. "-"
+    means all groups are available.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Group selection for Ticket creation
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Defines the name of the application, shown in the web interface, tabs and
+    title bar of the web browser.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Will be shown in the app and is included in email footers.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Defines the logo of the application, shown in the web interface.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: You can switch between the backend for new attachments even on a system
+    that is already in production without any loss of data.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: If you want to move already stored attachments from one backend to another,
+    you need to execute the following via console.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Move all from "%s" to "%s"
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: 'Defines the fully qualified domain name of the system. This setting is
+    used as a variable, #{setting.fqdn} which is found in all forms of messaging used
+    by the application, to build links to the tickets within your system.'
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Defines the backend for geo location lookups to store geo locations for
+    addresses.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Defines the backend for geo IP lookups. Show also location of an IP address
+    if an IP address is shown.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Defines the backend for user and organization image lookups.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Image Service
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Use client storage to cache data to perform speed of application.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Defines the backend for geo calendar lookups. Used for inital calendar succession.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Send client stats/error message to central server to improve the usability.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: To select placeholders from a list, just enter "::".
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Assign Users based on users domain.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Create rules that single out the tickets for the Service Level Agreement.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Customers in the organization can view each other items.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Notification
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Nothing selected
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Access to Customer Tickets based on current_user.id and current_user.organization_id
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Access to Agent Tickets based on Group Access
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Manage %s Settings
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Manage %s
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: New Role
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Assign follow up to latest agent again.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: reject follow up/do not reopen Ticket
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: do not reopen Ticket but create new Ticket
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Follow up for closed ticket possible or not.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Assignment timeout in minutes if assigned agent is not working on it. Ticket
+    will be shown as unassigend.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Notes are visible to agents only, never to customers.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Monitoring
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: no issues
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Health information can be retrieved as JSON using
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Health Check
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: specific organization
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: current user organization
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: not set (not defined)
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: No such master ticket number!
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: You need to configure the Zammad endpoints in the Sipgate web interface
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: With Checksum the counter will be appended with a checksum at the end. The
+    format looks like %s (e. g. %s).
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: A Test Ticket has been created, you can find it in your overview "%s" %l.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Play user interface sound effects
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Subscribe to public holidays in
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Notification Sound
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Add attachment option to upload.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Thank you for your inquiry (#%s)! We'll contact you as soon as possible.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: This might take some time where the system can't be used.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Base Objects
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: We found a lot of dynamic fields which are not common in Zammad, as we follow
+    a different approach to ticket attributes. Zammad uses also tags in addition to
+    custom fields to classify tickets. This difference can create a new philosophy
+    of your ticket attributes / tags compared to your current use of dynamic fields
+    in OTRS.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Enter the link provided by the plugin at the end of the installation to
+    link the two systems
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: We detected OTRS BPM processes which can't get imported into Zammad, since
+    we currently don't support these kind of workflows.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Migration Plugin for %s
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Migrate %s Data
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Download and install the %s Migration Plugin on your %s instance.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Download %s Migration Plugin
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Enter your Email address and the %s API token gained from your
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Enter credentials
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Enter the URL of your %s system
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Enter your email address and the %s API token gained from your admin interface.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Test Connection
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Password for proxy connection.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Username for proxy connection.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Password needs to have at least minimal size of characters.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Max size of the subject in an email reply.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: In default the follow up check is done via the subject of an email. With
+    this setting you can add more fields where the follow up check is executed.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Time Accounting
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Selector
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Time Units Total
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Time Units
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Enable time accounting for following matching tickets.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: At the same time, We authorize our credit institute to settle the direct
+    debits drawn by Zammad GmbH on our account.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Insert the widget-code into the source code of every page the chat should
+    be visible on. It should be placed at the end of the page source code before the
+    `</body>` closing tag.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: I hereby authorize Zammad GmbH to collect the amounts due from my account
+    by direct debit until further notice.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: SEPA Direct Debit
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: 'Issuance of a SEPA-Base Direct Debit Mandate until revocation:'
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: You have not created a ticket yet.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: The way to communicate with us is this thing called "ticket".
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Reopened
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Successful!
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Invite customers to create issues in Zammad
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: With Checksum, a checksum will be appended to the counter. The format looks
+    like "%s" (e. g. %s).
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: An open source monitoring tool.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: To set up this service you need to create a new |"Incoming webhook"| in
+    your %s integration panel, and enter the web hook URL below.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: When notification is being sent.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: iCalendar links from Google will get fetched once a day
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Enable REST API using tokens (not username/email address and password).
+    Each user needs to create own access tokens in user profile.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Your account has not been verified. Please click the link in the verification
+    email.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Woo hoo! Your email address has been verified!
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Put a message on the login page. To change it, click on the text area below
+    and change it in-line.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Copy current object number (e. g. Ticket#) to clipboard
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Please execute database changes only in a maintenance time-slot.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: With form you can add a form to your web page which directly generates a
+    ticket for you.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Here you can search for tickets, customers and organizations. Use the wildcard
+    §*§ to find everything. E. g. §smi*§ or §rosent*l§. You also can use ||double
+    quotes|| for searching phrases §"some phrase"§.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: You can create chat widgets for your web pages to allow visitors to chat
+    with you.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: You need to add the following Javascript code snippet to your web page
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Insert the widget code into the source code of every page the chat shall
+    be visible on. It should be placed at the end of the page's source code before
+    the §</body>§ closing tag.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Set up the communication channels you want to use with your Zammad.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: See your tickets from within your favorite calendar by adding the following
+    URL to your calendar app.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Don't load CSS for form. You need to generate your own CSS for the form.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Text modules
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: A test ticket has been created, you can find it in your overview |"%s"|
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Here you see a quick overview of your and other agents' performance.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Here you find your ticket overviews for open, assigned and escalated tickets.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: '|%s| stores all attachments in the "%s".'
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Unassigned email addresses, assign them to a channel or delete them.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: With filters you can e. g. dispatch new tickets into certain groups or set
+    a certain priority for tickets of a VIP customer.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Here you will find the latest activities of your system.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Third-party Applications
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Drop files here
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: "%s of your tickets are currently in process."
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: A new session was created with your account. This session will be stopped
+    to prevent a conflict.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: To make translations easier you can enable and disable the inline translation
+    feature by pressing "%s".
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Invite agents/colleagues to help working on tickets
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: submit
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: run macro
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: drag here to cancel
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: A powerfull service to get more information about your customers.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Max. length of the subject in an email reply.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Use client storage to cache data to enhance performance of application.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Geo Location Service
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Defines the backend for geo IP lookups. Shows also location of an IP address
+    if an IP address is shown.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Defines the backend for geo calendar lookups. Used for initial calendar
+    succession.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Password needs to contain at least one digit.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Getting an Access Token
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: You're already registered with your email address if you've been in touch
+    with our support team.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Where to append the chat to.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Report Profile
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Number of failed logins after account will be deactivated.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Password Access
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Identifier of the chat-topic.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Sender Format Separator
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Updating Database
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Unable to load information!
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Show the chat when ready.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: This is Zammad version %s
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Wrong Username or Password combination.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Defines the system identifier. Every ticket number contains this ID. This
+    ensures that only tickets which belong to your system will be processed as follow-ups
+    (useful when communicating between two instances of Zammad).
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Password needs to have at least a minimal number of characters.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Requesting the Grant
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Location of an external chat.css file.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Minimum length
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: New Application
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: CSS font-size with a unit like 12px, 1.5em. If left to undefined it inherits
+    the font-size of the website.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Uninstall
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Geo IP Service
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Accounted Time
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Defines if ticket can get created via web form.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: The text at the beginning of the subject in an email reply, e. g. RE, AW,
+    or AS.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: If left empty, the host gets auto-detected - in this case %s. The auto-detection
+    reads out the host from the <script> tag. If you don't include it via a <script>
+    tag you need to specify the host.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Enables console logging.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Welcome Title shown on the closed chat. Can contain HTML.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Feedback
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Removes the shadows for a flat look.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Add this class to a button on your page that should open the chat.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: This class gets added to the button on initialization and gets removed once
+    the chat connection got established.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: The identifier for a ticket, e. g. Ticket#, Call#, MyTicket#. The default
+    is Ticket#.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Automatically loads the chat.css file. If you want to use your own css,
+    just set it to false.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Meine zugewiesenen Tickets
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Define the http protocol of your instance.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Invoice
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Invalid agent count value, only numbers are allowed!
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Yes, change my subscription
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: This option got set manually by the Zammad GmbH. You will recieve an invoice
+    about your Zammad Subscription and you have to pay it within 7 days. Do not change
+    this payment method until you really want it, because this option is a hidden
+    feature which can by only activated by the Zammad Team.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: The downgrade of your account will be done at the end of your current already
+    charged periode.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: We will charge for next full periode
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Already charged in this periode
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Your new selection
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Plan
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: This option got set manually by the Zammad GmbH. You will recieve an invoice
+    about your Zammad Subscription and you have to pay it within 14 days. Do not change
+    this payment method until you really want it, because this option is a hidden
+    feature which can by only activated by the Zammad Team.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: LDAP Host
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Job is waiting to get started...
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Bind Password
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Bind User
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: untouched
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: With your current configuration the following will happen
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Analyzing entries with given configuration...
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Counting entries. This may take a while.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: 'Note: All not mapped users will get the default signup roles.'
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: No %s configured.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: This service enables Zammad to connect with your LDAP server.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Mapping
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Base DN
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Running...
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: "%s groups to %s roles assignments"
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Article Last Sender
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Invalid ticket selector conditions
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Reply-To
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Defines the separator between the agent's real name and the given group
+    email address.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Maximum size in MB of emails.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Defines how the From field of emails (sent from answers and email tickets)
+    should look like.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: If this regex matches, no notification will be sent by the sender.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Set/overwrite sender/from of email based on reply-to header. Useful to set
+    correct customer if email is received from a third party system on behalf of a
+    customer.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: By default the follow-up check is done via the subject of an email. With
+    this setting you can add more fields for which the follow-up check will be executed.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Maximum Email Size
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Additional follow-up detection
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: LDAP integration for user management.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Defines pretty date format.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: You have no configured %s right now.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Pretty Date
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Default visibility for new note.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Use subject field for emails. If disabled, the ticket title will be used
+    for subject.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Use sender initials at end of an tweet.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Twitter - tweet initials
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Note - default visibility
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Maximum failed logins
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Defines groups for which a customer can create tickets via web interface.
+    "-" means all groups are available.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Enable if you want to quote the full email in your answer. The quoted email
+    will be put at the end of your answer. If you just want to quote a certain phrase,
+    just mark the text and press reply (this feature is always available).
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Email - full quote
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: This service allows you to connect i-doit objects with Zammad.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Change Objects
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Replacement
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: CMDB to document complex relations of your network components.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Start new
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Endpoint
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Read
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Out of office replacement
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Urgency
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: There are more than 1000 tickets in the Zendesk system. Due to API rate
+    limit restrictions we can't get the exact number of tickets yet and have to fetch
+    them in batches of 1000. This might take some time, better grab a cup of coffee.
+    The total number of tickets gets updated as soon as the currently known number
+    is surpassed.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Exchange integration for contacts management.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: This service receives http requests from %s and creates tickets with host
+    and service.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: This service enables Zammad to connect with your Exchange server.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: What values of %s should be synced to users.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Automatically enrich your customers and organizations with fresh, up-to-date
+    intel. Map data directly to object fields.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: What values of %s should be synced to organization.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Shared
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: If the host and service is recovered again, the ticket will be closed automatically.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Till
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Out of Office
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: To enable %s for sending http requests to %s, you need create "%s" in the
+    admin interface if %s.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Auto close state
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: Auto close
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: This service receives emails from %s and creates tickets with host and service.
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''
+- source: My replacement Tickets
+  format: string
+  locale: nl-nl
+  target: ''
+  target_initial: ''

@@ -1,0 +1,64 @@
+I"(function() {
+  var SidebarOrganization,
+    bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; },
+    extend = function(child, parent) { for (var key in parent) { if (hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },
+    hasProp = {}.hasOwnProperty;
+
+  SidebarOrganization = (function(superClass) {
+    extend(SidebarOrganization, superClass);
+
+    function SidebarOrganization() {
+      this.editOrganization = bind(this.editOrganization, this);
+      this.showOrganization = bind(this.showOrganization, this);
+      this.sidebarItem = bind(this.sidebarItem, this);
+      return SidebarOrganization.__super__.constructor.apply(this, arguments);
+    }
+
+    SidebarOrganization.prototype.sidebarItem = function() {
+      if (!this.ticket.organization_id) {
+        return;
+      }
+      return {
+        head: 'Organization',
+        name: 'organization',
+        icon: 'group',
+        actions: [
+          {
+            title: 'Edit Organization',
+            name: 'organization-edit',
+            callback: this.editOrganization
+          }
+        ],
+        callback: this.showOrganization
+      };
+    };
+
+    SidebarOrganization.prototype.showOrganization = function(el) {
+      this.el = el;
+      return new App.WidgetOrganization({
+        el: this.el,
+        organization_id: this.ticket.organization_id
+      });
+    };
+
+    SidebarOrganization.prototype.editOrganization = function() {
+      return new App.ControllerGenericEdit({
+        id: this.ticket.organization_id,
+        genericObject: 'Organization',
+        pageData: {
+          title: 'Organizations',
+          object: 'Organization',
+          objects: 'Organizations'
+        },
+        container: this.el.closest('.content')
+      });
+    };
+
+    return SidebarOrganization;
+
+  })(App.Controller);
+
+  App.Config.set('300-Organization', SidebarOrganization, 'TicketZoomSidebar');
+
+}).call(this);
+:ET

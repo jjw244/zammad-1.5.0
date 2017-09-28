@@ -1,0 +1,166 @@
+# Rails autoload has some issues with same namend sub-classes
+# in the importer folder require AND simultaniuos requiring
+# of the same file in different threads so we need to
+# require them ourself
+require 'import/otrs/ticket'
+require 'import/otrs/ticket_factory'
+require 'import/otrs/article_customer'
+require 'import/otrs/article_customer_factory'
+require 'import/otrs/article'
+require 'import/otrs/article_factory'
+require 'import/otrs/article/attachment_factory'
+require 'import/otrs/history'
+require 'import/otrs/history_factory'
+require 'import/otrs/history/article'
+require 'import/otrs/history/move'
+require 'import/otrs/history/new_ticket'
+require 'import/otrs/history/priority_update'
+require 'import/otrs/history/state_update'
+require 'store'
+require 'store/object'
+require 'store/provider/db'
+require 'store/provider/file'
+
+module Import
+  module OTRS
+    extend Import::Helper
+    extend Import::OTRS::ImportStats
+    extend Import::OTRS::Async
+    extend Import::OTRS::Diff
+
+    # rubocop:disable Style/ModuleFunction
+    extend self
+
+    def start
+      log 'Start import...'
+
+      checks
+
+      prerequisites
+
+      base_objects
+
+      updateable_objects
+
+      customer_user
+
+      threaded_import('Ticket')
+
+      true
+    end
+
+    def connection_test
+      Import::OTRS::Requester.connection_test
+    end
+
+    private
+
+    def checks
+      check_import_mode
+      connection_test
+    end
+
+    def prerequisites
+      # make sure to create store type otherwise
+      # it might lead to race conditions while
+      # creating it in different import threads
+      Store::Object.create_if_not_exists(name: 'Ticket::Article')
+    end
+
+    def import(remote_object, args = {})
+      log "loading #{remote_object}..."
+      import_action(remote_object, args)
+    end
+
+    def threaded_import(remote_object, args = {})
+      thread_count = args[:threads] || 8
+      limit        = args[:limit]   || 20
+
+      Thread.abort_on_exception = true
+      threads                   = {}
+      (1..thread_count).each { |thread|
+
+        threads[thread] = Thread.new {
+
+          Thread.current[:thread_no]  = thread
+          Thread.current[:loop_count] = 0
+
+          log "Importing #{remote_object} in steps of #{limit}"
+          loop do
+            # get the offset for the current thread and loop count
+            thread_offset_base = (Thread.current[:thread_no] - 1) * limit
+            thread_step        = thread_count * limit
+            offset             = Thread.current[:loop_count] * thread_step + thread_offset_base
+
+            break if !imported?(
+              remote_object: remote_object,
+              limit:         limit,
+              offset:        offset,
+              diff:          args[:diff]
+            )
+
+            Thread.current[:loop_count] += 1
+          end
+          ActiveRecord::Base.connection.close
+        }
+      }
+      (1..thread_count).each { |thread|
+        threads[thread].join
+      }
+    end
+
+    def limit_import(remote_object, args = {})
+      offset = 0
+      limit  = args[:limit] || 20
+      log "Importing #{remote_object} in steps of #{limit}"
+      loop do
+
+        break if !imported?(
+          remote_object: remote_object,
+          limit:         limit,
+          offset:        offset,
+          diff:          args[:diff]
+        )
+
+        offset += limit
+      end
+    end
+
+    def imported?(args)
+      log "loading #{args[:limit]} #{args[:remote_object]} starting at #{args[:offset]}..."
+      return false if !import_action(args[:remote_object], limit: args[:limit], offset: args[:offset], diff: args[:diff])
+      true
+    end
+
+    def import_action(remote_object, args = {})
+      records = Import::OTRS::Requester.load(remote_object, limit: args[:limit], offset: args[:offset], diff: args[:diff])
+      if !records || records.empty?
+        log '... no more work.'
+        return false
+      end
+      factory_class(remote_object).import(records)
+    end
+
+    def factory_class(object)
+      "Import::OTRS::#{object}Factory".constantize
+    end
+
+    # sync settings
+    def base_objects
+      import('SysConfig')
+      import('DynamicField')
+    end
+
+    def updateable_objects
+      import('State')
+      import('Priority')
+      import('Queue')
+      import('User')
+      import('Customer')
+    end
+
+    def customer_user
+      limit_import('CustomerUser', limit: 50)
+    end
+  end
+end

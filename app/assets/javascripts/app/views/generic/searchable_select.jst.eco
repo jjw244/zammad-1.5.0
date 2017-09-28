@@ -1,0 +1,25 @@
+<div class="dropdown-toggle" data-toggle="dropdown">
+  <input
+    class="searchableSelect-shadow form-control js-shadow"
+    id="<%= @id %>"
+    name="<%= @name %>"
+    <%= @required %>
+    <%= @autofocus %>
+    value="<%= @value %>"
+  >
+  <input
+    class="searchableSelect-main form-control js-input<%= " #{ @class }" if @class %>"
+    placeholder="<%= @placeholder %>"
+    value="<%= @valueName %>"
+    autocomplete="new-password"
+   >
+  <div class="searchableSelect-autocomplete">
+    <span class="searchableSelect-autocomplete-invisible js-autocomplete-invisible"></span>
+    <span class="searchableSelect-autocomplete-visible js-autocomplete-visible"></span>
+  </div>
+  <% if !@ajax: %><%- @Icon('arrow-down', 'dropdown-arrow') %><% end %>
+  <div class="small loading icon"></div>
+</div>
+<ul class="dropdown-menu dropdown-menu-left js-optionsList" role="menu">
+  <%- @renderedOptions %>
+</ul>

@@ -1,0 +1,95 @@
+I"¢(function() {
+  var Index,
+    extend = function(child, parent) { for (var key in parent) { if (hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },
+    hasProp = {}.hasOwnProperty;
+
+  Index = (function(superClass) {
+    extend(Index, superClass);
+
+    Index.prototype.events = {
+      'click [data-type=network-new]': 'network_new',
+      'click [data-type=network-edit]': 'network_edit',
+      'click [data-type=network-destroy]': 'network_destroy',
+      'click [data-type=network-category-new]': 'network_category_new',
+      'click [data-type=network-category-edit]': 'network_category_edit',
+      'click [data-type=network-category-destroy]': 'network_category_destroy'
+    };
+
+    function Index() {
+      Index.__super__.constructor.apply(this, arguments);
+      this.title('Network');
+      this.render();
+      this.navupdate('#network');
+    }
+
+    Index.prototype.render = function() {
+      var i, j, k, len, len1, len2, network, network_categories, network_category, networks;
+      networks = App.Network.all();
+      network_categories = App.NetworkCategory.all();
+      for (i = 0, len = networks.length; i < len; i++) {
+        network = networks[i];
+        for (j = 0, len1 = networks.length; j < len1; j++) {
+          network = networks[j];
+          this.log('notice', network);
+        }
+      }
+      for (k = 0, len2 = network_categories.length; k < len2; k++) {
+        network_category = network_categories[k];
+        this.log('notice', network_category);
+      }
+      return this.html(App.view('network')({
+        networks: App.Network.all()
+      }));
+    };
+
+    Index.prototype.network_new = function(e) {
+      e.preventDefault();
+      return new App.ControllerGenericNewWindow({
+        pageData: {
+          object: 'Network'
+        },
+        genericObject: App.Network,
+        success: (function(_this) {
+          return function() {
+            return _this.render();
+          };
+        })(this)
+      });
+    };
+
+    Index.prototype.network_edit = function(e) {
+      e.preventDefault();
+      this.id = $(e.target).parents('[data-id]').data('id');
+      return new App.ControllerGenericEditWindow({
+        id: this.id,
+        pageData: {
+          object: 'Network'
+        },
+        genericObject: App.Network,
+        success: (function(_this) {
+          return function() {
+            return _this.render();
+          };
+        })(this)
+      });
+    };
+
+    Index.prototype.network_destroy = function(e) {
+      var id, item;
+      e.preventDefault();
+      id = $(e.target).parents('[data-id]').data('id');
+      item = App.Network.find(id);
+      if (confirm('Sure?')) {
+        item.destroy();
+      }
+      return this.render();
+    };
+
+    return Index;
+
+  })(App.ControllerContent);
+
+  App.Config.set('network', Index, 'Routes');
+
+}).call(this);
+:ET

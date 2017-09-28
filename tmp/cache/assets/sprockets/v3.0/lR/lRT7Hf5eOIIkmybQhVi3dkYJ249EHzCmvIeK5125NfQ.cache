@@ -1,0 +1,100 @@
+I"ü(function() {
+  var bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; },
+    extend = function(child, parent) { for (var key in parent) { if (hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },
+    hasProp = {}.hasOwnProperty;
+
+  App.ChannelForm = (function(superClass) {
+    extend(ChannelForm, superClass);
+
+    ChannelForm.prototype.requiredPermission = 'admin.channel_formular';
+
+    ChannelForm.prototype.header = 'Form';
+
+    ChannelForm.prototype.events = {
+      'change form.js-params': 'updateParams',
+      'keyup form.js-params': 'updateParams',
+      'change .js-formSetting input': 'toggleFormSetting'
+    };
+
+    ChannelForm.prototype.elements = {
+      '.js-paramsBlock': 'paramsBlock',
+      '.js-formSetting input': 'formSetting'
+    };
+
+    function ChannelForm() {
+      this.toggleFormSetting = bind(this.toggleFormSetting, this);
+      this.render = bind(this.render, this);
+      ChannelForm.__super__.constructor.apply(this, arguments);
+      App.Setting.fetchFull(this.render, {
+        force: false
+      });
+    }
+
+    ChannelForm.prototype.render = function() {
+      var setting;
+      setting = App.Setting.get('form_ticket_create');
+      this.html(App.view('channel/form')({
+        baseurl: window.location.origin,
+        formSetting: setting
+      }));
+      this.paramsBlock.each(function(i, block) {
+        return hljs.highlightBlock(block);
+      });
+      return this.updateParams();
+    };
+
+    ChannelForm.prototype.updateParams = function() {
+      var key, paramString, params, quote, value;
+      quote = function(string) {
+        return string = string.replace('\'', '\\\'').replace(/\</g, '&lt;').replace(/\>/g, '&gt;');
+      };
+      params = this.formParam(this.$('.js-params'));
+      paramString = '';
+      for (key in params) {
+        value = params[key];
+        if (value !== '') {
+          if (paramString !== '') {
+            paramString += ",\n";
+          }
+          if (value === 'true' || value === 'false') {
+            paramString += "    " + key + ": " + value;
+          } else {
+            paramString += "    " + key + ": '" + (quote(value)) + "'";
+          }
+        }
+      }
+      this.$('.js-modal-params').html(paramString);
+      params.test = true;
+      if (params.modal) {
+        this.$('.js-formInline').addClass('hide');
+        this.$('.js-formBtn').removeClass('hide');
+        this.$('.js-formBtn').ZammadForm(params);
+        return this.$('.js-formBtn').text('Feedback');
+      } else {
+        this.$('.js-formBtn').addClass('hide');
+        this.$('.js-formInline').removeClass('hide');
+        return this.$('.js-formInline').ZammadForm(params);
+      }
+    };
+
+    ChannelForm.prototype.toggleFormSetting = function() {
+      var value;
+      value = this.formSetting.prop('checked');
+      return App.Setting.set('form_ticket_create', value);
+    };
+
+    return ChannelForm;
+
+  })(App.ControllerSubContent);
+
+  App.Config.set('Form', {
+    prio: 2000,
+    name: 'Form',
+    parent: '#channels',
+    target: '#channels/form',
+    controller: App.ChannelForm,
+    permission: ['admin.formular']
+  }, 'NavBarAdmin');
+
+}).call(this);
+:ET

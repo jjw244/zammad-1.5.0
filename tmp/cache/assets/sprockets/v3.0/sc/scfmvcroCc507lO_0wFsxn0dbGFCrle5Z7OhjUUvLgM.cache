@@ -1,0 +1,70 @@
+I"µ(function() {
+  var extend = function(child, parent) { for (var key in parent) { if (hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },
+    hasProp = {}.hasOwnProperty;
+
+  App.Chat = (function(superClass) {
+    extend(Chat, superClass);
+
+    function Chat() {
+      return Chat.__super__.constructor.apply(this, arguments);
+    }
+
+    Chat.configure('Chat', 'name', 'active', 'public', 'max_queue', 'note');
+
+    Chat.extend(Spine.Model.Ajax);
+
+    Chat.url = Chat.apiPath + '/chats';
+
+    Chat.configure_attributes = [
+      {
+        name: 'name',
+        display: 'Name',
+        tag: 'input',
+        type: 'text',
+        limit: 100,
+        "null": false
+      }, {
+        name: 'note',
+        display: 'Note',
+        tag: 'textarea',
+        limit: 250,
+        "null": true
+      }, {
+        name: 'max_queue',
+        display: 'Max. clients in waitlist',
+        tag: 'input',
+        "default": 2
+      }, {
+        name: 'active',
+        display: 'Active',
+        tag: 'active',
+        "default": true
+      }, {
+        name: 'created_by_id',
+        display: 'Created by',
+        relation: 'User',
+        readonly: 1
+      }, {
+        name: 'created_at',
+        display: 'Created',
+        tag: 'datetime',
+        readonly: 1
+      }, {
+        name: 'updated_by_id',
+        display: 'Updated by',
+        relation: 'User',
+        readonly: 1
+      }, {
+        name: 'updated_at',
+        display: 'Updated',
+        tag: 'datetime',
+        readonly: 1
+      }
+    ];
+
+    return Chat;
+
+  })(App.Model);
+
+}).call(this);
+:ET

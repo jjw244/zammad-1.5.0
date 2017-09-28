@@ -1,0 +1,112 @@
+I"–(function() {
+  var UserNew,
+    bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; },
+    extend = function(child, parent) { for (var key in parent) { if (hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },
+    hasProp = {}.hasOwnProperty;
+
+  App.UserOrganizationAutocompletion = (function(superClass) {
+    extend(UserOrganizationAutocompletion, superClass);
+
+    function UserOrganizationAutocompletion() {
+      this.newObject = bind(this.newObject, this);
+      return UserOrganizationAutocompletion.__super__.constructor.apply(this, arguments);
+    }
+
+    UserOrganizationAutocompletion.prototype.objectSingle = 'User';
+
+    UserOrganizationAutocompletion.prototype.objectIcon = 'user';
+
+    UserOrganizationAutocompletion.prototype.objectSingels = 'People';
+
+    UserOrganizationAutocompletion.prototype.objectCreate = 'Create new Customer';
+
+    UserOrganizationAutocompletion.prototype.referenceAttribute = 'member_ids';
+
+    UserOrganizationAutocompletion.prototype.newObject = function(e) {
+      if (e) {
+        e.preventDefault();
+      }
+      return new UserNew({
+        parent: this,
+        container: this.el.closest('.content')
+      });
+    };
+
+    return UserOrganizationAutocompletion;
+
+  })(App.ObjectOrganizationAutocompletion);
+
+  UserNew = (function(superClass) {
+    extend(UserNew, superClass);
+
+    function UserNew() {
+      this.onSubmit = bind(this.onSubmit, this);
+      return UserNew.__super__.constructor.apply(this, arguments);
+    }
+
+    UserNew.prototype.buttonClose = true;
+
+    UserNew.prototype.buttonCancel = true;
+
+    UserNew.prototype.buttonSubmit = true;
+
+    UserNew.prototype.head = 'User';
+
+    UserNew.prototype.headPrefix = 'New';
+
+    UserNew.prototype.content = function() {
+      this.controller = new App.ControllerForm({
+        model: App.User,
+        screen: 'edit',
+        autofocus: true
+      });
+      return this.controller.form;
+    };
+
+    UserNew.prototype.onSubmit = function(e) {
+      var errors, params, role, ui, user;
+      params = this.formParam(e.target);
+      if (!params.login && params.email) {
+        params.login = params.email;
+      }
+      if (!params.role_ids || _.isEmpty(params.role_ids)) {
+        role = App.Role.findByAttribute('name', 'Customer');
+        params.role_ids = role.id;
+      }
+      this.log('notice', 'updateAttributes', params);
+      user = new App.User;
+      user.load(params);
+      errors = user.validate();
+      if (errors) {
+        this.log('error', errors);
+        this.formValidate({
+          form: e.target,
+          errors: errors
+        });
+        return;
+      }
+      ui = this;
+      return user.save({
+        done: function() {
+          var callbackReload;
+          callbackReload = function(user) {
+            ui.parent.el.find('[name=customer_id]').val(user.id).trigger('change');
+            ui.parent.close();
+            return ui.close();
+          };
+          return App.User.full(this.id, callbackReload, true);
+        },
+        fail: function(settings, details) {
+          ui.log('errors', details);
+          ui.formEnable(e);
+          return ui.controller.showAlert(details.error_human || details.error || 'Unable to create object!');
+        }
+      });
+    };
+
+    return UserNew;
+
+  })(App.ControllerModal);
+
+}).call(this);
+:ET

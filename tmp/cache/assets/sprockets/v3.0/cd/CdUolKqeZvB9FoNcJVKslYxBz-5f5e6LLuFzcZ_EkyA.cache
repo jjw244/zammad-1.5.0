@@ -1,0 +1,77 @@
+I"/	(function() {
+  var SidebarCustomer,
+    bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; },
+    extend = function(child, parent) { for (var key in parent) { if (hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },
+    hasProp = {}.hasOwnProperty;
+
+  SidebarCustomer = (function(superClass) {
+    extend(SidebarCustomer, superClass);
+
+    function SidebarCustomer() {
+      this.changeCustomer = bind(this.changeCustomer, this);
+      this.editCustomer = bind(this.editCustomer, this);
+      this.showCustomer = bind(this.showCustomer, this);
+      this.sidebarItem = bind(this.sidebarItem, this);
+      return SidebarCustomer.__super__.constructor.apply(this, arguments);
+    }
+
+    SidebarCustomer.prototype.sidebarItem = function() {
+      if (!this.permissionCheck('ticket.agent')) {
+        return;
+      }
+      return {
+        head: 'Customer',
+        name: 'customer',
+        icon: 'person',
+        actions: [
+          {
+            title: 'Change Customer',
+            name: 'customer-change',
+            callback: this.changeCustomer
+          }, {
+            title: 'Edit Customer',
+            name: 'customer-edit',
+            callback: this.editCustomer
+          }
+        ],
+        callback: this.showCustomer
+      };
+    };
+
+    SidebarCustomer.prototype.showCustomer = function(el) {
+      this.el = el;
+      return new App.WidgetUser({
+        el: this.el,
+        user_id: this.ticket.customer_id
+      });
+    };
+
+    SidebarCustomer.prototype.editCustomer = function() {
+      return new App.ControllerGenericEdit({
+        id: this.ticket.customer_id,
+        genericObject: 'User',
+        screen: 'edit',
+        pageData: {
+          title: 'Users',
+          object: 'User',
+          objects: 'Users'
+        },
+        container: this.el.closest('.content')
+      });
+    };
+
+    SidebarCustomer.prototype.changeCustomer = function() {
+      return new App.TicketCustomer({
+        ticket_id: this.ticket.id,
+        container: this.el.closest('.content')
+      });
+    };
+
+    return SidebarCustomer;
+
+  })(App.Controller);
+
+  App.Config.set('200-Customer', SidebarCustomer, 'TicketZoomSidebar');
+
+}).call(this);
+:ET

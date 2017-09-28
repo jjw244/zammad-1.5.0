@@ -1,0 +1,40 @@
+I"4(function() {
+  var extend = function(child, parent) { for (var key in parent) { if (hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },
+    hasProp = {}.hasOwnProperty;
+
+  App.Twitter = (function(superClass) {
+    extend(Twitter, superClass);
+
+    function Twitter() {
+      return Twitter.__super__.constructor.apply(this, arguments);
+    }
+
+    Twitter.configure('Twitter', 'name', 'channels');
+
+    Twitter.extend(Spine.Model.Ajax);
+
+    Twitter.url = Twitter.apiPath + '/twitter';
+
+    Twitter.configure_attributes = [
+      {
+        name: 'name',
+        display: 'Name',
+        tag: 'input',
+        type: 'text',
+        limit: 100,
+        "null": false
+      }
+    ];
+
+    Twitter.configure_delete = true;
+
+    Twitter.configure_overview = ['name'];
+
+    Twitter.description = '**Twitter Accounts**, abgekürzt **SLAs**, unterstützen Sie gegenüber Kunden gewisse zeitliche Reaktionen einzuhalten. Somit können Sie z. B. sagen Kunden sollen immer nach spätestens 8 Stunden eine Reaktion von Ihnen bekommen. Falls es zu einer drohenden Unterschreitung oder einer Unterschreitung kommt, weißt Zammad Sie auf solche Ereignisse hin.\n\nEs können **Reaktionszeit** (Zeit zwischen Erstellung eines Tickets und erster Reaktion eines Agenten), **Aktualisierungszeit** (Zeit zwischen Nachfrage eines Kunden und Reaktion eines Agenten) und **Lösungszeit** (Zeit zwischen Erstellung und schließen eines Tickets) definiert werden.\n\nDrohenden Unterschreitungen oder Unterschreitungen werden in einer eigenen Ansicht in den Übersichten angezeigt. Zudem können **E-Mail Benachrichtigungen** konfiguriert werden.';
+
+    return Twitter;
+
+  })(App.Model);
+
+}).call(this);
+:ET
