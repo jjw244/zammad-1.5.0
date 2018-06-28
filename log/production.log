@@ -971,3 +971,647 @@ I, [2017-09-28T15:48:21.958078 #14928]  INFO -- : Started GET "/api/v1/tickets/3
 I, [2017-09-28T15:48:21.963004 #14928]  INFO -- : Processing by TicketsController#show as JSON
 I, [2017-09-28T15:48:21.963090 #14928]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506629302409", "id"=>"3", "ticket"=>{}}
 I, [2017-09-28T15:48:22.008578 #14928]  INFO -- : Completed 200 OK in 45ms (Views: 3.7ms | ActiveRecord: 7.1ms)
+I, [2017-09-28T15:59:09.827933 #17168]  INFO -- : Setting.set(product_logo, "ad9f8488f969623bc5d569f4756098e7.png")
+I, [2017-09-28T15:59:12.209311 #17186]  INFO -- : Setting.set(product_logo, "ad9f8488f969623bc5d569f4756098e7.png")
+I, [2017-09-28T15:59:18.974148 #17168]  INFO -- : Started GET "/api/v1/online_notifications/?full=true&_=1506629302410" for ::1 at 2017-09-28 15:59:18 -0500
+I, [2017-09-28T15:59:19.041526 #17168]  INFO -- : Processing by OnlineNotificationsController#index as JSON
+I, [2017-09-28T15:59:19.041599 #17168]  INFO -- :   Parameters: {"full"=>"true", "_"=>"1506629302410", "online_notification"=>{}}
+I, [2017-09-28T15:59:19.084880 #17168]  INFO -- : Completed 200 OK in 43ms (Views: 0.2ms | ActiveRecord: 3.3ms)
+I, [2017-09-28T15:59:46.742478 #17168]  INFO -- : Started PUT "/api/v1/overviews/4" for ::1 at 2017-09-28 15:59:46 -0500
+I, [2017-09-28T15:59:46.749867 #17168]  INFO -- : Processing by OverviewsController#update as JSON
+I, [2017-09-28T15:59:46.750002 #17168]  INFO -- :   Parameters: {"name"=>"Open", "prio"=>1030, "condition"=>{"ticket.state_id"=>{"operator"=>"is", "value"=>[1, 2, 3]}}, "order"=>{"by"=>"created_at", "direction"=>"ASC"}, "group_by"=>"", "view"=>{"d"=>["title", "customer", "group", "state", "owner", "created_at"], "s"=>["number", "title", "customer", "group", "owner", "state", "created_at"], "m"=>["number", "title", "customer", "group", "state", "owner", "created_at"], "view_mode_default"=>"s"}, "user_ids"=>nil, "organization_shared"=>false, "role_ids"=>[2], "active"=>true, "updated_at"=>"2017-09-28T20:07:19.808Z", "id"=>"4", "overview"=>{"id"=>"4", "name"=>"Open", "prio"=>1030, "condition"=>{"ticket.state_id"=>{"operator"=>"is", "value"=>[1, 2, 3]}}, "order"=>{"by"=>"created_at", "direction"=>"ASC"}, "group_by"=>"", "organization_shared"=>false, "view"=>{"d"=>["title", "customer", "group", "state", "owner", "created_at"], "s"=>["number", "title", "customer", "group", "owner", "state", "created_at"], "m"=>["number", "title", "customer", "group", "state", "owner", "created_at"], "view_mode_default"=>"s"}, "active"=>true, "updated_at"=>"2017-09-28T20:07:19.808Z"}}
+I, [2017-09-28T15:59:46.823129 #17168]  INFO -- : Completed 200 OK in 73ms (Views: 0.5ms | ActiveRecord: 6.6ms)
+I, [2017-09-28T16:00:20.422185 #17168]  INFO -- : Started PUT "/api/v1/taskbar/5" for ::1 at 2017-09-28 16:00:20 -0500
+I, [2017-09-28T16:00:20.429466 #17168]  INFO -- : Processing by TaskbarController#update as JSON
+I, [2017-09-28T16:00:20.429588 #17168]  INFO -- :   Parameters: {"key"=>"Ticket-2", "client_id"=>"123", "callback"=>"TicketZoom", "state"=>{"ticket"=>{}, "article"=>{}}, "params"=>{"ticket_id"=>"2", "shown"=>true}, "prio"=>3, "notify"=>false, "active"=>true, "updated_at"=>"2017-09-28T20:17:30.993Z", "id"=>"5", "taskbar"=>{"id"=>"5", "client_id"=>"123", "key"=>"Ticket-2", "callback"=>"TicketZoom", "state"=>{"ticket"=>{}, "article"=>{}}, "params"=>{"ticket_id"=>"2", "shown"=>true}, "prio"=>3, "notify"=>false, "active"=>true, "updated_at"=>"2017-09-28T20:17:30.993Z"}}
+I, [2017-09-28T16:00:20.455265 #17168]  INFO -- : Completed 200 OK in 26ms (Views: 0.4ms | ActiveRecord: 3.0ms)
+I, [2017-09-28T16:00:39.996879 #17168]  INFO -- : Started PUT "/api/v1/taskbar/5" for ::1 at 2017-09-28 16:00:39 -0500
+I, [2017-09-28T16:00:40.001325 #17168]  INFO -- : Processing by TaskbarController#update as JSON
+I, [2017-09-28T16:00:40.001411 #17168]  INFO -- :   Parameters: {"key"=>"Ticket-2", "client_id"=>"123", "callback"=>"TicketZoom", "state"=>{"ticket"=>{}, "article"=>{}}, "params"=>{"ticket_id"=>"2", "shown"=>true}, "prio"=>3, "notify"=>false, "active"=>false, "updated_at"=>"2017-09-28T20:17:30.993Z", "id"=>"5", "taskbar"=>{"id"=>"5", "client_id"=>"123", "key"=>"Ticket-2", "callback"=>"TicketZoom", "state"=>{"ticket"=>{}, "article"=>{}}, "params"=>{"ticket_id"=>"2", "shown"=>true}, "prio"=>3, "notify"=>false, "active"=>false, "updated_at"=>"2017-09-28T20:17:30.993Z"}}
+I, [2017-09-28T16:00:40.026403 #17168]  INFO -- : Completed 200 OK in 25ms (Views: 0.4ms | ActiveRecord: 2.3ms)
+I, [2017-09-28T16:00:41.875038 #17168]  INFO -- : Started GET "/api/v1/packages?_=1506629302411" for ::1 at 2017-09-28 16:00:41 -0500
+I, [2017-09-28T16:00:41.881042 #17168]  INFO -- : Processing by PackagesController#index as JSON
+I, [2017-09-28T16:00:41.881139 #17168]  INFO -- :   Parameters: {"_"=>"1506629302411", "package"=>{}}
+I, [2017-09-28T16:00:41.893312 #17168]  INFO -- : Completed 200 OK in 12ms (Views: 0.3ms | ActiveRecord: 2.0ms)
+I, [2017-09-28T16:00:45.478642 #17168]  INFO -- : Started GET "/api/v1/sessions?_=1506629302412" for ::1 at 2017-09-28 16:00:45 -0500
+I, [2017-09-28T16:00:45.481186 #17168]  INFO -- : Started GET "/api/v1/sessions?_=1506629302413" for ::1 at 2017-09-28 16:00:45 -0500
+I, [2017-09-28T16:00:45.485893 #17168]  INFO -- : Processing by SessionsController#list as JSON
+I, [2017-09-28T16:00:45.486098 #17168]  INFO -- :   Parameters: {"_"=>"1506629302412", "session"=>{}}
+I, [2017-09-28T16:00:45.491415 #17168]  INFO -- : Processing by SessionsController#list as JSON
+I, [2017-09-28T16:00:45.491495 #17168]  INFO -- :   Parameters: {"_"=>"1506629302413", "session"=>{}}
+I, [2017-09-28T16:00:45.514336 #17168]  INFO -- : Completed 200 OK in 23ms (Views: 1.4ms | ActiveRecord: 7.2ms)
+I, [2017-09-28T16:00:45.514764 #17168]  INFO -- : Completed 200 OK in 29ms (Views: 1.2ms | ActiveRecord: 4.7ms)
+I, [2017-09-28T16:00:51.551482 #17168]  INFO -- : Started GET "/api/v1/monitoring/health_check?_=1506629302414" for ::1 at 2017-09-28 16:00:51 -0500
+I, [2017-09-28T16:00:51.553707 #17168]  INFO -- : Started GET "/api/v1/monitoring/health_check?_=1506629302415" for ::1 at 2017-09-28 16:00:51 -0500
+I, [2017-09-28T16:00:51.557401 #17168]  INFO -- : Processing by MonitoringController#health_check as JSON
+I, [2017-09-28T16:00:51.557442 #17168]  INFO -- :   Parameters: {"_"=>"1506629302414", "monitoring"=>{}}
+I, [2017-09-28T16:00:51.561618 #17168]  INFO -- : Processing by MonitoringController#health_check as JSON
+I, [2017-09-28T16:00:51.561696 #17168]  INFO -- :   Parameters: {"_"=>"1506629302415", "monitoring"=>{}}
+I, [2017-09-28T16:00:51.578244 #17168]  INFO -- : Completed 200 OK in 21ms (Views: 0.2ms | ActiveRecord: 7.7ms)
+I, [2017-09-28T16:00:51.580411 #17168]  INFO -- : Completed 200 OK in 19ms (Views: 0.1ms | ActiveRecord: 5.7ms)
+I, [2017-09-28T16:00:55.810352 #17168]  INFO -- : Started GET "/api/v1/settings/?full=true&_=1506629302416" for ::1 at 2017-09-28 16:00:55 -0500
+I, [2017-09-28T16:00:55.816423 #17168]  INFO -- : Processing by SettingsController#index as JSON
+I, [2017-09-28T16:00:55.816475 #17168]  INFO -- :   Parameters: {"full"=>"true", "_"=>"1506629302416", "setting"=>{}}
+I, [2017-09-28T16:00:56.032614 #17168]  INFO -- : Completed 200 OK in 216ms (Views: 69.2ms | ActiveRecord: 10.5ms)
+I, [2017-09-28T16:01:00.525749 #17168]  INFO -- : Started GET "/api/v1/translations/admin/lang/en-us?_=1506629302417" for ::1 at 2017-09-28 16:01:00 -0500
+I, [2017-09-28T16:01:00.531796 #17168]  INFO -- : Processing by TranslationsController#admin as JSON
+I, [2017-09-28T16:01:00.531849 #17168]  INFO -- :   Parameters: {"_"=>"1506629302417", "locale"=>"en-us", "translation"=>{}}
+I, [2017-09-28T16:01:00.547498 #17168]  INFO -- : Completed 200 OK in 16ms (Views: 0.3ms | ActiveRecord: 2.7ms)
+I, [2017-09-28T16:01:05.734995 #17168]  INFO -- : Started GET "/api/v1/object_manager_attributes_list?_=1506629302418" for ::1 at 2017-09-28 16:01:05 -0500
+I, [2017-09-28T16:01:05.742084 #17168]  INFO -- : Processing by ObjectManagerAttributesController#list as JSON
+I, [2017-09-28T16:01:05.742139 #17168]  INFO -- :   Parameters: {"_"=>"1506629302418", "object_manager_attribute"=>{}}
+I, [2017-09-28T16:01:05.752821 #17168]  INFO -- : Completed 200 OK in 11ms (Views: 0.2ms | ActiveRecord: 1.5ms)
+I, [2017-09-28T16:01:05.759189 #17168]  INFO -- : Started GET "/api/v1/object_manager_attributes" for ::1 at 2017-09-28 16:01:05 -0500
+I, [2017-09-28T16:01:05.762363 #17168]  INFO -- : Processing by ObjectManagerAttributesController#index as JSON
+I, [2017-09-28T16:01:05.810672 #17168]  INFO -- : Completed 200 OK in 48ms (Views: 11.6ms | ActiveRecord: 2.9ms)
+I, [2017-09-28T16:01:05.813927 #17168]  INFO -- : Started GET "/api/v1/object_manager_attributes" for ::1 at 2017-09-28 16:01:05 -0500
+I, [2017-09-28T16:01:05.817390 #17168]  INFO -- : Processing by ObjectManagerAttributesController#index as JSON
+I, [2017-09-28T16:01:05.859383 #17168]  INFO -- : Completed 200 OK in 42ms (Views: 9.0ms | ActiveRecord: 2.2ms)
+I, [2017-09-28T16:01:05.862361 #17168]  INFO -- : Started GET "/api/v1/object_manager_attributes" for ::1 at 2017-09-28 16:01:05 -0500
+I, [2017-09-28T16:01:05.865686 #17168]  INFO -- : Processing by ObjectManagerAttributesController#index as JSON
+I, [2017-09-28T16:01:05.907611 #17168]  INFO -- : Completed 200 OK in 42ms (Views: 10.2ms | ActiveRecord: 2.2ms)
+I, [2017-09-28T16:01:05.910441 #17168]  INFO -- : Started GET "/api/v1/object_manager_attributes" for ::1 at 2017-09-28 16:01:05 -0500
+I, [2017-09-28T16:01:05.913750 #17168]  INFO -- : Processing by ObjectManagerAttributesController#index as JSON
+I, [2017-09-28T16:01:05.957958 #17168]  INFO -- : Completed 200 OK in 44ms (Views: 9.8ms | ActiveRecord: 2.0ms)
+I, [2017-09-28T16:01:07.319118 #17168]  INFO -- : Started GET "/api/v1/applications/?full=true&_=1506629302419" for ::1 at 2017-09-28 16:01:07 -0500
+I, [2017-09-28T16:01:07.325735 #17168]  INFO -- : Processing by ApplicationsController#index as JSON
+I, [2017-09-28T16:01:07.325784 #17168]  INFO -- :   Parameters: {"full"=>"true", "_"=>"1506629302419", "application"=>{}}
+I, [2017-09-28T16:01:07.338511 #17168]  INFO -- : Completed 200 OK in 13ms (Views: 0.1ms | ActiveRecord: 2.5ms)
+I, [2017-09-28T16:02:44.389113 #17168]  INFO -- : Started GET "/api/v1/tags/add?object=Ticket&o_id=3&item=spam&_=1506629302420" for ::1 at 2017-09-28 16:02:44 -0500
+I, [2017-09-28T16:02:44.389706 #17168]  INFO -- : Started PUT "/api/v1/tickets/3" for ::1 at 2017-09-28 16:02:44 -0500
+I, [2017-09-28T16:02:44.433609 #17168]  INFO -- : Processing by TagsController#add as JSON
+I, [2017-09-28T16:02:44.433680 #17168]  INFO -- :   Parameters: {"object"=>"Ticket", "o_id"=>"3", "item"=>"spam", "_"=>"1506629302420", "tag"=>{}}
+I, [2017-09-28T16:02:44.437315 #17168]  INFO -- : Processing by TicketsController#update as JSON
+I, [2017-09-28T16:02:44.437408 #17168]  INFO -- :   Parameters: {"number"=>"87003", "title"=>"Test Ticket! ", "group_id"=>1, "owner_id"=>3, "customer_id"=>2, "state_id"=>4, "priority_id"=>2, "updated_at"=>"2017-09-28T20:42:20.896Z", "pending_time"=>nil, "id"=>"3", "ticket"=>{"id"=>"3", "group_id"=>1, "priority_id"=>2, "state_id"=>4, "number"=>"87003", "title"=>"Test Ticket! ", "owner_id"=>3, "customer_id"=>2, "pending_time"=>nil, "updated_at"=>"2017-09-28T20:42:20.896Z"}}
+I, [2017-09-28T16:02:44.567256 #17168]  INFO -- : Completed 201 Created in 133ms (Views: 0.1ms | ActiveRecord: 56.9ms)
+I, [2017-09-28T16:02:44.569266 #17168]  INFO -- : Completed 200 OK in 132ms (Views: 1.0ms | ActiveRecord: 32.1ms)
+I, [2017-09-28T16:02:45.361355 #17168]  INFO -- : Started GET "/api/v1/users/2?full=true&_=1506629302421" for ::1 at 2017-09-28 16:02:45 -0500
+I, [2017-09-28T16:02:45.364855 #17168]  INFO -- : Started GET "/api/v1/organizations/1?full=true&_=1506629302422" for ::1 at 2017-09-28 16:02:45 -0500
+I, [2017-09-28T16:02:45.369727 #17168]  INFO -- : Processing by UsersController#show as JSON
+I, [2017-09-28T16:02:45.369788 #17168]  INFO -- :   Parameters: {"full"=>"true", "_"=>"1506629302421", "id"=>"2", "user"=>{}}
+I, [2017-09-28T16:02:45.371704 #17168]  INFO -- : Started GET "/api/v1/tickets/3?full=true&_=1506629302423" for ::1 at 2017-09-28 16:02:45 -0500
+I, [2017-09-28T16:02:45.376941 #17168]  INFO -- : Processing by OrganizationsController#show as JSON
+I, [2017-09-28T16:02:45.376997 #17168]  INFO -- :   Parameters: {"full"=>"true", "_"=>"1506629302422", "id"=>"1", "organization"=>{}}
+I, [2017-09-28T16:02:45.386559 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-28T16:02:45.386622 #17168]  INFO -- :   Parameters: {"full"=>"true", "_"=>"1506629302423", "id"=>"3", "ticket"=>{}}
+I, [2017-09-28T16:02:45.449179 #17168]  INFO -- : Completed 200 OK in 72ms (Views: 1.2ms | ActiveRecord: 28.1ms)
+I, [2017-09-28T16:02:45.454888 #17168]  INFO -- : Completed 200 OK in 85ms (Views: 0.9ms | ActiveRecord: 34.0ms)
+I, [2017-09-28T16:02:45.465810 #17168]  INFO -- : Started GET "/api/v1/ticket_customer?customer_id=2&_=1506629302424" for ::1 at 2017-09-28 16:02:45 -0500
+I, [2017-09-28T16:02:45.468144 #17168]  INFO -- : Completed 200 OK in 81ms (Views: 2.6ms | ActiveRecord: 28.3ms)
+I, [2017-09-28T16:02:45.468891 #17168]  INFO -- : Started GET "/api/v1/ticket_customer?customer_id=2&_=1506629302425" for ::1 at 2017-09-28 16:02:45 -0500
+I, [2017-09-28T16:02:45.470607 #17168]  INFO -- : Processing by TicketsController#ticket_customer as JSON
+I, [2017-09-28T16:02:45.473176 #17168]  INFO -- :   Parameters: {"customer_id"=>"2", "_"=>"1506629302424", "ticket"=>{}}
+I, [2017-09-28T16:02:45.474404 #17168]  INFO -- : Processing by TicketsController#ticket_customer as JSON
+I, [2017-09-28T16:02:45.476319 #17168]  INFO -- :   Parameters: {"customer_id"=>"2", "_"=>"1506629302425", "ticket"=>{}}
+I, [2017-09-28T16:02:45.506401 #17168]  INFO -- : Completed 200 OK in 32ms (Views: 2.4ms | ActiveRecord: 11.2ms)
+I, [2017-09-28T16:02:45.506866 #17168]  INFO -- : Completed 200 OK in 30ms (Views: 3.1ms | ActiveRecord: 5.1ms)
+I, [2017-09-28T16:02:45.760423 #17168]  INFO -- : Started GET "/api/v1/tickets/3?all=true&_=1506629302426" for ::1 at 2017-09-28 16:02:45 -0500
+I, [2017-09-28T16:02:45.765129 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-28T16:02:45.765212 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506629302426", "id"=>"3", "ticket"=>{}}
+I, [2017-09-28T16:02:45.835014 #17168]  INFO -- : Completed 200 OK in 70ms (Views: 3.7ms | ActiveRecord: 9.7ms)
+I, [2017-09-28T16:02:46.598570 #17168]  INFO -- : Started PUT "/api/v1/taskbar/8" for ::1 at 2017-09-28 16:02:46 -0500
+I, [2017-09-28T16:02:46.603352 #17168]  INFO -- : Processing by TaskbarController#update as JSON
+I, [2017-09-28T16:02:46.603437 #17168]  INFO -- :   Parameters: {"key"=>"Ticket-3", "client_id"=>"123", "callback"=>"TicketZoom", "state"=>{"ticket"=>{}, "article"=>{}}, "params"=>{"ticket_id"=>"3", "shown"=>true}, "prio"=>6, "notify"=>false, "active"=>false, "updated_at"=>"2017-09-28T20:18:21.521Z", "id"=>"8", "taskbar"=>{"id"=>"8", "client_id"=>"123", "key"=>"Ticket-3", "callback"=>"TicketZoom", "state"=>{"ticket"=>{}, "article"=>{}}, "params"=>{"ticket_id"=>"3", "shown"=>true}, "prio"=>6, "notify"=>false, "active"=>false, "updated_at"=>"2017-09-28T20:18:21.521Z"}}
+I, [2017-09-28T16:02:46.626983 #17168]  INFO -- : Completed 200 OK in 23ms (Views: 0.4ms | ActiveRecord: 2.4ms)
+I, [2017-09-28T16:02:47.399474 #17168]  INFO -- : Started GET "/api/v1/ticket_overviews?_=1506629302427" for ::1 at 2017-09-28 16:02:47 -0500
+I, [2017-09-28T16:02:47.400079 #17168]  INFO -- : Started GET "/api/v1/ticket_overviews?view=all_open&_=1506629302428" for ::1 at 2017-09-28 16:02:47 -0500
+I, [2017-09-28T16:02:47.409373 #17168]  INFO -- : Processing by TicketOverviewsController#show as JSON
+I, [2017-09-28T16:02:47.409467 #17168]  INFO -- :   Parameters: {"_"=>"1506629302427", "ticket_overview"=>{}}
+I, [2017-09-28T16:02:47.412873 #17168]  INFO -- : Processing by TicketOverviewsController#show as JSON
+I, [2017-09-28T16:02:47.412918 #17168]  INFO -- :   Parameters: {"view"=>"all_open", "_"=>"1506629302428", "ticket_overview"=>{}}
+I, [2017-09-28T16:02:47.472573 #17168]  INFO -- : Completed 200 OK in 63ms (Views: 0.3ms | ActiveRecord: 23.6ms)
+I, [2017-09-28T16:02:47.529011 #17168]  INFO -- : Completed 200 OK in 116ms (Views: 3.9ms | ActiveRecord: 45.9ms)
+I, [2017-09-28T16:03:03.425662 #17168]  INFO -- : Started PUT "/api/v1/tickets/2" for ::1 at 2017-09-28 16:03:03 -0500
+I, [2017-09-28T16:03:03.430040 #17168]  INFO -- : Processing by TicketsController#update as JSON
+I, [2017-09-28T16:03:03.430115 #17168]  INFO -- :   Parameters: {"number"=>"87002", "title"=>"Testing", "group_id"=>1, "owner_id"=>"3", "customer_id"=>4, "state_id"=>3, "priority_id"=>2, "article"=>{"to"=>"Users", "from"=>"Joe shmo <joshmo@ohno.com>", "body"=>"<br>sdfsdfasd", "type_id"=>5, "sender_id"=>2, "form_id"=>"629713802", "content_type"=>"text/html"}, "tags"=>"", "updated_at"=>"2017-09-28T20:42:07.605Z", "pending_time"=>"2017-09-28T13:00:00.000Z", "id"=>"2", "ticket"=>{"id"=>"2", "group_id"=>1, "priority_id"=>2, "state_id"=>3, "number"=>"87002", "title"=>"Testing", "owner_id"=>"3", "customer_id"=>4, "pending_time"=>"2017-09-28T13:00:00.000Z", "updated_at"=>"2017-09-28T20:42:07.605Z"}}
+I, [2017-09-28T16:03:03.512248 #17168]  INFO -- : Completed 200 OK in 82ms (Views: 0.9ms | ActiveRecord: 12.5ms)
+I, [2017-09-28T16:03:04.280461 #17168]  INFO -- : Started GET "/api/v1/users/4?full=true&_=1506629302429" for ::1 at 2017-09-28 16:03:04 -0500
+I, [2017-09-28T16:03:04.283872 #17168]  INFO -- : Processing by UsersController#show as JSON
+I, [2017-09-28T16:03:04.283912 #17168]  INFO -- :   Parameters: {"full"=>"true", "_"=>"1506629302429", "id"=>"4", "user"=>{}}
+I, [2017-09-28T16:03:04.302480 #17168]  INFO -- : Completed 200 OK in 18ms (Views: 1.4ms | ActiveRecord: 2.9ms)
+I, [2017-09-28T16:03:04.311028 #17168]  INFO -- : Started GET "/api/v1/ticket_customer?customer_id=4&_=1506629302430" for ::1 at 2017-09-28 16:03:04 -0500
+I, [2017-09-28T16:03:04.312891 #17168]  INFO -- : Started GET "/api/v1/ticket_stats?user_id=4&organization_id=&_=1506629302431" for ::1 at 2017-09-28 16:03:04 -0500
+I, [2017-09-28T16:03:04.314199 #17168]  INFO -- : Processing by TicketsController#ticket_customer as JSON
+I, [2017-09-28T16:03:04.314239 #17168]  INFO -- :   Parameters: {"customer_id"=>"4", "_"=>"1506629302430", "ticket"=>{}}
+I, [2017-09-28T16:03:04.317764 #17168]  INFO -- : Processing by TicketsController#stats as JSON
+I, [2017-09-28T16:03:04.317808 #17168]  INFO -- :   Parameters: {"user_id"=>"4", "organization_id"=>"", "_"=>"1506629302431", "ticket"=>{}}
+I, [2017-09-28T16:03:04.343452 #17168]  INFO -- : Completed 200 OK in 29ms (Views: 1.6ms | ActiveRecord: 9.1ms)
+I, [2017-09-28T16:03:04.366777 #17168]  INFO -- : Completed 200 OK in 49ms (Views: 1.9ms | ActiveRecord: 11.4ms)
+I, [2017-09-28T16:03:04.682472 #17168]  INFO -- : Started GET "/api/v1/tickets/2?all=true&_=1506629302432" for ::1 at 2017-09-28 16:03:04 -0500
+I, [2017-09-28T16:03:04.686581 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-28T16:03:04.686643 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506629302432", "id"=>"2", "ticket"=>{}}
+I, [2017-09-28T16:03:04.720730 #17168]  INFO -- : Completed 200 OK in 34ms (Views: 2.6ms | ActiveRecord: 7.2ms)
+I, [2017-09-28T16:03:05.542707 #17168]  INFO -- : Started PUT "/api/v1/taskbar/5" for ::1 at 2017-09-28 16:03:05 -0500
+I, [2017-09-28T16:03:05.546973 #17168]  INFO -- : Processing by TaskbarController#update as JSON
+I, [2017-09-28T16:03:05.547065 #17168]  INFO -- :   Parameters: {"key"=>"Ticket-2", "client_id"=>"123", "callback"=>"TicketZoom", "state"=>{"ticket"=>{}, "article"=>{}}, "params"=>{"ticket_id"=>"2", "shown"=>true}, "prio"=>3, "notify"=>false, "active"=>false, "updated_at"=>"2017-09-28T20:17:30.993Z", "id"=>"5", "taskbar"=>{"id"=>"5", "client_id"=>"123", "key"=>"Ticket-2", "callback"=>"TicketZoom", "state"=>{"ticket"=>{}, "article"=>{}}, "params"=>{"ticket_id"=>"2", "shown"=>true}, "prio"=>3, "notify"=>false, "active"=>false, "updated_at"=>"2017-09-28T20:17:30.993Z"}}
+I, [2017-09-28T16:03:05.570093 #17168]  INFO -- : Completed 200 OK in 23ms (Views: 0.3ms | ActiveRecord: 2.3ms)
+I, [2017-09-28T16:03:06.344220 #17168]  INFO -- : Started GET "/api/v1/ticket_overviews?_=1506629302433" for ::1 at 2017-09-28 16:03:06 -0500
+I, [2017-09-28T16:03:06.347193 #17168]  INFO -- : Started GET "/api/v1/ticket_overviews?view=all_open&_=1506629302434" for ::1 at 2017-09-28 16:03:06 -0500
+I, [2017-09-28T16:03:06.349237 #17168]  INFO -- : Processing by TicketOverviewsController#show as JSON
+I, [2017-09-28T16:03:06.349303 #17168]  INFO -- :   Parameters: {"_"=>"1506629302433", "ticket_overview"=>{}}
+I, [2017-09-28T16:03:06.354345 #17168]  INFO -- : Processing by TicketOverviewsController#show as JSON
+I, [2017-09-28T16:03:06.354406 #17168]  INFO -- :   Parameters: {"view"=>"all_open", "_"=>"1506629302434", "ticket_overview"=>{}}
+I, [2017-09-28T16:03:06.402600 #17168]  INFO -- : Completed 200 OK in 53ms (Views: 0.4ms | ActiveRecord: 25.3ms)
+I, [2017-09-28T16:03:06.458671 #17168]  INFO -- : Completed 200 OK in 104ms (Views: 2.4ms | ActiveRecord: 44.7ms)
+I, [2017-09-28T16:03:15.318074 #17168]  INFO -- : Started PUT "/api/v1/taskbar/8" for ::1 at 2017-09-28 16:03:15 -0500
+I, [2017-09-28T16:03:15.322501 #17168]  INFO -- : Processing by TaskbarController#update as JSON
+I, [2017-09-28T16:03:15.322602 #17168]  INFO -- :   Parameters: {"key"=>"Ticket-3", "client_id"=>"123", "callback"=>"TicketZoom", "state"=>{"ticket"=>{}, "article"=>{}}, "params"=>{"ticket_id"=>"3", "shown"=>true}, "prio"=>6, "notify"=>false, "active"=>true, "updated_at"=>"2017-09-28T20:18:21.521Z", "id"=>"8", "taskbar"=>{"id"=>"8", "client_id"=>"123", "key"=>"Ticket-3", "callback"=>"TicketZoom", "state"=>{"ticket"=>{}, "article"=>{}}, "params"=>{"ticket_id"=>"3", "shown"=>true}, "prio"=>6, "notify"=>false, "active"=>true, "updated_at"=>"2017-09-28T20:18:21.521Z"}}
+I, [2017-09-28T16:03:15.345397 #17168]  INFO -- : Completed 200 OK in 23ms (Views: 0.3ms | ActiveRecord: 2.3ms)
+I, [2017-09-28T16:03:20.797075 #17168]  INFO -- : Started PUT "/api/v1/taskbar/8" for ::1 at 2017-09-28 16:03:20 -0500
+I, [2017-09-28T16:03:20.811484 #17168]  INFO -- : Processing by TaskbarController#update as JSON
+I, [2017-09-28T16:03:20.811563 #17168]  INFO -- :   Parameters: {"key"=>"Ticket-3", "client_id"=>"123", "callback"=>"TicketZoom", "state"=>{"ticket"=>{"state_id"=>"3"}, "article"=>{}}, "params"=>{"ticket_id"=>"3", "shown"=>true}, "prio"=>6, "notify"=>false, "active"=>true, "updated_at"=>"2017-09-28T20:18:21.521Z", "id"=>"8", "taskbar"=>{"id"=>"8", "client_id"=>"123", "key"=>"Ticket-3", "callback"=>"TicketZoom", "state"=>{"ticket"=>{"state_id"=>"3"}, "article"=>{}}, "params"=>{"ticket_id"=>"3", "shown"=>true}, "prio"=>6, "notify"=>false, "active"=>true, "updated_at"=>"2017-09-28T20:18:21.521Z"}}
+I, [2017-09-28T16:03:20.839395 #17168]  INFO -- : Completed 200 OK in 28ms (Views: 0.6ms | ActiveRecord: 2.4ms)
+I, [2017-09-28T16:03:25.502138 #17168]  INFO -- : Started PUT "/api/v1/taskbar/8" for ::1 at 2017-09-28 16:03:25 -0500
+I, [2017-09-28T16:03:25.506794 #17168]  INFO -- : Processing by TaskbarController#update as JSON
+I, [2017-09-28T16:03:25.507028 #17168]  INFO -- :   Parameters: {"key"=>"Ticket-3", "client_id"=>"123", "callback"=>"TicketZoom", "state"=>{"ticket"=>{"state_id"=>"3"}, "article"=>{}}, "params"=>{"ticket_id"=>"3", "shown"=>true}, "prio"=>6, "notify"=>false, "active"=>true, "updated_at"=>"2017-09-28T20:18:21.521Z", "id"=>"8", "taskbar"=>{"id"=>"8", "client_id"=>"123", "key"=>"Ticket-3", "callback"=>"TicketZoom", "state"=>{"ticket"=>{"state_id"=>"3"}, "article"=>{}}, "params"=>{"ticket_id"=>"3", "shown"=>true}, "prio"=>6, "notify"=>false, "active"=>true, "updated_at"=>"2017-09-28T20:18:21.521Z"}}
+I, [2017-09-28T16:03:25.531695 #17168]  INFO -- : Completed 200 OK in 25ms (Views: 0.4ms | ActiveRecord: 2.2ms)
+I, [2017-09-28T16:03:26.434563 #17168]  INFO -- : Started PUT "/api/v1/tickets/3?all=true" for ::1 at 2017-09-28 16:03:26 -0500
+I, [2017-09-28T16:03:26.439317 #17168]  INFO -- : Processing by TicketsController#update as JSON
+I, [2017-09-28T16:03:26.439417 #17168]  INFO -- :   Parameters: {"number"=>"87003", "title"=>"Test Ticket! ", "group_id"=>"1", "owner_id"=>"3", "customer_id"=>2, "state_id"=>"3", "priority_id"=>"2", "updated_at"=>"2017-09-28T21:02:44.534Z", "pending_time"=>"2017-09-28T13:00:00.000Z", "id"=>"3", "all"=>"true", "ticket"=>{"id"=>"3", "group_id"=>"1", "priority_id"=>"2", "state_id"=>"3", "number"=>"87003", "title"=>"Test Ticket! ", "owner_id"=>"3", "customer_id"=>2, "pending_time"=>"2017-09-28T13:00:00.000Z", "updated_at"=>"2017-09-28T21:02:44.534Z"}}
+I, [2017-09-28T16:03:26.539929 #17168]  INFO -- : Completed 200 OK in 100ms (Views: 3.4ms | ActiveRecord: 15.3ms)
+I, [2017-09-28T16:03:26.548468 #17168]  INFO -- : Started GET "/api/v1/ticket_customer?customer_id=2&_=1506629302435" for ::1 at 2017-09-28 16:03:26 -0500
+I, [2017-09-28T16:03:26.551027 #17168]  INFO -- : Started GET "/api/v1/ticket_customer?customer_id=2&_=1506629302436" for ::1 at 2017-09-28 16:03:26 -0500
+I, [2017-09-28T16:03:26.552712 #17168]  INFO -- : Processing by TicketsController#ticket_customer as JSON
+I, [2017-09-28T16:03:26.552767 #17168]  INFO -- :   Parameters: {"customer_id"=>"2", "_"=>"1506629302435", "ticket"=>{}}
+I, [2017-09-28T16:03:26.557610 #17168]  INFO -- : Processing by TicketsController#ticket_customer as JSON
+I, [2017-09-28T16:03:26.557665 #17168]  INFO -- :   Parameters: {"customer_id"=>"2", "_"=>"1506629302436", "ticket"=>{}}
+I, [2017-09-28T16:03:26.585797 #17168]  INFO -- : Completed 200 OK in 31ms (Views: 2.9ms | ActiveRecord: 8.7ms)
+I, [2017-09-28T16:03:26.586303 #17168]  INFO -- : Started DELETE "/api/v1/ticket_attachment_upload" for ::1 at 2017-09-28 16:03:26 -0500
+I, [2017-09-28T16:03:26.587063 #17168]  INFO -- : Completed 200 OK in 29ms (Views: 2.2ms | ActiveRecord: 8.3ms)
+I, [2017-09-28T16:03:26.593968 #17168]  INFO -- : Processing by TicketArticlesController#ticket_attachment_upload_delete as JSON
+I, [2017-09-28T16:03:26.594062 #17168]  INFO -- :   Parameters: {"form_id"=>"629930518", "ticket_article"=>{"form_id"=>"629930518"}}
+I, [2017-09-28T16:03:26.601502 #17168]  INFO -- : Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 1.2ms)
+I, [2017-09-28T16:03:28.622909 #17168]  INFO -- : Started PUT "/api/v1/taskbar/8" for ::1 at 2017-09-28 16:03:28 -0500
+I, [2017-09-28T16:03:28.627647 #17168]  INFO -- : Processing by TaskbarController#update as JSON
+I, [2017-09-28T16:03:28.627736 #17168]  INFO -- :   Parameters: {"key"=>"Ticket-3", "client_id"=>"123", "callback"=>"TicketZoom", "state"=>{"ticket"=>{}, "article"=>{}}, "params"=>{"ticket_id"=>"3", "shown"=>true}, "prio"=>6, "notify"=>false, "active"=>true, "updated_at"=>"2017-09-28T20:18:21.521Z", "id"=>"8", "taskbar"=>{"id"=>"8", "client_id"=>"123", "key"=>"Ticket-3", "callback"=>"TicketZoom", "state"=>{"ticket"=>{}, "article"=>{}}, "params"=>{"ticket_id"=>"3", "shown"=>true}, "prio"=>6, "notify"=>false, "active"=>true, "updated_at"=>"2017-09-28T20:18:21.521Z"}}
+I, [2017-09-28T16:03:28.652064 #17168]  INFO -- : Completed 200 OK in 24ms (Views: 0.4ms | ActiveRecord: 2.5ms)
+I, [2017-09-28T16:03:29.419339 #17168]  INFO -- : Started GET "/api/v1/ticket_overviews?_=1506629302437" for ::1 at 2017-09-28 16:03:29 -0500
+I, [2017-09-28T16:03:29.420069 #17168]  INFO -- : Started GET "/api/v1/ticket_overviews?view=my_assigned&_=1506629302438" for ::1 at 2017-09-28 16:03:29 -0500
+I, [2017-09-28T16:03:29.426164 #17168]  INFO -- : Processing by TicketOverviewsController#show as JSON
+I, [2017-09-28T16:03:29.426260 #17168]  INFO -- :   Parameters: {"_"=>"1506629302437", "ticket_overview"=>{}}
+I, [2017-09-28T16:03:29.429484 #17168]  INFO -- : Processing by TicketOverviewsController#show as JSON
+I, [2017-09-28T16:03:29.430535 #17168]  INFO -- :   Parameters: {"view"=>"my_assigned", "_"=>"1506629302438", "ticket_overview"=>{}}
+I, [2017-09-28T16:03:29.498346 #17168]  INFO -- : Completed 200 OK in 72ms (Views: 0.4ms | ActiveRecord: 28.4ms)
+I, [2017-09-28T16:03:29.587699 #17168]  INFO -- : Completed 200 OK in 157ms (Views: 4.3ms | ActiveRecord: 65.1ms)
+I, [2017-09-28T16:03:42.159180 #17168]  INFO -- : Started PUT "/api/v1/taskbar/6" for ::1 at 2017-09-28 16:03:42 -0500
+I, [2017-09-28T16:03:42.163367 #17168]  INFO -- : Processing by TaskbarController#update as JSON
+I, [2017-09-28T16:03:42.163451 #17168]  INFO -- :   Parameters: {"key"=>"User-3", "client_id"=>"123", "callback"=>"UserProfile", "state"=>{}, "params"=>{"user_id"=>"3", "shown"=>true}, "prio"=>4, "notify"=>false, "active"=>true, "updated_at"=>"2017-09-28T20:17:35.113Z", "id"=>"6", "taskbar"=>{"id"=>"6", "client_id"=>"123", "key"=>"User-3", "callback"=>"UserProfile", "state"=>{}, "params"=>{"user_id"=>"3", "shown"=>true}, "prio"=>4, "notify"=>false, "active"=>true, "updated_at"=>"2017-09-28T20:17:35.113Z"}}
+I, [2017-09-28T16:03:42.186960 #17168]  INFO -- : Completed 200 OK in 23ms (Views: 0.4ms | ActiveRecord: 2.5ms)
+I, [2017-09-28T16:03:42.192031 #17168]  INFO -- : Started PUT "/api/v1/taskbar/8" for ::1 at 2017-09-28 16:03:42 -0500
+I, [2017-09-28T16:03:42.196183 #17168]  INFO -- : Processing by TaskbarController#update as JSON
+I, [2017-09-28T16:03:42.196282 #17168]  INFO -- :   Parameters: {"key"=>"Ticket-3", "client_id"=>"123", "callback"=>"TicketZoom", "state"=>{"ticket"=>{}, "article"=>{}}, "params"=>{"ticket_id"=>"3", "shown"=>true}, "prio"=>6, "notify"=>false, "active"=>false, "updated_at"=>"2017-09-28T20:18:21.521Z", "id"=>"8", "taskbar"=>{"id"=>"8", "client_id"=>"123", "key"=>"Ticket-3", "callback"=>"TicketZoom", "state"=>{"ticket"=>{}, "article"=>{}}, "params"=>{"ticket_id"=>"3", "shown"=>true}, "prio"=>6, "notify"=>false, "active"=>false, "updated_at"=>"2017-09-28T20:18:21.521Z"}}
+I, [2017-09-28T16:03:42.223642 #17168]  INFO -- : Completed 200 OK in 27ms (Views: 0.4ms | ActiveRecord: 2.6ms)
+I, [2017-09-28T16:03:49.113734 #17168]  INFO -- : Started PUT "/api/v1/taskbar/6" for ::1 at 2017-09-28 16:03:49 -0500
+I, [2017-09-28T16:03:49.118137 #17168]  INFO -- : Processing by TaskbarController#update as JSON
+I, [2017-09-28T16:03:49.118226 #17168]  INFO -- :   Parameters: {"key"=>"User-3", "client_id"=>"123", "callback"=>"UserProfile", "state"=>{}, "params"=>{"user_id"=>"3", "shown"=>true}, "prio"=>4, "notify"=>false, "active"=>false, "updated_at"=>"2017-09-28T20:17:35.113Z", "id"=>"6", "taskbar"=>{"id"=>"6", "client_id"=>"123", "key"=>"User-3", "callback"=>"UserProfile", "state"=>{}, "params"=>{"user_id"=>"3", "shown"=>true}, "prio"=>4, "notify"=>false, "active"=>false, "updated_at"=>"2017-09-28T20:17:35.113Z"}}
+I, [2017-09-28T16:03:49.139060 #17168]  INFO -- : Completed 200 OK in 21ms (Views: 0.3ms | ActiveRecord: 2.2ms)
+I, [2017-09-28T16:03:49.144131 #17168]  INFO -- : Started PUT "/api/v1/taskbar/9" for ::1 at 2017-09-28 16:03:49 -0500
+I, [2017-09-28T16:03:49.147565 #17168]  INFO -- : Processing by TaskbarController#update as JSON
+I, [2017-09-28T16:03:49.147676 #17168]  INFO -- :   Parameters: {"key"=>"User-4", "client_id"=>"123", "callback"=>"UserProfile", "state"=>{}, "params"=>{"user_id"=>"4", "shown"=>true}, "prio"=>7, "notify"=>false, "active"=>false, "updated_at"=>"2017-09-28T20:18:55.599Z", "id"=>"9", "taskbar"=>{"id"=>"9", "client_id"=>"123", "key"=>"User-4", "callback"=>"UserProfile", "state"=>{}, "params"=>{"user_id"=>"4", "shown"=>true}, "prio"=>7, "notify"=>false, "active"=>false, "updated_at"=>"2017-09-28T20:18:55.599Z"}}
+I, [2017-09-28T16:03:49.168209 #17168]  INFO -- : Completed 200 OK in 20ms (Views: 0.4ms | ActiveRecord: 2.3ms)
+I, [2017-09-28T16:03:49.172927 #17168]  INFO -- : Started PUT "/api/v1/taskbar/3" for ::1 at 2017-09-28 16:03:49 -0500
+I, [2017-09-28T16:03:49.176643 #17168]  INFO -- : Processing by TaskbarController#update as JSON
+I, [2017-09-28T16:03:49.176735 #17168]  INFO -- :   Parameters: {"key"=>"Ticket-1", "client_id"=>"123", "callback"=>"TicketZoom", "state"=>{"ticket"=>{}, "article"=>{}}, "params"=>{"ticket_id"=>1, "overview_id"=>4, "shown"=>true}, "prio"=>2, "notify"=>false, "active"=>false, "updated_at"=>"2017-09-28T20:13:35.927Z", "id"=>"3", "taskbar"=>{"id"=>"3", "client_id"=>"123", "key"=>"Ticket-1", "callback"=>"TicketZoom", "state"=>{"ticket"=>{}, "article"=>{}}, "params"=>{"ticket_id"=>1, "overview_id"=>4, "shown"=>true}, "prio"=>2, "notify"=>false, "active"=>false, "updated_at"=>"2017-09-28T20:13:35.927Z"}}
+I, [2017-09-28T16:03:49.199931 #17168]  INFO -- : Completed 200 OK in 23ms (Views: 0.4ms | ActiveRecord: 2.1ms)
+I, [2017-09-28T16:05:08.406180 #17168]  INFO -- : Started PUT "/api/v1/tickets/1" for ::1 at 2017-09-28 16:05:08 -0500
+I, [2017-09-28T16:05:08.411223 #17168]  INFO -- : Processing by TicketsController#update as JSON
+I, [2017-09-28T16:05:08.411285 #17168]  INFO -- :   Parameters: {"number"=>"87001", "title"=>"Welcome to Zammad!", "group_id"=>1, "owner_id"=>"3", "customer_id"=>2, "state_id"=>1, "priority_id"=>2, "updated_at"=>"2017-09-28T20:07:19.686Z", "pending_time"=>nil, "id"=>"1", "ticket"=>{"id"=>"1", "group_id"=>1, "priority_id"=>2, "state_id"=>1, "number"=>"87001", "title"=>"Welcome to Zammad!", "owner_id"=>"3", "customer_id"=>2, "pending_time"=>nil, "updated_at"=>"2017-09-28T20:07:19.686Z"}}
+I, [2017-09-28T16:05:08.467630 #17168]  INFO -- : Completed 200 OK in 56ms (Views: 0.7ms | ActiveRecord: 7.7ms)
+I, [2017-09-28T16:05:09.165864 #17168]  INFO -- : Started GET "/api/v1/users/2?full=true&_=1506629302439" for ::1 at 2017-09-28 16:05:09 -0500
+I, [2017-09-28T16:05:09.169095 #17168]  INFO -- : Started GET "/api/v1/organizations/1?full=true&_=1506629302440" for ::1 at 2017-09-28 16:05:09 -0500
+I, [2017-09-28T16:05:09.171383 #17168]  INFO -- : Processing by UsersController#show as JSON
+I, [2017-09-28T16:05:09.173021 #17168]  INFO -- :   Parameters: {"full"=>"true", "_"=>"1506629302439", "id"=>"2", "user"=>{}}
+I, [2017-09-28T16:05:09.176017 #17168]  INFO -- : Processing by OrganizationsController#show as JSON
+I, [2017-09-28T16:05:09.176070 #17168]  INFO -- :   Parameters: {"full"=>"true", "_"=>"1506629302440", "id"=>"1", "organization"=>{}}
+I, [2017-09-28T16:05:09.206257 #17168]  INFO -- : Completed 200 OK in 30ms (Views: 1.0ms | ActiveRecord: 7.1ms)
+I, [2017-09-28T16:05:09.209212 #17168]  INFO -- : Completed 200 OK in 36ms (Views: 0.9ms | ActiveRecord: 9.7ms)
+I, [2017-09-28T16:05:09.220149 #17168]  INFO -- : Started GET "/api/v1/ticket_customer?customer_id=2&_=1506629302441" for ::1 at 2017-09-28 16:05:09 -0500
+I, [2017-09-28T16:05:09.222142 #17168]  INFO -- : Started GET "/api/v1/ticket_customer?customer_id=2&_=1506629302442" for ::1 at 2017-09-28 16:05:09 -0500
+I, [2017-09-28T16:05:09.223808 #17168]  INFO -- : Processing by TicketsController#ticket_customer as JSON
+I, [2017-09-28T16:05:09.223869 #17168]  INFO -- :   Parameters: {"customer_id"=>"2", "_"=>"1506629302441", "ticket"=>{}}
+I, [2017-09-28T16:05:09.228308 #17168]  INFO -- : Processing by TicketsController#ticket_customer as JSON
+I, [2017-09-28T16:05:09.228684 #17168]  INFO -- :   Parameters: {"customer_id"=>"2", "_"=>"1506629302442", "ticket"=>{}}
+I, [2017-09-28T16:05:09.255091 #17168]  INFO -- : Completed 200 OK in 26ms (Views: 1.8ms | ActiveRecord: 10.4ms)
+I, [2017-09-28T16:05:09.255624 #17168]  INFO -- : Completed 200 OK in 32ms (Views: 2.2ms | ActiveRecord: 7.3ms)
+I, [2017-09-28T16:05:09.565764 #17168]  INFO -- : Started GET "/api/v1/tickets/1?all=true&_=1506629302443" for ::1 at 2017-09-28 16:05:09 -0500
+I, [2017-09-28T16:05:09.569972 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-28T16:05:09.570038 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506629302443", "id"=>"1", "ticket"=>{}}
+I, [2017-09-28T16:05:09.606625 #17168]  INFO -- : Completed 200 OK in 37ms (Views: 2.3ms | ActiveRecord: 7.4ms)
+I, [2017-09-28T16:05:10.497457 #17168]  INFO -- : Started PUT "/api/v1/taskbar/3" for ::1 at 2017-09-28 16:05:10 -0500
+I, [2017-09-28T16:05:10.502018 #17168]  INFO -- : Processing by TaskbarController#update as JSON
+I, [2017-09-28T16:05:10.502117 #17168]  INFO -- :   Parameters: {"key"=>"Ticket-1", "client_id"=>"123", "callback"=>"TicketZoom", "state"=>{"ticket"=>{}, "article"=>{}}, "params"=>{"ticket_id"=>1, "overview_id"=>4, "shown"=>true}, "prio"=>2, "notify"=>false, "active"=>false, "updated_at"=>"2017-09-28T20:13:35.927Z", "id"=>"3", "taskbar"=>{"id"=>"3", "client_id"=>"123", "key"=>"Ticket-1", "callback"=>"TicketZoom", "state"=>{"ticket"=>{}, "article"=>{}}, "params"=>{"ticket_id"=>1, "overview_id"=>4, "shown"=>true}, "prio"=>2, "notify"=>false, "active"=>false, "updated_at"=>"2017-09-28T20:13:35.927Z"}}
+I, [2017-09-28T16:05:10.522806 #17168]  INFO -- : Completed 200 OK in 21ms (Views: 0.4ms | ActiveRecord: 2.0ms)
+I, [2017-09-28T16:05:11.298625 #17168]  INFO -- : Started GET "/api/v1/ticket_overviews?_=1506629302444" for ::1 at 2017-09-28 16:05:11 -0500
+I, [2017-09-28T16:05:11.299147 #17168]  INFO -- : Started GET "/api/v1/ticket_overviews?view=all_open&_=1506629302445" for ::1 at 2017-09-28 16:05:11 -0500
+I, [2017-09-28T16:05:11.303685 #17168]  INFO -- : Processing by TicketOverviewsController#show as JSON
+I, [2017-09-28T16:05:11.303743 #17168]  INFO -- :   Parameters: {"_"=>"1506629302444", "ticket_overview"=>{}}
+I, [2017-09-28T16:05:11.305567 #17168]  INFO -- : Processing by TicketOverviewsController#show as JSON
+I, [2017-09-28T16:05:11.305608 #17168]  INFO -- :   Parameters: {"view"=>"all_open", "_"=>"1506629302445", "ticket_overview"=>{}}
+I, [2017-09-28T16:05:11.353372 #17168]  INFO -- : Completed 200 OK in 50ms (Views: 0.3ms | ActiveRecord: 15.8ms)
+I, [2017-09-28T16:05:11.415243 #17168]  INFO -- : Completed 200 OK in 110ms (Views: 2.8ms | ActiveRecord: 44.0ms)
+I, [2017-09-28T16:13:35.911184 #17168]  INFO -- : Started GET "/api/v1/tickets/1?all=true&_=1506629302446" for ::1 at 2017-09-28 16:13:35 -0500
+I, [2017-09-28T16:13:35.916345 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-28T16:13:35.916404 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506629302446", "id"=>"1", "ticket"=>{}}
+I, [2017-09-28T16:13:35.970320 #17168]  INFO -- : Completed 200 OK in 54ms (Views: 12.9ms | ActiveRecord: 7.6ms)
+I, [2017-09-28T16:17:30.907888 #17168]  INFO -- : Started GET "/api/v1/tickets/2?all=true&_=1506629302447" for ::1 at 2017-09-28 16:17:30 -0500
+I, [2017-09-28T16:17:30.912724 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-28T16:17:30.912813 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506629302447", "id"=>"2", "ticket"=>{}}
+I, [2017-09-28T16:17:30.957202 #17168]  INFO -- : Completed 200 OK in 44ms (Views: 4.1ms | ActiveRecord: 8.1ms)
+I, [2017-09-28T16:18:21.911797 #17168]  INFO -- : Started GET "/api/v1/tickets/3?all=true&_=1506629302448" for ::1 at 2017-09-28 16:18:21 -0500
+I, [2017-09-28T16:18:21.916552 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-28T16:18:21.916606 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506629302448", "id"=>"3", "ticket"=>{}}
+I, [2017-09-28T16:18:21.962635 #17168]  INFO -- : Completed 200 OK in 46ms (Views: 5.9ms | ActiveRecord: 7.8ms)
+I, [2017-09-28T16:43:35.858657 #17168]  INFO -- : Started GET "/api/v1/tickets/1?all=true&_=1506629302449" for ::1 at 2017-09-28 16:43:35 -0500
+I, [2017-09-28T16:43:35.865420 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-28T16:43:35.865514 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506629302449", "id"=>"1", "ticket"=>{}}
+I, [2017-09-28T16:43:35.912383 #17168]  INFO -- : Completed 200 OK in 47ms (Views: 3.8ms | ActiveRecord: 7.6ms)
+I, [2017-09-28T16:47:30.857946 #17168]  INFO -- : Started GET "/api/v1/tickets/2?all=true&_=1506629302450" for ::1 at 2017-09-28 16:47:30 -0500
+I, [2017-09-28T16:47:30.862272 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-28T16:47:30.862322 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506629302450", "id"=>"2", "ticket"=>{}}
+I, [2017-09-28T16:47:30.897353 #17168]  INFO -- : Completed 200 OK in 35ms (Views: 3.3ms | ActiveRecord: 6.0ms)
+I, [2017-09-28T16:48:21.848685 #17168]  INFO -- : Started GET "/api/v1/tickets/3?all=true&_=1506629302451" for ::1 at 2017-09-28 16:48:21 -0500
+I, [2017-09-28T16:48:21.852309 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-28T16:48:21.852362 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506629302451", "id"=>"3", "ticket"=>{}}
+I, [2017-09-28T16:48:21.887467 #17168]  INFO -- : Completed 200 OK in 35ms (Views: 3.5ms | ActiveRecord: 6.2ms)
+I, [2017-09-28T17:13:35.808849 #17168]  INFO -- : Started GET "/api/v1/tickets/1?all=true&_=1506629302452" for ::1 at 2017-09-28 17:13:35 -0500
+I, [2017-09-28T17:13:35.814267 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-28T17:13:35.814325 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506629302452", "id"=>"1", "ticket"=>{}}
+I, [2017-09-28T17:13:35.853322 #17168]  INFO -- : Completed 200 OK in 39ms (Views: 3.2ms | ActiveRecord: 6.8ms)
+I, [2017-09-28T17:17:30.796466 #17168]  INFO -- : Started GET "/api/v1/tickets/2?all=true&_=1506629302453" for ::1 at 2017-09-28 17:17:30 -0500
+I, [2017-09-28T17:17:30.800829 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-28T17:17:30.800879 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506629302453", "id"=>"2", "ticket"=>{}}
+I, [2017-09-28T17:17:30.837582 #17168]  INFO -- : Completed 200 OK in 37ms (Views: 3.3ms | ActiveRecord: 7.5ms)
+I, [2017-09-28T17:18:21.827598 #17168]  INFO -- : Started GET "/api/v1/tickets/3?all=true&_=1506629302454" for ::1 at 2017-09-28 17:18:21 -0500
+I, [2017-09-28T17:18:21.831166 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-28T17:18:21.831213 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506629302454", "id"=>"3", "ticket"=>{}}
+I, [2017-09-28T17:18:21.865888 #17168]  INFO -- : Completed 200 OK in 35ms (Views: 3.2ms | ActiveRecord: 6.8ms)
+I, [2017-09-28T17:43:10.017509 #17168]  INFO -- : Started GET "/" for ::1 at 2017-09-28 17:43:10 -0500
+I, [2017-09-28T17:43:10.024113 #17168]  INFO -- : Processing by InitController#index as HTML
+I, [2017-09-28T17:43:10.033807 #17168]  INFO -- :   Rendered init/index.html.erb within layouts/application (0.5ms)
+I, [2017-09-28T17:43:10.036310 #17168]  INFO -- : Completed 200 OK in 12ms (Views: 9.8ms | ActiveRecord: 0.4ms)
+I, [2017-09-28T17:43:10.407803 #17168]  INFO -- : Started POST "/api/v1/signshow" for ::1 at 2017-09-28 17:43:10 -0500
+I, [2017-09-28T17:43:10.411648 #17168]  INFO -- : Processing by SessionsController#show as JSON
+I, [2017-09-28T17:43:10.411697 #17168]  INFO -- :   Parameters: {"fingerprint"=>"1939571012", "session"=>{"fingerprint"=>"1939571012"}}
+I, [2017-09-28T17:43:10.620544 #17168]  INFO -- : Completed 200 OK in 209ms (Views: 45.0ms | ActiveRecord: 17.1ms)
+I, [2017-09-28T17:43:10.637763 #17168]  INFO -- : Started GET "/api/v1/translations/lang/en-us?_=1506638590256" for ::1 at 2017-09-28 17:43:10 -0500
+I, [2017-09-28T17:43:10.641280 #17168]  INFO -- : Processing by TranslationsController#lang as JSON
+I, [2017-09-28T17:43:10.641326 #17168]  INFO -- :   Parameters: {"_"=>"1506638590256", "locale"=>"en-us", "translation"=>{}}
+I, [2017-09-28T17:43:10.646738 #17168]  INFO -- : Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+I, [2017-09-28T17:43:10.651873 #17168]  INFO -- : Started GET "/ws" for ::1 at 2017-09-28 17:43:10 -0500
+I, [2017-09-28T17:43:10.656763 #17168]  INFO -- : Processing by ErrorsController#routing as HTML
+I, [2017-09-28T17:43:10.656826 #17168]  INFO -- :   Parameters: {"a"=>"ws"}
+E, [2017-09-28T17:43:10.660701 #17168] ERROR -- : No route matches [GET] /ws
+I, [2017-09-28T17:43:10.664621 #17168]  INFO -- :   Rendered inline template (0.4ms)
+I, [2017-09-28T17:43:10.665807 #17168]  INFO -- : Completed 404 Not Found in 9ms (Views: 3.5ms | ActiveRecord: 1.2ms)
+I, [2017-09-28T17:43:10.697398 #17168]  INFO -- : Started GET "/api/v1/ticket_overviews?_=1506638590257" for ::1 at 2017-09-28 17:43:10 -0500
+I, [2017-09-28T17:43:10.699938 #17168]  INFO -- : Started GET "/api/v1/ticket_overviews?view=all_open&_=1506638590258" for ::1 at 2017-09-28 17:43:10 -0500
+I, [2017-09-28T17:43:10.701733 #17168]  INFO -- : Processing by TicketOverviewsController#show as JSON
+I, [2017-09-28T17:43:10.701790 #17168]  INFO -- :   Parameters: {"_"=>"1506638590257", "ticket_overview"=>{}}
+I, [2017-09-28T17:43:10.706581 #17168]  INFO -- : Processing by TicketOverviewsController#show as JSON
+I, [2017-09-28T17:43:10.706644 #17168]  INFO -- :   Parameters: {"view"=>"all_open", "_"=>"1506638590258", "ticket_overview"=>{}}
+I, [2017-09-28T17:43:10.776345 #17168]  INFO -- : Completed 200 OK in 74ms (Views: 0.3ms | ActiveRecord: 30.0ms)
+I, [2017-09-28T17:43:10.836946 #17168]  INFO -- : Completed 200 OK in 130ms (Views: 2.7ms | ActiveRecord: 53.0ms)
+I, [2017-09-28T17:43:11.361742 #17168]  INFO -- : Started GET "/api/v1/cti/log?_=1506638590259" for ::1 at 2017-09-28 17:43:11 -0500
+I, [2017-09-28T17:43:11.367794 #17168]  INFO -- : Processing by CtiController#index as JSON
+I, [2017-09-28T17:43:11.367847 #17168]  INFO -- :   Parameters: {"_"=>"1506638590259", "cti"=>{}}
+I, [2017-09-28T17:43:11.377458 #17168]  INFO -- : Completed 200 OK in 10ms (Views: 0.2ms | ActiveRecord: 1.4ms)
+I, [2017-09-28T17:43:11.715554 #17168]  INFO -- : Started GET "/api/v1/first_steps?_=1506638590260" for ::1 at 2017-09-28 17:43:11 -0500
+I, [2017-09-28T17:43:11.723471 #17168]  INFO -- : Processing by FirstStepsController#index as JSON
+I, [2017-09-28T17:43:11.723528 #17168]  INFO -- :   Parameters: {"_"=>"1506638590260", "first_step"=>{}}
+I, [2017-09-28T17:43:11.740721 #17168]  INFO -- : Completed 200 OK in 17ms (Views: 0.5ms | ActiveRecord: 3.6ms)
+I, [2017-09-28T17:43:12.433783 #17168]  INFO -- : Started GET "/api/v1/text_modules/?full=true&_=1506638590261" for ::1 at 2017-09-28 17:43:12 -0500
+I, [2017-09-28T17:43:12.439377 #17168]  INFO -- : Processing by TextModulesController#index as JSON
+I, [2017-09-28T17:43:12.439436 #17168]  INFO -- :   Parameters: {"full"=>"true", "_"=>"1506638590261", "text_module"=>{}}
+I, [2017-09-28T17:43:12.460962 #17168]  INFO -- : Completed 200 OK in 21ms (Views: 2.7ms | ActiveRecord: 1.8ms)
+I, [2017-09-28T17:43:12.489753 #17168]  INFO -- : Started GET "/api/v1/tags?object=Ticket&o_id=1&_=1506638590262" for ::1 at 2017-09-28 17:43:12 -0500
+I, [2017-09-28T17:43:12.492089 #17168]  INFO -- : Started GET "/api/v1/links?link_object=Ticket&link_object_value=1&_=1506638590263" for ::1 at 2017-09-28 17:43:12 -0500
+I, [2017-09-28T17:43:12.494064 #17168]  INFO -- : Processing by TagsController#list as JSON
+I, [2017-09-28T17:43:12.495258 #17168]  INFO -- :   Parameters: {"object"=>"Ticket", "o_id"=>"1", "_"=>"1506638590262", "tag"=>{}}
+I, [2017-09-28T17:43:12.500320 #17168]  INFO -- : Processing by LinksController#index as JSON
+I, [2017-09-28T17:43:12.500374 #17168]  INFO -- :   Parameters: {"link_object"=>"Ticket", "link_object_value"=>"1", "_"=>"1506638590263", "link"=>{}}
+I, [2017-09-28T17:43:12.500777 #17168]  INFO -- : Started GET "/api/v1/ticket_customer?customer_id=2&_=1506638590264" for ::1 at 2017-09-28 17:43:12 -0500
+I, [2017-09-28T17:43:12.514698 #17168]  INFO -- : Started GET "/api/v1/tickets/1?all=true&_=1506638590265" for ::1 at 2017-09-28 17:43:12 -0500
+I, [2017-09-28T17:43:12.516564 #17168]  INFO -- : Processing by TicketsController#ticket_customer as JSON
+I, [2017-09-28T17:43:12.516661 #17168]  INFO -- :   Parameters: {"customer_id"=>"2", "_"=>"1506638590264", "ticket"=>{}}
+I, [2017-09-28T17:43:12.529826 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-28T17:43:12.529889 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590265", "id"=>"1", "ticket"=>{}}
+I, [2017-09-28T17:43:12.537030 #17168]  INFO -- : Completed 200 OK in 42ms (Views: 0.1ms | ActiveRecord: 21.1ms)
+I, [2017-09-28T17:43:12.546436 #17168]  INFO -- : Completed 200 OK in 46ms (Views: 5.0ms | ActiveRecord: 27.8ms)
+I, [2017-09-28T17:43:12.564275 #17168]  INFO -- : Completed 200 OK in 47ms (Views: 4.3ms | ActiveRecord: 10.1ms)
+I, [2017-09-28T17:43:12.607941 #17168]  INFO -- : Completed 200 OK in 78ms (Views: 4.7ms | ActiveRecord: 27.4ms)
+I, [2017-09-28T17:43:12.812205 #17168]  INFO -- : Started GET "/api/v1/tags?object=Ticket&o_id=2&_=1506638590266" for ::1 at 2017-09-28 17:43:12 -0500
+I, [2017-09-28T17:43:12.812826 #17168]  INFO -- : Started GET "/api/v1/links?link_object=Ticket&link_object_value=2&_=1506638590267" for ::1 at 2017-09-28 17:43:12 -0500
+I, [2017-09-28T17:43:12.818120 #17168]  INFO -- : Processing by TagsController#list as JSON
+I, [2017-09-28T17:43:12.818178 #17168]  INFO -- :   Parameters: {"object"=>"Ticket", "o_id"=>"2", "_"=>"1506638590266", "tag"=>{}}
+I, [2017-09-28T17:43:12.820539 #17168]  INFO -- : Started GET "/api/v1/ticket_customer?customer_id=4&_=1506638590268" for ::1 at 2017-09-28 17:43:12 -0500
+I, [2017-09-28T17:43:12.822260 #17168]  INFO -- : Processing by LinksController#index as JSON
+I, [2017-09-28T17:43:12.822599 #17168]  INFO -- :   Parameters: {"link_object"=>"Ticket", "link_object_value"=>"2", "_"=>"1506638590267", "link"=>{}}
+I, [2017-09-28T17:43:12.822906 #17168]  INFO -- : Started GET "/api/v1/tickets/2?all=true&_=1506638590269" for ::1 at 2017-09-28 17:43:12 -0500
+I, [2017-09-28T17:43:12.829284 #17168]  INFO -- : Processing by TicketsController#ticket_customer as JSON
+I, [2017-09-28T17:43:12.829338 #17168]  INFO -- :   Parameters: {"customer_id"=>"4", "_"=>"1506638590268", "ticket"=>{}}
+I, [2017-09-28T17:43:12.835752 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-28T17:43:12.835799 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590269", "id"=>"2", "ticket"=>{}}
+I, [2017-09-28T17:43:12.846748 #17168]  INFO -- : Completed 200 OK in 28ms (Views: 0.2ms | ActiveRecord: 14.3ms)
+I, [2017-09-28T17:43:12.859537 #17168]  INFO -- : Completed 200 OK in 34ms (Views: 0.2ms | ActiveRecord: 18.3ms)
+I, [2017-09-28T17:43:12.870055 #17168]  INFO -- : Completed 200 OK in 41ms (Views: 2.9ms | ActiveRecord: 10.6ms)
+I, [2017-09-28T17:43:12.899118 #17168]  INFO -- : Completed 200 OK in 63ms (Views: 3.1ms | ActiveRecord: 20.0ms)
+I, [2017-09-28T17:43:13.115940 #17168]  INFO -- : Started GET "/api/v1/ticket_stats?user_id=3&organization_id=&_=1506638590270" for ::1 at 2017-09-28 17:43:13 -0500
+I, [2017-09-28T17:43:13.119487 #17168]  INFO -- : Processing by TicketsController#stats as JSON
+I, [2017-09-28T17:43:13.119531 #17168]  INFO -- :   Parameters: {"user_id"=>"3", "organization_id"=>"", "_"=>"1506638590270", "ticket"=>{}}
+I, [2017-09-28T17:43:13.153667 #17168]  INFO -- : Completed 200 OK in 34ms (Views: 0.5ms | ActiveRecord: 7.9ms)
+I, [2017-09-28T17:43:13.507649 #17168]  INFO -- : Started GET "/api/v1/tags?object=Ticket&o_id=3&_=1506638590271" for ::1 at 2017-09-28 17:43:13 -0500
+I, [2017-09-28T17:43:13.508179 #17168]  INFO -- : Started GET "/api/v1/links?link_object=Ticket&link_object_value=3&_=1506638590272" for ::1 at 2017-09-28 17:43:13 -0500
+I, [2017-09-28T17:43:13.513409 #17168]  INFO -- : Processing by TagsController#list as JSON
+I, [2017-09-28T17:43:13.513466 #17168]  INFO -- :   Parameters: {"object"=>"Ticket", "o_id"=>"3", "_"=>"1506638590271", "tag"=>{}}
+I, [2017-09-28T17:43:13.514679 #17168]  INFO -- : Started GET "/api/v1/ticket_customer?customer_id=2&_=1506638590273" for ::1 at 2017-09-28 17:43:13 -0500
+I, [2017-09-28T17:43:13.516077 #17168]  INFO -- : Processing by LinksController#index as JSON
+I, [2017-09-28T17:43:13.516121 #17168]  INFO -- :   Parameters: {"link_object"=>"Ticket", "link_object_value"=>"3", "_"=>"1506638590272", "link"=>{}}
+I, [2017-09-28T17:43:13.521457 #17168]  INFO -- : Processing by TicketsController#ticket_customer as JSON
+I, [2017-09-28T17:43:13.521757 #17168]  INFO -- : Started GET "/api/v1/tickets/3?all=true&_=1506638590274" for ::1 at 2017-09-28 17:43:13 -0500
+I, [2017-09-28T17:43:13.522411 #17168]  INFO -- :   Parameters: {"customer_id"=>"2", "_"=>"1506638590273", "ticket"=>{}}
+I, [2017-09-28T17:43:13.527431 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-28T17:43:13.527494 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590274", "id"=>"3", "ticket"=>{}}
+I, [2017-09-28T17:43:13.541698 #17168]  INFO -- : Completed 200 OK in 28ms (Views: 0.1ms | ActiveRecord: 5.0ms)
+I, [2017-09-28T17:43:13.548248 #17168]  INFO -- : Completed 200 OK in 32ms (Views: 0.2ms | ActiveRecord: 15.4ms)
+I, [2017-09-28T17:43:13.561555 #17168]  INFO -- : Completed 200 OK in 37ms (Views: 2.7ms | ActiveRecord: 8.5ms)
+I, [2017-09-28T17:43:13.587207 #17168]  INFO -- : Completed 200 OK in 60ms (Views: 2.6ms | ActiveRecord: 17.0ms)
+I, [2017-09-28T17:43:13.816309 #17168]  INFO -- : Started GET "/api/v1/ticket_stats?user_id=4&organization_id=&_=1506638590275" for ::1 at 2017-09-28 17:43:13 -0500
+I, [2017-09-28T17:43:13.819894 #17168]  INFO -- : Processing by TicketsController#stats as JSON
+I, [2017-09-28T17:43:13.819990 #17168]  INFO -- :   Parameters: {"user_id"=>"4", "organization_id"=>"", "_"=>"1506638590275", "ticket"=>{}}
+I, [2017-09-28T17:43:13.856535 #17168]  INFO -- : Completed 200 OK in 36ms (Views: 2.2ms | ActiveRecord: 7.4ms)
+I, [2017-09-28T17:43:15.512494 #17168]  INFO -- : Started PUT "/api/v1/taskbar/3" for ::1 at 2017-09-28 17:43:15 -0500
+I, [2017-09-28T17:43:15.517257 #17168]  INFO -- : Processing by TaskbarController#update as JSON
+I, [2017-09-28T17:43:15.517348 #17168]  INFO -- :   Parameters: {"key"=>"Ticket-1", "client_id"=>"123", "callback"=>"TicketZoom", "state"=>{"ticket"=>{}, "article"=>{}}, "params"=>{"ticket_id"=>1, "overview_id"=>4, "init"=>true}, "prio"=>2, "notify"=>false, "active"=>false, "updated_at"=>"2017-09-28T20:13:55.673Z", "id"=>"3", "taskbar"=>{"id"=>"3", "client_id"=>"123", "key"=>"Ticket-1", "callback"=>"TicketZoom", "state"=>{"ticket"=>{}, "article"=>{}}, "params"=>{"ticket_id"=>1, "overview_id"=>4, "init"=>true}, "prio"=>2, "notify"=>false, "active"=>false, "updated_at"=>"2017-09-28T20:13:55.673Z"}}
+I, [2017-09-28T17:43:15.543346 #17168]  INFO -- : Completed 200 OK in 26ms (Views: 0.4ms | ActiveRecord: 2.2ms)
+I, [2017-09-28T17:43:15.549652 #17168]  INFO -- : Started PUT "/api/v1/taskbar/5" for ::1 at 2017-09-28 17:43:15 -0500
+I, [2017-09-28T17:43:15.553383 #17168]  INFO -- : Processing by TaskbarController#update as JSON
+I, [2017-09-28T17:43:15.553470 #17168]  INFO -- :   Parameters: {"key"=>"Ticket-2", "client_id"=>"123", "callback"=>"TicketZoom", "state"=>{"ticket"=>{}, "article"=>{}}, "params"=>{"ticket_id"=>"2", "init"=>true}, "prio"=>3, "notify"=>false, "active"=>false, "updated_at"=>"2017-09-28T21:00:40.010Z", "id"=>"5", "taskbar"=>{"id"=>"5", "client_id"=>"123", "key"=>"Ticket-2", "callback"=>"TicketZoom", "state"=>{"ticket"=>{}, "article"=>{}}, "params"=>{"ticket_id"=>"2", "init"=>true}, "prio"=>3, "notify"=>false, "active"=>false, "updated_at"=>"2017-09-28T21:00:40.010Z"}}
+I, [2017-09-28T17:43:15.578077 #17168]  INFO -- : Completed 200 OK in 25ms (Views: 0.4ms | ActiveRecord: 2.3ms)
+I, [2017-09-28T17:43:15.582388 #17168]  INFO -- : Started PUT "/api/v1/taskbar/8" for ::1 at 2017-09-28 17:43:15 -0500
+I, [2017-09-28T17:43:15.586647 #17168]  INFO -- : Processing by TaskbarController#update as JSON
+I, [2017-09-28T17:43:15.586735 #17168]  INFO -- :   Parameters: {"key"=>"Ticket-3", "client_id"=>"123", "callback"=>"TicketZoom", "state"=>{"ticket"=>{}, "article"=>{}}, "params"=>{"ticket_id"=>"3", "init"=>true}, "prio"=>6, "notify"=>false, "active"=>false, "updated_at"=>"2017-09-28T21:03:42.206Z", "id"=>"8", "taskbar"=>{"id"=>"8", "client_id"=>"123", "key"=>"Ticket-3", "callback"=>"TicketZoom", "state"=>{"ticket"=>{}, "article"=>{}}, "params"=>{"ticket_id"=>"3", "init"=>true}, "prio"=>6, "notify"=>false, "active"=>false, "updated_at"=>"2017-09-28T21:03:42.206Z"}}
+I, [2017-09-28T17:43:15.610990 #17168]  INFO -- : Completed 200 OK in 24ms (Views: 0.4ms | ActiveRecord: 2.2ms)
+I, [2017-09-28T18:13:12.693607 #17168]  INFO -- : Started GET "/api/v1/tickets/1?all=true&_=1506638590276" for ::1 at 2017-09-28 18:13:12 -0500
+I, [2017-09-28T18:13:12.699730 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-28T18:13:12.699791 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590276", "id"=>"1", "ticket"=>{}}
+I, [2017-09-28T18:13:12.750062 #17168]  INFO -- : Completed 200 OK in 50ms (Views: 3.4ms | ActiveRecord: 9.1ms)
+I, [2017-09-28T18:13:13.696868 #17168]  INFO -- : Started GET "/api/v1/tickets/2?all=true&_=1506638590277" for ::1 at 2017-09-28 18:13:13 -0500
+I, [2017-09-28T18:13:13.697744 #17168]  INFO -- : Started GET "/api/v1/tickets/3?all=true&_=1506638590278" for ::1 at 2017-09-28 18:13:13 -0500
+I, [2017-09-28T18:13:13.705438 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-28T18:13:13.705500 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590277", "id"=>"2", "ticket"=>{}}
+I, [2017-09-28T18:13:13.709077 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-28T18:13:13.709144 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590278", "id"=>"3", "ticket"=>{}}
+I, [2017-09-28T18:13:13.768162 #17168]  INFO -- : Completed 200 OK in 59ms (Views: 3.4ms | ActiveRecord: 22.0ms)
+I, [2017-09-28T18:13:13.776053 #17168]  INFO -- : Completed 200 OK in 70ms (Views: 3.2ms | ActiveRecord: 28.6ms)
+I, [2017-09-28T18:43:12.631232 #17168]  INFO -- : Started GET "/api/v1/tickets/1?all=true&_=1506638590279" for ::1 at 2017-09-28 18:43:12 -0500
+I, [2017-09-28T18:43:12.636269 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-28T18:43:12.636347 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590279", "id"=>"1", "ticket"=>{}}
+I, [2017-09-28T18:43:12.676996 #17168]  INFO -- : Completed 200 OK in 41ms (Views: 3.1ms | ActiveRecord: 6.5ms)
+I, [2017-09-28T18:43:13.640397 #17168]  INFO -- : Started GET "/api/v1/tickets/2?all=true&_=1506638590280" for ::1 at 2017-09-28 18:43:13 -0500
+I, [2017-09-28T18:43:13.642888 #17168]  INFO -- : Started GET "/api/v1/tickets/3?all=true&_=1506638590281" for ::1 at 2017-09-28 18:43:13 -0500
+I, [2017-09-28T18:43:13.644696 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-28T18:43:13.646136 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590280", "id"=>"2", "ticket"=>{}}
+I, [2017-09-28T18:43:13.647717 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-28T18:43:13.648334 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590281", "id"=>"3", "ticket"=>{}}
+I, [2017-09-28T18:43:13.702230 #17168]  INFO -- : Completed 200 OK in 56ms (Views: 2.4ms | ActiveRecord: 23.2ms)
+I, [2017-09-28T18:43:13.702617 #17168]  INFO -- : Completed 200 OK in 54ms (Views: 3.1ms | ActiveRecord: 21.0ms)
+I, [2017-09-28T19:21:02.912878 #17168]  INFO -- : Started GET "/api/v1/online_notifications/?full=true&_=1506638590282" for ::1 at 2017-09-28 19:21:02 -0500
+I, [2017-09-28T19:21:02.917725 #17168]  INFO -- : Processing by OnlineNotificationsController#index as JSON
+I, [2017-09-28T19:21:02.917776 #17168]  INFO -- :   Parameters: {"full"=>"true", "_"=>"1506638590282", "online_notification"=>{}}
+I, [2017-09-28T19:21:02.929088 #17168]  INFO -- : Completed 200 OK in 11ms (Views: 0.1ms | ActiveRecord: 2.4ms)
+I, [2017-09-28T19:38:22.876250 #17168]  INFO -- : Started GET "/api/v1/tickets/1?all=true&_=1506638590283" for ::1 at 2017-09-28 19:38:22 -0500
+I, [2017-09-28T19:38:22.881966 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-28T19:38:22.882012 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590283", "id"=>"1", "ticket"=>{}}
+I, [2017-09-28T19:38:22.919687 #17168]  INFO -- : Completed 200 OK in 38ms (Views: 2.4ms | ActiveRecord: 7.3ms)
+I, [2017-09-28T19:38:23.872292 #17168]  INFO -- : Started GET "/api/v1/tickets/2?all=true&_=1506638590284" for ::1 at 2017-09-28 19:38:23 -0500
+I, [2017-09-28T19:38:23.872580 #17168]  INFO -- : Started GET "/api/v1/tickets/3?all=true&_=1506638590285" for ::1 at 2017-09-28 19:38:23 -0500
+I, [2017-09-28T19:38:23.877083 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-28T19:38:23.877138 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590284", "id"=>"2", "ticket"=>{}}
+I, [2017-09-28T19:38:23.878382 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-28T19:38:23.878932 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590285", "id"=>"3", "ticket"=>{}}
+I, [2017-09-28T19:38:23.924805 #17168]  INFO -- : Completed 200 OK in 46ms (Views: 2.3ms | ActiveRecord: 18.4ms)
+I, [2017-09-28T19:38:23.928735 #17168]  INFO -- : Completed 200 OK in 52ms (Views: 2.2ms | ActiveRecord: 17.9ms)
+I, [2017-09-28T20:00:32.746543 #17168]  INFO -- : Started GET "/api/v1/cti/log?_=1506638590286" for ::1 at 2017-09-28 20:00:32 -0500
+I, [2017-09-28T20:00:32.749976 #17168]  INFO -- : Started GET "/api/v1/tickets/1?all=true&_=1506638590287" for ::1 at 2017-09-28 20:00:32 -0500
+I, [2017-09-28T20:00:32.750260 #17168]  INFO -- : Started GET "/api/v1/tickets/3?all=true&_=1506638590289" for ::1 at 2017-09-28 20:00:32 -0500
+I, [2017-09-28T20:00:32.752984 #17168]  INFO -- : Processing by CtiController#index as JSON
+I, [2017-09-28T20:00:32.753023 #17168]  INFO -- :   Parameters: {"_"=>"1506638590286", "cti"=>{}}
+I, [2017-09-28T20:00:32.753538 #17168]  INFO -- : Started GET "/api/v1/tickets/2?all=true&_=1506638590288" for ::1 at 2017-09-28 20:00:32 -0500
+I, [2017-09-28T20:00:32.785834 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-28T20:00:32.785890 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590287", "id"=>"1", "ticket"=>{}}
+I, [2017-09-28T20:00:32.789732 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-28T20:00:32.789796 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590289", "id"=>"3", "ticket"=>{}}
+I, [2017-09-28T20:00:32.792664 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-28T20:00:32.792705 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590288", "id"=>"2", "ticket"=>{}}
+I, [2017-09-28T20:00:32.828280 #17168]  INFO -- : Completed 200 OK in 75ms (Views: 0.2ms | ActiveRecord: 22.5ms)
+I, [2017-09-28T20:00:32.892197 #17168]  INFO -- : Completed 200 OK in 106ms (Views: 3.7ms | ActiveRecord: 52.9ms)
+I, [2017-09-28T20:00:32.903996 #17168]  INFO -- : Completed 200 OK in 114ms (Views: 4.0ms | ActiveRecord: 62.4ms)
+I, [2017-09-28T20:00:32.905803 #17168]  INFO -- : Completed 200 OK in 113ms (Views: 4.6ms | ActiveRecord: 56.6ms)
+I, [2017-09-28T20:00:36.597295 #17168]  INFO -- : Started GET "/api/v1/online_notifications/?full=true&_=1506638590290" for ::1 at 2017-09-28 20:00:36 -0500
+I, [2017-09-28T20:00:36.601387 #17168]  INFO -- : Processing by OnlineNotificationsController#index as JSON
+I, [2017-09-28T20:00:36.601438 #17168]  INFO -- :   Parameters: {"full"=>"true", "_"=>"1506638590290", "online_notification"=>{}}
+I, [2017-09-28T20:00:36.608454 #17168]  INFO -- : Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 1.0ms)
+I, [2017-09-28T20:12:42.649133 #17168]  INFO -- : Started GET "/api/v1/users/recent?limit=40&full=1&_=1506638590291" for ::1 at 2017-09-28 20:12:42 -0500
+I, [2017-09-28T20:12:42.655103 #17168]  INFO -- : Processing by UsersController#recent as JSON
+I, [2017-09-28T20:12:42.655151 #17168]  INFO -- :   Parameters: {"limit"=>"40", "full"=>"1", "_"=>"1506638590291", "user"=>{}}
+I, [2017-09-28T20:12:42.676645 #17168]  INFO -- : Completed 200 OK in 21ms (Views: 4.8ms | ActiveRecord: 2.1ms)
+I, [2017-09-28T20:12:44.631992 #17168]  INFO -- : Started GET "/api/v1/version?_=1506638590292" for ::1 at 2017-09-28 20:12:44 -0500
+I, [2017-09-28T20:12:44.638856 #17168]  INFO -- : Processing by VersionController#index as JSON
+I, [2017-09-28T20:12:44.638903 #17168]  INFO -- :   Parameters: {"_"=>"1506638590292", "version"=>{}}
+I, [2017-09-28T20:12:44.649197 #17168]  INFO -- : Completed 200 OK in 10ms (Views: 0.2ms | ActiveRecord: 1.7ms)
+I, [2017-09-28T20:12:53.566588 #17168]  INFO -- : Started PUT "/api/v1/taskbar/8" for ::1 at 2017-09-28 20:12:53 -0500
+I, [2017-09-28T20:12:53.570710 #17168]  INFO -- : Processing by TaskbarController#update as JSON
+I, [2017-09-28T20:12:53.570789 #17168]  INFO -- :   Parameters: {"key"=>"Ticket-3", "client_id"=>"123", "callback"=>"TicketZoom", "state"=>{"ticket"=>{}, "article"=>{}}, "params"=>{"ticket_id"=>"3", "init"=>true}, "prio"=>6, "notify"=>false, "active"=>false, "updated_at"=>"2017-09-28T21:03:42.206Z", "id"=>"8", "taskbar"=>{"id"=>"8", "client_id"=>"123", "key"=>"Ticket-3", "callback"=>"TicketZoom", "state"=>{"ticket"=>{}, "article"=>{}}, "params"=>{"ticket_id"=>"3", "init"=>true}, "prio"=>6, "notify"=>false, "active"=>false, "updated_at"=>"2017-09-28T21:03:42.206Z"}}
+I, [2017-09-28T20:12:53.597021 #17168]  INFO -- : Completed 200 OK in 26ms (Views: 0.4ms | ActiveRecord: 3.1ms)
+I, [2017-09-28T20:29:42.936583 #17168]  INFO -- : Started GET "/api/v1/cti/log?_=1506638590293" for ::1 at 2017-09-28 20:29:42 -0500
+I, [2017-09-28T20:29:42.940197 #17168]  INFO -- : Started GET "/api/v1/tickets/3?all=true&_=1506638590296" for ::1 at 2017-09-28 20:29:42 -0500
+I, [2017-09-28T20:29:42.940570 #17168]  INFO -- : Started GET "/api/v1/tickets/2?all=true&_=1506638590295" for ::1 at 2017-09-28 20:29:42 -0500
+I, [2017-09-28T20:29:42.944809 #17168]  INFO -- : Processing by CtiController#index as JSON
+I, [2017-09-28T20:29:42.944850 #17168]  INFO -- :   Parameters: {"_"=>"1506638590293", "cti"=>{}}
+I, [2017-09-28T20:29:42.945374 #17168]  INFO -- : Started GET "/api/v1/tickets/1?all=true&_=1506638590294" for ::1 at 2017-09-28 20:29:42 -0500
+I, [2017-09-28T20:29:42.946674 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-28T20:29:42.946710 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590296", "id"=>"3", "ticket"=>{}}
+I, [2017-09-28T20:29:42.951699 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-28T20:29:42.951739 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590294", "id"=>"1", "ticket"=>{}}
+I, [2017-09-28T20:29:42.954905 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-28T20:29:42.955554 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590295", "id"=>"2", "ticket"=>{}}
+I, [2017-09-28T20:29:42.979021 #17168]  INFO -- : Completed 200 OK in 34ms (Views: 0.2ms | ActiveRecord: 13.1ms)
+I, [2017-09-28T20:29:43.041193 #17168]  INFO -- : Completed 200 OK in 89ms (Views: 3.9ms | ActiveRecord: 39.7ms)
+I, [2017-09-28T20:29:43.047153 #17168]  INFO -- : Completed 200 OK in 100ms (Views: 3.5ms | ActiveRecord: 44.5ms)
+I, [2017-09-28T20:29:43.055229 #17168]  INFO -- : Completed 200 OK in 100ms (Views: 3.7ms | ActiveRecord: 43.9ms)
+I, [2017-09-28T20:29:46.135051 #17168]  INFO -- : Started GET "/api/v1/online_notifications/?full=true&_=1506638590297" for ::1 at 2017-09-28 20:29:46 -0500
+I, [2017-09-28T20:29:46.139901 #17168]  INFO -- : Processing by OnlineNotificationsController#index as JSON
+I, [2017-09-28T20:29:46.139952 #17168]  INFO -- :   Parameters: {"full"=>"true", "_"=>"1506638590297", "online_notification"=>{}}
+I, [2017-09-28T20:29:46.147263 #17168]  INFO -- : Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 1.3ms)
+I, [2017-09-28T20:32:27.654348 #17168]  INFO -- : Started GET "/api/v1/tickets/1?all=true&_=1506638590298" for ::1 at 2017-09-28 20:32:27 -0500
+I, [2017-09-28T20:32:27.659083 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-28T20:32:27.659142 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590298", "id"=>"1", "ticket"=>{}}
+I, [2017-09-28T20:32:27.698190 #17168]  INFO -- : Completed 200 OK in 39ms (Views: 4.3ms | ActiveRecord: 6.7ms)
+I, [2017-09-28T20:32:28.654822 #17168]  INFO -- : Started GET "/api/v1/tickets/2?all=true&_=1506638590299" for ::1 at 2017-09-28 20:32:28 -0500
+I, [2017-09-28T20:32:28.657970 #17168]  INFO -- : Started GET "/api/v1/tickets/3?all=true&_=1506638590300" for ::1 at 2017-09-28 20:32:28 -0500
+I, [2017-09-28T20:32:28.660145 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-28T20:32:28.660201 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590299", "id"=>"2", "ticket"=>{}}
+I, [2017-09-28T20:32:28.665639 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-28T20:32:28.665699 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590300", "id"=>"3", "ticket"=>{}}
+I, [2017-09-28T20:32:28.717420 #17168]  INFO -- : Completed 200 OK in 57ms (Views: 3.4ms | ActiveRecord: 27.1ms)
+I, [2017-09-28T20:32:28.725506 #17168]  INFO -- : Completed 200 OK in 60ms (Views: 3.5ms | ActiveRecord: 28.2ms)
+I, [2017-09-28T22:05:44.992717 #17168]  INFO -- : Started GET "/api/v1/cti/log?_=1506638590301" for ::1 at 2017-09-28 22:05:44 -0500
+I, [2017-09-28T22:05:44.996397 #17168]  INFO -- : Started GET "/api/v1/tickets/2?all=true&_=1506638590303" for ::1 at 2017-09-28 22:05:44 -0500
+I, [2017-09-28T22:05:44.996761 #17168]  INFO -- : Started GET "/api/v1/tickets/1?all=true&_=1506638590302" for ::1 at 2017-09-28 22:05:44 -0500
+I, [2017-09-28T22:05:44.998638 #17168]  INFO -- : Started GET "/api/v1/tickets/3?all=true&_=1506638590304" for ::1 at 2017-09-28 22:05:44 -0500
+I, [2017-09-28T22:05:45.000254 #17168]  INFO -- : Processing by CtiController#index as JSON
+I, [2017-09-28T22:05:45.000299 #17168]  INFO -- :   Parameters: {"_"=>"1506638590301", "cti"=>{}}
+I, [2017-09-28T22:05:45.003254 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-28T22:05:45.003300 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590303", "id"=>"2", "ticket"=>{}}
+I, [2017-09-28T22:05:45.009472 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-28T22:05:45.009520 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590304", "id"=>"3", "ticket"=>{}}
+I, [2017-09-28T22:05:45.011853 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-28T22:05:45.011903 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590302", "id"=>"1", "ticket"=>{}}
+I, [2017-09-28T22:05:45.044099 #17168]  INFO -- : Completed 200 OK in 44ms (Views: 0.2ms | ActiveRecord: 20.6ms)
+I, [2017-09-28T22:05:45.112945 #17168]  INFO -- : Completed 200 OK in 101ms (Views: 3.3ms | ActiveRecord: 44.7ms)
+I, [2017-09-28T22:05:45.119869 #17168]  INFO -- : Completed 200 OK in 117ms (Views: 3.5ms | ActiveRecord: 60.6ms)
+I, [2017-09-28T22:05:45.126971 #17168]  INFO -- : Completed 200 OK in 117ms (Views: 4.0ms | ActiveRecord: 53.6ms)
+I, [2017-09-28T22:05:48.644660 #17168]  INFO -- : Started GET "/api/v1/online_notifications/?full=true&_=1506638590305" for ::1 at 2017-09-28 22:05:48 -0500
+I, [2017-09-28T22:05:48.649709 #17168]  INFO -- : Processing by OnlineNotificationsController#index as JSON
+I, [2017-09-28T22:05:48.649783 #17168]  INFO -- :   Parameters: {"full"=>"true", "_"=>"1506638590305", "online_notification"=>{}}
+I, [2017-09-28T22:05:48.656547 #17168]  INFO -- : Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 1.1ms)
+I, [2017-09-28T23:49:00.374281 #17168]  INFO -- : Started GET "/api/v1/cti/log?_=1506638590306" for ::1 at 2017-09-28 23:49:00 -0500
+I, [2017-09-28T23:49:00.377915 #17168]  INFO -- : Started GET "/api/v1/tickets/2?all=true&_=1506638590308" for ::1 at 2017-09-28 23:49:00 -0500
+I, [2017-09-28T23:49:00.378316 #17168]  INFO -- : Started GET "/api/v1/tickets/1?all=true&_=1506638590307" for ::1 at 2017-09-28 23:49:00 -0500
+I, [2017-09-28T23:49:00.378576 #17168]  INFO -- : Started GET "/api/v1/tickets/3?all=true&_=1506638590309" for ::1 at 2017-09-28 23:49:00 -0500
+I, [2017-09-28T23:49:00.381870 #17168]  INFO -- : Processing by CtiController#index as JSON
+I, [2017-09-28T23:49:00.381911 #17168]  INFO -- :   Parameters: {"_"=>"1506638590306", "cti"=>{}}
+I, [2017-09-28T23:49:00.385904 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-28T23:49:00.385948 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590307", "id"=>"1", "ticket"=>{}}
+I, [2017-09-28T23:49:00.388907 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-28T23:49:00.388953 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590308", "id"=>"2", "ticket"=>{}}
+I, [2017-09-28T23:49:00.391218 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-28T23:49:00.391260 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590309", "id"=>"3", "ticket"=>{}}
+I, [2017-09-28T23:49:00.422181 #17168]  INFO -- : Completed 200 OK in 40ms (Views: 0.2ms | ActiveRecord: 20.4ms)
+I, [2017-09-28T23:49:00.469393 #17168]  INFO -- : Completed 200 OK in 83ms (Views: 2.2ms | ActiveRecord: 49.4ms)
+I, [2017-09-28T23:49:00.477321 #17168]  INFO -- : Completed 200 OK in 88ms (Views: 2.2ms | ActiveRecord: 57.7ms)
+I, [2017-09-28T23:49:00.477720 #17168]  INFO -- : Completed 200 OK in 86ms (Views: 2.2ms | ActiveRecord: 52.0ms)
+I, [2017-09-28T23:49:04.096135 #17168]  INFO -- : Started GET "/api/v1/online_notifications/?full=true&_=1506638590310" for ::1 at 2017-09-28 23:49:04 -0500
+I, [2017-09-28T23:49:04.108640 #17168]  INFO -- : Processing by OnlineNotificationsController#index as JSON
+I, [2017-09-28T23:49:04.108816 #17168]  INFO -- :   Parameters: {"full"=>"true", "_"=>"1506638590310", "online_notification"=>{}}
+I, [2017-09-28T23:49:04.130039 #17168]  INFO -- : Completed 200 OK in 21ms (Views: 0.5ms | ActiveRecord: 3.9ms)
+I, [2017-09-29T01:49:44.340639 #17168]  INFO -- : Started GET "/api/v1/tickets/1?all=true&_=1506638590312" for ::1 at 2017-09-29 01:49:44 -0500
+I, [2017-09-29T01:49:44.344757 #17168]  INFO -- : Started GET "/api/v1/cti/log?_=1506638590311" for ::1 at 2017-09-29 01:49:44 -0500
+I, [2017-09-29T01:49:44.346934 #17168]  INFO -- : Started GET "/api/v1/tickets/3?all=true&_=1506638590314" for ::1 at 2017-09-29 01:49:44 -0500
+I, [2017-09-29T01:49:44.364170 #17168]  INFO -- : Started GET "/api/v1/tickets/2?all=true&_=1506638590313" for ::1 at 2017-09-29 01:49:44 -0500
+I, [2017-09-29T01:49:44.621920 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-29T01:49:44.622562 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590314", "id"=>"3", "ticket"=>{}}
+I, [2017-09-29T01:49:44.623898 #17168]  INFO -- : Processing by CtiController#index as JSON
+I, [2017-09-29T01:49:44.631525 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-29T01:49:44.646759 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-29T01:49:44.647554 #17168]  INFO -- :   Parameters: {"_"=>"1506638590311", "cti"=>{}}
+I, [2017-09-29T01:49:44.668743 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590312", "id"=>"1", "ticket"=>{}}
+I, [2017-09-29T01:49:44.669677 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590313", "id"=>"2", "ticket"=>{}}
+I, [2017-09-29T01:49:45.661581 #17168]  INFO -- : Completed 200 OK in 973ms (Views: 2.2ms | ActiveRecord: 788.6ms)
+I, [2017-09-29T01:49:46.116352 #17168]  INFO -- : Completed 200 OK in 1409ms (Views: 39.3ms | ActiveRecord: 321.2ms)
+I, [2017-09-29T01:49:46.119716 #17168]  INFO -- : Completed 200 OK in 1385ms (Views: 25.0ms | ActiveRecord: 356.5ms)
+I, [2017-09-29T01:49:46.245466 #17168]  INFO -- : Completed 200 OK in 1613ms (Views: 17.9ms | ActiveRecord: 409.5ms)
+I, [2017-09-29T01:49:48.044517 #17168]  INFO -- : Started GET "/api/v1/online_notifications/?full=true&_=1506638590315" for ::1 at 2017-09-29 01:49:48 -0500
+I, [2017-09-29T01:49:48.059278 #17168]  INFO -- : Processing by OnlineNotificationsController#index as JSON
+I, [2017-09-29T01:49:48.059749 #17168]  INFO -- :   Parameters: {"full"=>"true", "_"=>"1506638590315", "online_notification"=>{}}
+I, [2017-09-29T01:49:48.091576 #17168]  INFO -- : Completed 200 OK in 31ms (Views: 0.5ms | ActiveRecord: 4.7ms)
+I, [2017-09-29T03:49:58.043835 #17168]  INFO -- : Started GET "/api/v1/cti/log?_=1506638590316" for ::1 at 2017-09-29 03:49:58 -0500
+I, [2017-09-29T03:49:58.068634 #17168]  INFO -- : Started GET "/api/v1/tickets/1?all=true&_=1506638590317" for ::1 at 2017-09-29 03:49:58 -0500
+I, [2017-09-29T03:49:58.091062 #17168]  INFO -- : Started GET "/api/v1/tickets/2?all=true&_=1506638590318" for ::1 at 2017-09-29 03:49:58 -0500
+I, [2017-09-29T03:49:58.137250 #17168]  INFO -- : Started GET "/api/v1/tickets/3?all=true&_=1506638590319" for ::1 at 2017-09-29 03:49:58 -0500
+I, [2017-09-29T03:49:58.283560 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-29T03:49:58.283960 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590317", "id"=>"1", "ticket"=>{}}
+I, [2017-09-29T03:49:58.316837 #17168]  INFO -- : Processing by CtiController#index as JSON
+I, [2017-09-29T03:49:58.317197 #17168]  INFO -- :   Parameters: {"_"=>"1506638590316", "cti"=>{}}
+I, [2017-09-29T03:49:58.334709 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-29T03:49:58.359307 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590318", "id"=>"2", "ticket"=>{}}
+I, [2017-09-29T03:49:58.410120 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-29T03:49:58.428718 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590319", "id"=>"3", "ticket"=>{}}
+I, [2017-09-29T03:49:58.711422 #17168]  INFO -- : Completed 200 OK in 393ms (Views: 4.5ms | ActiveRecord: 165.1ms)
+I, [2017-09-29T03:49:59.342203 #17168]  INFO -- : Completed 200 OK in 983ms (Views: 44.0ms | ActiveRecord: 507.2ms)
+I, [2017-09-29T03:49:59.346048 #17168]  INFO -- : Completed 200 OK in 917ms (Views: 56.1ms | ActiveRecord: 411.2ms)
+I, [2017-09-29T03:49:59.355042 #17168]  INFO -- : Completed 200 OK in 1071ms (Views: 36.8ms | ActiveRecord: 463.5ms)
+I, [2017-09-29T03:50:01.613049 #17168]  INFO -- : Started GET "/api/v1/online_notifications/?full=true&_=1506638590320" for ::1 at 2017-09-29 03:50:01 -0500
+I, [2017-09-29T03:50:01.628151 #17168]  INFO -- : Processing by OnlineNotificationsController#index as JSON
+I, [2017-09-29T03:50:01.628657 #17168]  INFO -- :   Parameters: {"full"=>"true", "_"=>"1506638590320", "online_notification"=>{}}
+I, [2017-09-29T03:50:01.663549 #17168]  INFO -- : Completed 200 OK in 35ms (Views: 0.9ms | ActiveRecord: 9.1ms)
+I, [2017-09-29T05:50:17.931342 #17168]  INFO -- : Started GET "/api/v1/cti/log?_=1506638590321" for ::1 at 2017-09-29 05:50:17 -0500
+I, [2017-09-29T05:50:17.943449 #17168]  INFO -- : Started GET "/api/v1/tickets/1?all=true&_=1506638590322" for ::1 at 2017-09-29 05:50:17 -0500
+I, [2017-09-29T05:50:17.963881 #17168]  INFO -- : Started GET "/api/v1/tickets/2?all=true&_=1506638590323" for ::1 at 2017-09-29 05:50:17 -0500
+I, [2017-09-29T05:50:17.972628 #17168]  INFO -- : Started GET "/api/v1/tickets/3?all=true&_=1506638590324" for ::1 at 2017-09-29 05:50:17 -0500
+I, [2017-09-29T05:50:18.155893 #17168]  INFO -- : Processing by CtiController#index as JSON
+I, [2017-09-29T05:50:18.156281 #17168]  INFO -- :   Parameters: {"_"=>"1506638590321", "cti"=>{}}
+I, [2017-09-29T05:50:18.197851 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-29T05:50:18.244610 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-29T05:50:18.251355 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590323", "id"=>"2", "ticket"=>{}}
+I, [2017-09-29T05:50:18.251812 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590322", "id"=>"1", "ticket"=>{}}
+I, [2017-09-29T05:50:18.288092 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-29T05:50:18.288426 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590324", "id"=>"3", "ticket"=>{}}
+I, [2017-09-29T05:50:18.628766 #17168]  INFO -- : Completed 200 OK in 472ms (Views: 4.6ms | ActiveRecord: 228.8ms)
+I, [2017-09-29T05:50:19.230332 #17168]  INFO -- : Completed 200 OK in 968ms (Views: 33.5ms | ActiveRecord: 409.6ms)
+I, [2017-09-29T05:50:19.240648 #17168]  INFO -- : Completed 200 OK in 952ms (Views: 21.3ms | ActiveRecord: 407.9ms)
+I, [2017-09-29T05:50:19.273075 #17168]  INFO -- : Completed 200 OK in 1021ms (Views: 27.4ms | ActiveRecord: 488.3ms)
+I, [2017-09-29T05:50:21.420640 #17168]  INFO -- : Started GET "/api/v1/online_notifications/?full=true&_=1506638590325" for ::1 at 2017-09-29 05:50:21 -0500
+I, [2017-09-29T05:50:21.443488 #17168]  INFO -- : Processing by OnlineNotificationsController#index as JSON
+I, [2017-09-29T05:50:21.443906 #17168]  INFO -- :   Parameters: {"full"=>"true", "_"=>"1506638590325", "online_notification"=>{}}
+I, [2017-09-29T05:50:21.485965 #17168]  INFO -- : Completed 200 OK in 42ms (Views: 1.0ms | ActiveRecord: 7.6ms)
+I, [2017-09-29T07:50:40.399890 #17168]  INFO -- : Started GET "/api/v1/cti/log?_=1506638590326" for ::1 at 2017-09-29 07:50:40 -0500
+I, [2017-09-29T07:50:40.407723 #17168]  INFO -- : Started GET "/api/v1/tickets/1?all=true&_=1506638590327" for ::1 at 2017-09-29 07:50:40 -0500
+I, [2017-09-29T07:50:40.472062 #17168]  INFO -- : Started GET "/api/v1/tickets/2?all=true&_=1506638590328" for ::1 at 2017-09-29 07:50:40 -0500
+I, [2017-09-29T07:50:40.486812 #17168]  INFO -- : Started GET "/api/v1/tickets/3?all=true&_=1506638590329" for ::1 at 2017-09-29 07:50:40 -0500
+I, [2017-09-29T07:50:40.644714 #17168]  INFO -- : Processing by CtiController#index as JSON
+I, [2017-09-29T07:50:40.658552 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-29T07:50:40.658942 #17168]  INFO -- :   Parameters: {"_"=>"1506638590326", "cti"=>{}}
+I, [2017-09-29T07:50:40.770593 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590327", "id"=>"1", "ticket"=>{}}
+I, [2017-09-29T07:50:40.803689 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-29T07:50:40.834370 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-29T07:50:40.864919 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590328", "id"=>"2", "ticket"=>{}}
+I, [2017-09-29T07:50:40.871052 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590329", "id"=>"3", "ticket"=>{}}
+I, [2017-09-29T07:50:41.269243 #17168]  INFO -- : Completed 200 OK in 464ms (Views: 4.7ms | ActiveRecord: 236.5ms)
+I, [2017-09-29T07:50:41.880792 #17168]  INFO -- : Completed 200 OK in 1071ms (Views: 20.7ms | ActiveRecord: 479.4ms)
+I, [2017-09-29T07:50:41.883391 #17168]  INFO -- : Completed 200 OK in 1006ms (Views: 41.1ms | ActiveRecord: 448.3ms)
+I, [2017-09-29T07:50:41.893206 #17168]  INFO -- : Completed 200 OK in 1011ms (Views: 25.3ms | ActiveRecord: 518.7ms)
+I, [2017-09-29T07:50:43.972870 #17168]  INFO -- : Started GET "/api/v1/online_notifications/?full=true&_=1506638590330" for ::1 at 2017-09-29 07:50:43 -0500
+I, [2017-09-29T07:50:43.997456 #17168]  INFO -- : Processing by OnlineNotificationsController#index as JSON
+I, [2017-09-29T07:50:43.997909 #17168]  INFO -- :   Parameters: {"full"=>"true", "_"=>"1506638590330", "online_notification"=>{}}
+I, [2017-09-29T07:50:44.052164 #17168]  INFO -- : Completed 200 OK in 54ms (Views: 1.0ms | ActiveRecord: 6.4ms)
+I, [2017-09-29T08:49:40.838477 #17168]  INFO -- : Started GET "/api/v1/tickets/1?all=true&_=1506638590332" for ::1 at 2017-09-29 08:49:40 -0500
+I, [2017-09-29T08:49:40.860985 #17168]  INFO -- : Started GET "/api/v1/tickets/3?all=true&_=1506638590334" for ::1 at 2017-09-29 08:49:40 -0500
+I, [2017-09-29T08:49:40.869836 #17168]  INFO -- : Started GET "/api/v1/tickets/2?all=true&_=1506638590333" for ::1 at 2017-09-29 08:49:40 -0500
+I, [2017-09-29T08:49:40.885171 #17168]  INFO -- : Started GET "/api/v1/cti/log?_=1506638590331" for ::1 at 2017-09-29 08:49:40 -0500
+I, [2017-09-29T08:49:41.072776 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-29T08:49:41.073335 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590332", "id"=>"1", "ticket"=>{}}
+I, [2017-09-29T08:49:41.166220 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-29T08:49:41.166573 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590334", "id"=>"3", "ticket"=>{}}
+I, [2017-09-29T08:49:41.229307 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-29T08:49:41.229602 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590333", "id"=>"2", "ticket"=>{}}
+I, [2017-09-29T08:49:41.271594 #17168]  INFO -- : Processing by CtiController#index as JSON
+I, [2017-09-29T08:49:41.272055 #17168]  INFO -- :   Parameters: {"_"=>"1506638590331", "cti"=>{}}
+I, [2017-09-29T08:49:41.580341 #17168]  INFO -- : Completed 200 OK in 308ms (Views: 6.7ms | ActiveRecord: 177.6ms)
+I, [2017-09-29T08:49:42.109456 #17168]  INFO -- : Completed 200 OK in 1036ms (Views: 60.6ms | ActiveRecord: 423.9ms)
+I, [2017-09-29T08:49:42.111590 #17168]  INFO -- : Completed 200 OK in 945ms (Views: 15.7ms | ActiveRecord: 398.6ms)
+I, [2017-09-29T08:49:42.149253 #17168]  INFO -- : Completed 200 OK in 919ms (Views: 20.1ms | ActiveRecord: 475.9ms)
+I, [2017-09-29T08:49:44.429773 #17168]  INFO -- : Started GET "/api/v1/online_notifications/?full=true&_=1506638590335" for ::1 at 2017-09-29 08:49:44 -0500
+I, [2017-09-29T08:49:44.446375 #17168]  INFO -- : Processing by OnlineNotificationsController#index as JSON
+I, [2017-09-29T08:49:44.446742 #17168]  INFO -- :   Parameters: {"full"=>"true", "_"=>"1506638590335", "online_notification"=>{}}
+I, [2017-09-29T08:49:44.472488 #17168]  INFO -- : Completed 200 OK in 25ms (Views: 0.5ms | ActiveRecord: 4.7ms)
+I, [2017-09-29T09:27:18.282585 #17168]  INFO -- : Started GET "/api/v1/cti/log?_=1506638590336" for ::1 at 2017-09-29 09:27:18 -0500
+I, [2017-09-29T09:27:18.287258 #17168]  INFO -- : Started GET "/api/v1/tickets/1?all=true&_=1506638590337" for ::1 at 2017-09-29 09:27:18 -0500
+I, [2017-09-29T09:27:18.287902 #17168]  INFO -- : Started GET "/api/v1/tickets/3?all=true&_=1506638590339" for ::1 at 2017-09-29 09:27:18 -0500
+I, [2017-09-29T09:27:18.288843 #17168]  INFO -- : Started GET "/api/v1/tickets/2?all=true&_=1506638590338" for ::1 at 2017-09-29 09:27:18 -0500
+I, [2017-09-29T09:27:18.345356 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-29T09:27:18.345481 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590337", "id"=>"1", "ticket"=>{}}
+I, [2017-09-29T09:27:18.360139 #17168]  INFO -- : Processing by CtiController#index as JSON
+I, [2017-09-29T09:27:18.360284 #17168]  INFO -- :   Parameters: {"_"=>"1506638590336", "cti"=>{}}
+I, [2017-09-29T09:27:18.378976 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-29T09:27:18.379104 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590339", "id"=>"3", "ticket"=>{}}
+I, [2017-09-29T09:27:18.383697 #17168]  INFO -- : Processing by TicketsController#show as JSON
+I, [2017-09-29T09:27:18.399331 #17168]  INFO -- :   Parameters: {"all"=>"true", "_"=>"1506638590338", "id"=>"2", "ticket"=>{}}
+I, [2017-09-29T09:27:18.454696 #17168]  INFO -- : Completed 200 OK in 94ms (Views: 1.2ms | ActiveRecord: 38.0ms)
+I, [2017-09-29T09:27:18.705254 #17168]  INFO -- : Completed 200 OK in 313ms (Views: 3.0ms | ActiveRecord: 75.5ms)
+I, [2017-09-29T09:27:18.705904 #17168]  INFO -- : Completed 200 OK in 306ms (Views: 3.5ms | ActiveRecord: 68.3ms)
+I, [2017-09-29T09:27:18.706397 #17168]  INFO -- : Completed 200 OK in 361ms (Views: 3.0ms | ActiveRecord: 94.7ms)
+I, [2017-09-29T09:27:21.992121 #17168]  INFO -- : Started GET "/api/v1/online_notifications/?full=true&_=1506638590340" for ::1 at 2017-09-29 09:27:21 -0500
+I, [2017-09-29T09:27:21.997154 #17168]  INFO -- : Processing by OnlineNotificationsController#index as JSON
+I, [2017-09-29T09:27:21.997231 #17168]  INFO -- :   Parameters: {"full"=>"true", "_"=>"1506638590340", "online_notification"=>{}}
+I, [2017-09-29T09:27:22.005038 #17168]  INFO -- : Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 1.4ms)
